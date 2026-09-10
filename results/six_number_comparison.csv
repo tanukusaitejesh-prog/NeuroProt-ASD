@@ -1,0 +1,7 @@
+Model,AUROC,Feature Space
+1. Simple confound-only,0.8584054120263063,"Confounders (length, GC, family, mut_rate)"
+2. Conservation-augmented confound-only,0.8506981740064448,Confounders + 1D Conservation
+3. ESM2 embedding-only,0.4187536510449055,ESM-2 sequence embeddings
+4. SaProt structure-aware embedding-only,0.4198842972091884,SaProt 3D structure-aware embeddings
+5. ESM2 + confound + conservation combined,0.711779448621554,ESM2 + Confounders + Conservation
+6. All Combined (ESM2 + SaProt + Confounders + Conservation),0.7021312680196733,"Full sequence, structure, and genomic signal"
