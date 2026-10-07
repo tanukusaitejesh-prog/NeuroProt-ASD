@@ -1,0 +1,7 @@
+# Copy to patient_variants.tsv and fill from paper supplements. One row per variant per paper.
+# hgvs_n is on the GENCODE gene (RNU2-2 = RNU2-2P). first_published = YYYY-MM of first report.
+# Example rows: n.64_65insT is the recurrent ReNU variant (Chen et al. 2024); n.77_78insT is reported in
+# follow-up cohorts - confirm its first source before use. Counts must come from the supplements.
+gene_name	hgvs_n	mode	inheritance	n_probands	first_published	source	cohort	notes
+RNU4-2	n.64_65insT	AD-NDD	de_novo		2024-04	10.1038/s41586-024-07773-7	GEL-100kGP	recurrent ReNU insertion; fill n_probands from supplement
+RNU4-2	n.77_78insT	AD-NDD	de_novo					VERIFY first source and date
