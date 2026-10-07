@@ -261,3 +261,20 @@ GENCODE v27 RNU4-2 model is 141 nt (current annotation 145 nt): 3′-terminal 4 
 variants). RNU5B-1 (7) and RNU6 (4) have few positives. Recessive prediction from position is limited with stringent
 controls. Not calibrated to PP3 (BP4_supporting only). Literature-compiled tier lacks per-variant classification
 (v4s/v5c sensitivity analyses).
+
+## Ablation: multi-state vs single structure (scripts/20_ablation.py; labels v5)
+Features recomputed with the main-pipeline definitions for each structure set (sanity: ALL reproduces the main features,
+Spearman 1.0/1.0/1.0/0.986; dominant 0.806 vs 0.804). Mean held-out AUROC:
+
+| configuration | dominant | recessive |
+|---|---|---|
+| **ALL 11 structures** | **0.806** | 0.636 |
+| ORACLE best single structure (5Z56, chosen on test genes; optimistic) | 0.795 | 0.675 |
+| ALL, no graph smoothing | 0.788 | 0.635 |
+| NESTED single structure (chosen on other genes) | **0.597** | 0.654 |
+| per structure: 5Z56 0.795, 6FF7 0.792, 5XJC 0.752, 7DVQ 0.747, 6QDV 0.687, 6QW6 0.655, 6QX9 0.608, 6Y5Q 0.587, 8Y6O 0.582, 3JCR 0.581, 5O9Z 0.551 | | |
+
+**No single structure scores every gene:** RNU4-2 needs a pre-activation structure (pre-B 6QX9 0.726; every Bact/C*/P
+structure lacks U4 → 0.50), while RNU2-2 and RNU5B-1 need activated/catalytic structures (5Z56: 0.848, 0.949). Only the
+multi-state model is ≥0.73 on all four dominant genes; a single structure chosen without the test gene falls to 0.597.
+Graph smoothing adds +0.018 (modest). Recessive: structure choice matters little (0.60–0.68).
