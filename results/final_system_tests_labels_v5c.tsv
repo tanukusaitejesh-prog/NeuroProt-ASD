@@ -1,0 +1,13 @@
+ctx	comparison	delta	ci	p	n	n_pos
+dominant	final (rank-pooled AUROC)	0.7659252755828699	[0.713, 0.811]		1211	72
+dominant	final - phylop447	0.19837089064481517	[+0.113, +0.282]	0.0	1211	72
+dominant	final - frac_states_protein_contact	0.10649570773583061	[+0.054, +0.159]	0.0	1211	72
+dominant	final - CADD (SNVs)	0.2048765721428013	[+0.106, +0.299]	0.0	1055	51
+recessive	final (rank-pooled AUROC)	0.591041784671692	[0.540, 0.639]		566	177
+recessive	final - phylop447	0.009709090380956575	[-0.045, +0.060]	0.744	566	177
+recessive	final - frac_states_protein_contact	0.009433140168184417	[-0.018, +0.037]	0.497	566	177
+recessive	final - CADD (SNVs)	0.022543449197861	[-0.050, +0.097]	0.512	534	160
+both	final (rank-pooled AUROC)	0.6356880401185895	[0.599, 0.672]		1777	249
+both	final - phylop447	0.06770537647974084	[+0.022, +0.114]	0.005	1777	249
+both	final - frac_states_protein_contact	0.036511228158708	[+0.011, +0.059]	0.003	1777	249
+both	final - CADD (SNVs)	0.07411489967601936	[+0.014, +0.131]	0.013	1589	211

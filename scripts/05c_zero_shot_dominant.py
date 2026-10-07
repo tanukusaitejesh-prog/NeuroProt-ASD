@@ -52,7 +52,7 @@ d["depletion_neg_oe (circular)"] = -d.rel_oe_w10
 for c in ["rnalm_dll", "evo2_dll"]:
     if c in d:
         d[c + "_neg"] = -d[c]
-scores = ["cadd_phred", "phylop", "alphagenome_avi", "rnalm_dll_neg", "evo2_dll_neg", "phylop_gnomadpos", "max_protein_res", "frac_states_protein_contact", "frac_states_snrna_contact",
+scores = ["cadd_phred", "phylop447", "phylop", "alphagenome_avi", "rnalm_dll_neg", "evo2_dll_neg", "phylop_gnomadpos", "max_protein_res", "frac_states_protein_contact", "frac_states_snrna_contact",
           "abs_ddG_fold", "ddG_duplex_loss", "paired_wt", "transfer_model", "depletion_neg_oe (circular)"]
 rows = []
 for s in scores:

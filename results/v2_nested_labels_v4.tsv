@@ -1,0 +1,9 @@
+unit	ctx	chosen	auroc	n_pos
+RNU4-2	dominant	snrnavep_v2	0.7884545619444948	37
+RNU4-2	recessive	combo_untrained	0.5944532175286221	34
+RNU2-2P	dominant	snrnavep_v2	0.7950617283950616	27
+RNU2-2P	recessive	combo_untrained	0.8612121212121212	110
+RNU5B-1	dominant	snrnavep_v2	0.7213611859838275	7
+RNU6	dominant	snrnavep_v2	0.9225352112676057	4
+RNU4ATAC	recessive	combo_untrained	0.8333333333333334	42
+RNU12	recessive	combo_untrained	0.8367346938775511	7

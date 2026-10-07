@@ -1,0 +1,9 @@
+unit	ctx	chosen	auroc	n_pos
+RNU4-2	dominant	snrnavep_v2	0.8185817805383023	30
+RNU4-2	recessive	combo_untrained	0.5077639751552795	9
+RNU2-2P	dominant	snrnavep_v2	0.8016194331983806	26
+RNU2-2P	recessive	frac_states_protein_contact	0.7524893314366998	37
+RNU5B-1	dominant	snrnavep_v2	0.7497652582159625	5
+RNU6	dominant	snrnavep_v2	0.9256161971830986	4
+RNU4ATAC	recessive	frac_states_protein_contact	0.7083333333333334	24
+RNU12	recessive	combo_untrained	0.8367346938775511	7

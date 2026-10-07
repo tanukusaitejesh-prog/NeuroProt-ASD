@@ -1,0 +1,13 @@
+unit	score	auroc	ci	n_pos
+RNU2-2P	v2_timesplit	0.7631578947368421	[0.61, 0.89]	26
+RNU2-2P	frac_states_protein_contact	0.7864372469635628	[0.64, 0.92]	26
+RNU2-2P	phylop447	0.8603238866396761	[0.73, 0.96]	26
+RNU2-2P	cadd_phred	0.6737967914438503	[0.49, 0.84]	22
+RNU5B-1	v2_timesplit	0.6446009389671361	[0.51, 0.78]	5
+RNU5B-1	frac_states_protein_contact	0.4859154929577465	[0.38, 0.58]	5
+RNU5B-1	phylop447	0.7413145539906103	[0.65, 0.83]	5
+RNU5B-1	cadd_phred	0.9149305555555556	[0.85, 0.97]	3
+RNU6	v2_timesplit	0.914612676056338	[0.86, 0.96]	4
+RNU6	frac_states_protein_contact	0.9295774647887325	[0.92, 0.94]	4
+RNU6	phylop447	0.49097711267605637	[0.17, 0.81]	4
+RNU6	cadd_phred		[nan, nan]	0

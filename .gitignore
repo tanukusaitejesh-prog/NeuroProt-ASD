@@ -4,3 +4,7 @@ __pycache__/
 data/raw/
 *.tbi
 *.csi
+
+# local backups and person-exported UK Biobank AFB files (summary data; keep out of git, derived table is in data/curation)
+snrna_vep_backup_*.tar.gz
+data/external/ukb_afb/*.csv

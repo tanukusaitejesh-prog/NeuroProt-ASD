@@ -1,0 +1,158 @@
+gene_name	key	hgvs_n	mode	inheritance	n_probands	first_published	source	cohort	notes
+RNU4-2	chr12:120291842:A:G		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291841:A:G		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291841:A:C		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291839:T:TC		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291839:T:TA		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291839:T:C		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291838:T:TA		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291838:T:C		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291837:T:C		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291836:T:G		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291835:G:A		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291834:A:G		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291829:G:C		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291828:G:A		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291827:T:TA		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291826:T:TC		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291826:T:TA		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291826:T:G		AD-NDD	de_novo	1	2024-04	SGE2026 ST1	SGE2026	ReNU category
+RNU4-2	chr12:120291839:T:TA		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291826:T:TA		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291835:G:GT		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291839:T:TC		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291839:T:C		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291835:G:A		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291828:G:A		AD-NDD	de_novo	1	2024-04	Chen2024 ST2	Chen2024	
+RNU4-2	chr12:120291842:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291841:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291839:T:TC		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291839:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291838:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291839:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291838:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291837:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291836:T:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291835:G:A		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291834:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291830:GAA:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291829:G:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291828:G:A		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291827:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291826:T:TC		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU4-2	chr12:120291826:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	P
+RNU4-2	chr12:120291826:T:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 1	Nava2025	LP
+RNU5B-1	chr15:65304715:C:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 6	Nava2025	LP
+RNU5B-1	chr15:65304718:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 6	Nava2025	LP
+RNU5B-1	chr15:65304720:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 6	Nava2025	LP
+RNU4-2	chr12:120291842:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291841:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291839:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291839:T:TC		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291838:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291839:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291838:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291837:T:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291836:T:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291835:G:A		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291834:A:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291830:GAA:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291829:G:C		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291827:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291828:G:A		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291826:T:TC		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291826:T:TA		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU4-2	chr12:120291826:T:G		AD-NDD	de_novo	1	2024-10	Nava2025 Supp. Table 2	Nava2025	Patients LP/P
+RNU2-2P	chr11:62841775:T:C		AD-NDD	de_novo	1	2024-09	Greene2025 Feuil1	Greene2025	
+RNU2-2P	chr11:62841806:C:T		AD-NDD	de_novo	1	2024-09	Greene2025 Feuil1	Greene2025	
+RNU2-2P	chr11:62841807:G:T		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 5	Jackson2025	
+RNU2-2P	chr11:62841806:C:T		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 5	Jackson2025	
+RNU2-2P	chr11:62841802:G:GT		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 5	Jackson2025	
+RNU2-2P	chr11:62841775:T:G		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 5	Jackson2025	
+RNU2-2P	chr11:62841775:T:C		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 5	Jackson2025	
+RNU5B-1	chr15:65304718:T:TA		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 7	Jackson2025	
+RNU5B-1	chr15:65304720:A:G		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 7	Jackson2025	
+RNU5B-1	chr15:65304715:C:CT		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 7	Jackson2025	
+RNU5B-1	chr15:65304713:G:C		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 7	Jackson2025	
+RNU5B-1	chr15:65304715:C:G		AD-NDD	de_novo	1	2025-05	Jackson2025 Supplementary Table 7	Jackson2025	
+RNU2-2P	chr11:62841806:C:T		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841804:A:G		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841802:G:GT		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841802:G:A		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841791:C:T		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841790:C:T		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841782:G:C		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841779:C:T		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841778:A:C		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841775:T:C		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841773:A:C		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841770:G:C		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841770:G:A		AD-NDD	de_novo	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841765:G:A		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841710:A:G		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841710:A:C		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841706:A:G		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	P
+RNU2-2P	chr11:62841706:A:C		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841691:CCATCTCCTATTT:C		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841682:GCTCCTATTCCAT:G		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841681:A:C		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841652:C:G		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841629:C:G		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841627:C:T		AR-NDD	biallelic	1	2025-09	Systematic2026 ST8	Systematic2026	LP
+RNU2-2P	chr11:62841806:C:T		AD-NDD	de_novo	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Dominant
+RNU2-2P	chr11:62841775:T:C		AD-NDD	de_novo	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Dominant
+RNU2-2P	chr11:62841775:T:G		AD-NDD	de_novo	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Dominant
+RNU2-2P	chr11:62841788:AGCCA:ACCC		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841788:AG:A		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841792:A:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841791:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841790:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841765:G:A		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841758:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841749:G:A		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841747:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841746:T:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841706:A:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841682:GCTCCTATTCCAT:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841693:A:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841683:C:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841644:C:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841629:C:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841627:C:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841627:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841743:G:A		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841626:G:GT		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Tier 1
+RNU2-2P	chr11:62841782:G:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841710:A:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841706:A:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841630:CGTTCCTGGA:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841614:CGAAGGGAGAGTGCACCGTTCCTGGAA:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841798:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841782:G:A		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841779:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841662:G:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841660:A:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841633:T:TCCTGGAAGTACTGCAATA		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841619:GGAGAGTGCA:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841697:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU2-2P	chr11:62841682:G:GCTCCTATTCCAT		AR-NDD	biallelic	1	2025-08	BiallelicRNU2-2 2026 ST2	BiallelicRNU2-2	Stronger evidence
+RNU4-2	chr12:120291785:T:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Pathogenic
+RNU4-2	chr12:120291897:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291896:G:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely Pathogenic
+RNU4-2	chr12:120291893:T:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291872:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291859:C:G		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291858:C:T		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291786:T:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely pathogenic
+RNU4-2	chr12:120291782:A:C		AR-NDD	biallelic	1	2025-08	BiallelicRNU4-2 2026 ST7	BiallelicRNU4-2	Likely Pathogenic
+RNU4-2	chr12:120291885:A:AT		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	pathogenic
+RNU4-2	chr12:120291848:A:G		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	pathogenic
+RNU6-1	chr15:67839990:T:TC		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	likely pathogenic
+RNU6-2	chr19:1021576:C:CG		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	pathogenic
+RNU6-8	chr14:32203214:T:TC		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	pathogenic
+RNU6-9	chr19:893538:C:CG		AD-RP	dominant	1	2025-01	RP2026 S1 Recurrent variants	RP2026	likely pathogenic
+RNU4-2	chr12:120291885:A:AT		AD-RP	dominant	1	2025-01	RP2026 S3 Variants identified Sanger	RP2026	pathogenic
+RNU4-2	chr12:120291848:A:G		AD-RP	dominant	1	2025-01	RP2026 S3 Variants identified Sanger	RP2026	pathogenic
+RNU6-2	chr19:1021576:C:CG		AD-RP	dominant	1	2025-01	RP2026 S3 Variants identified Sanger	RP2026	pathogenic
+RNU6-8	chr14:32203214:T:TC		AD-RP	dominant	1	2025-01	RP2026 S3 Variants identified Sanger	RP2026	pathogenic
+RNU6-9	chr19:893538:C:CG		AD-RP	dominant	1	2025-01	RP2026 S3 Variants identified Sanger	RP2026	likely pathogenic
