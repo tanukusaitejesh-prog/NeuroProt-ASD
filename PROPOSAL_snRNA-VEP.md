@@ -1,6 +1,6 @@
 # Proposal: snRNA-VEP — a variant-effect predictor for spliceosomal snRNA genes in neurodevelopmental disorders
 
-**Status:** idea + novelty audit (October 2026). No code yet.
+**Status:** idea + novelty audit (October 2026). Data-pipeline scaffold in `snrna_vep/`.
 **Self-rated novelty:** 4 / 5 · **Feasibility:** high (public data, one GPU, ~3–4 months for one person)
 
 ---
@@ -23,21 +23,23 @@ leave-one-gene-out and time splits.
 | U4 and U5 snRNA genes (*RNU5B-1*, *RNU5A-1*) cause NDD through splicing disruption | *Nat Genet* 2025 — https://www.nature.com/articles/s41588-025-02184-4 |
 | *RNU2-2* and *RNU5B-1* are NDD genes | *Nat Genet* 2025 — https://www.nature.com/articles/s41588-025-02209-y ; https://www.nature.com/articles/s41588-025-02159-5 |
 | Recessive *RNU2-2* is the most common known recessive NDD; recessive *RNU4-2* is a separate syndrome | *Nat Genet* 2026 — https://www.nature.com/articles/s41588-026-02539-5 ; https://www.nature.com/articles/s41588-026-02554-6 ; https://www.nature.com/articles/s41588-026-02547-5 |
-| Saturation genome editing (SGE) of *RNU4-2* "markedly outperforms in silico variant effect prediction" | *Nature* 2026 — https://www.nature.com/articles/s41586-026-10334-9 |
+| Saturation genome editing (SGE) of *RNU4-2*: SGE AUC **0.95** vs CADD AUC **0.65** for ReNU vs population variants; a CADD cutoff catching all ReNU SNVs also flags 56.4% of non-pathogenic ones | *Nature* 2026 — https://www.nature.com/articles/s41586-026-10334-9 |
 | 2026 clinical guidance: CADD thresholds that catch every ReNU/RNU4ATAC SNV also flag 55–62% of gnomAD SNVs; structure tools including AF3 can't model the dynamic spliceosome context | medRxiv 2026.08.03.26359558 (Guidance for clinical variant classification in snRNA genes; introduces the RNUdb *database*, not a predictor) |
-| Dominant U4/U6 variants also cause retinitis pigmentosa, so one gene can give different phenotypes depending on where the variant sits | medRxiv 2025.01.06.24317169 |
+| Dominant U4/U6 variants also cause retinitis pigmentosa, so one gene can give different phenotypes depending on where the variant sits | *Nat Genet* 2025 — https://www.nature.com/articles/s41588-025-02451-4 |
 
 SGE exists only for *RNU4-2*. Every other snRNA gene, and every new candidate, has no usable
 computational evidence (ACMG PP3/BP4).
 
 ## 3. Novelty audit (what exists vs. what this adds)
 
-Searched up to October 2026: Google Scholar-style web search, Nature/medRxiv/bioRxiv, and the snRNA
-literature listed above.
+Searched up to October 2026 by web search only (Nature/medRxiv/bioRxiv full texts were not reachable
+from the cloud session, so these conclusions rest on abstracts and search snippets).
 
 | Exists already | Does it cover snRNA VEP? |
 |---|---|
 | Generic noncoding VEPs: CADD, Evo 2, AlphaGenome, GPN-MSA, Gnocchi constraint | Not snRNA-specific. CADD is documented to fail. No published snRNA evaluation of Evo 2 or AlphaGenome found |
+| AlphaGenome Atlas (medRxiv Sept 2026, 10.64898/2026.09.16.26363192): scores for all 9B SNVs | Generic and regulatory; abstract does not mention snRNAs (full text not yet read). **Strongest baseline to beat** |
+| Minor-spliceosome review (Frilander, *RNA* 2025): maps RNU4ATAC/RNU12 variants onto cryo-EM structures | Descriptive mapping only, no predictive model. Prior art for the structure idea, cite it |
 | RNU4-2 SGE functional map | Covers one gene, from a wet-lab assay. No model that transfers to other genes |
 | RNUdb (2026) | A database of patient and population counts plus paralog-equivalent positions. No predictive model |
 | RNA language models (RiNALMo, RNA-FM), RNA structure tools | Not applied to snRNA pathogenicity |
@@ -54,6 +56,16 @@ literature listed above.
    pigmentosa, and benign. Those regions are now known to differ.
 5. **Time-split, leave-one-gene-out evaluation.** "Could RNU2-2 have been predicted from RNU4-2?"
    Train on variants published before 2025, test on discoveries from 2025–26.
+
+### Still to check before investing (needs full-text access)
+1. AlphaGenome Atlas full text: any snRNA / RNU4-2 / RNU2-2 evaluation?
+2. snRNA guidance / RNUdb full text: any predictor or calibrated PP3/BP4 score?
+3. RNU4-2 SGE paper: which in-silico tools were compared (CADD confirmed; others?)
+4. bioRxiv/medRxiv/Scholar, last 6 months, plus papers citing the SGE paper: "snRNA variant effect
+   prediction", "RNU4-2 machine learning", "RNU2-2 pathogenicity prediction", "ReNU classifier".
+
+Decision rule: a multi-gene snRNA ML predictor already exists → pivot to the mechanism head and the
+time-split test. Only single-gene models or benchmarks exist → cite them and beat them. Nothing → go.
 
 ## 4. Data (all public)
 
@@ -90,7 +102,7 @@ Rules that keep the evaluation honest (lessons from NeuroProt-ASD):
 
 | Test | Metric | Baselines |
 |---|---|---|
-| Zero-shot on RNU4-2 SGE (model never sees SGE) | Spearman, AUROC for SGE-depleted variants | CADD 1.7, phyloP, Gnocchi, Evo 2, AlphaGenome, RNA-FM, ΔMFE |
+| Zero-shot on RNU4-2 SGE (model never sees SGE) | Spearman, AUROC for SGE-depleted variants | CADD 1.7, phyloP, Gnocchi, Evo 2, AlphaGenome / AlphaGenome Atlas AVI, RNA-FM, ΔMFE |
 | Leave-one-gene-out: patient vs population (RNU2-2, RNU5B-1, RNU5A-1, RNU4ATAC, RNU12 …) | AUROC, AUPRC, sensitivity at 95% specificity (that's what PP3 needs) | same |
 | **Time split**: train ≤2024, test on variants first published 2025–26 | same | same |
 | Dominant vs recessive vs RP separation | macro-F1 | position-only and region-rule baselines |
