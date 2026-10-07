@@ -22,8 +22,11 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--task", default="dominant", choices=["dominant", "recessive"])
 ap.add_argument("--cutoff", default="2025-01")
 ap.add_argument("--patients", default=str(config.CURATION / "patient_variants.tsv"))
+ap.add_argument("--modes", default=None, help="comma-separated modes to treat as pathogenic")
+ap.add_argument("--tag", default="", help="suffix for result files")
 args = ap.parse_args()
-MODES = {"dominant": ["AD-NDD"], "recessive": ["AR-NDD"]}[args.task]
+MODES = args.modes.split(",") if args.modes else {"dominant": ["AD-NDD"], "recessive": ["AR-NDD"]}[args.task]
+TAG = f"{args.task}{'_' + args.tag if args.tag else ''}"
 
 if not Path(args.patients).exists():
     raise SystemExit(f"missing {args.patients}: curate it from the paper supplements first "
@@ -57,8 +60,11 @@ data["paired_wt"] = 1 - data.p_unpaired_wt
 for c, sign in [("rnalm_dll", -1), ("evo2_dll", -1)]:
     if c in data:
         data[c + "_neg"] = sign * data[c]
+if "rel_oe_w10" in data:
+    data["depletion_neg_oe"] = -data.rel_oe_w10   # population-derived: circular with gnomAD controls
 baselines = [c for c in ["phylop", "cadd_phred", "alphagenome_avi", "rnalm_dll_neg", "evo2_dll_neg",
-                         "abs_ddG_fold", "ddG_duplex_loss", "paired_wt", "max_protein_res"]
+                         "abs_ddG_fold", "ddG_duplex_loss", "paired_wt", "max_protein_res",
+                         "frac_states_snrna_contact", "depletion_neg_oe"]
              if c in data and data[c].notna().any()]
 
 out = config.RESULTS
@@ -72,7 +78,7 @@ for kind in ["gbm", "logistic"]:
 scores = baselines + [f"snrnavep_{k}" for k in loso]
 tab = score_table(data[data[[f"snrnavep_{k}" for k in loso][:1]].notna().any(axis=1)] if loso else data,
                   "label", scores, group_col="gene_name")
-tab.to_csv(out / f"benchmark_logo_{args.task}.tsv", sep="\t", index=False)
+tab.to_csv(out / f"benchmark_logo_{TAG}.tsv", sep="\t", index=False)
 print("\n== leave-one-gene-out ==")
 print(tab[tab.group == "all"].round(3).to_string(index=False))
 
@@ -83,7 +89,7 @@ if "snrnavep_gbm" in data:
     for b in baselines:
         delta, l, h, pval = paired_bootstrap_delta(d.label.values, d.snrnavep_gbm.values, d[b].values)
         res.append(dict(vs=b, delta_auroc=delta, ci_lo=l, ci_hi=h, p=pval))
-    pd.DataFrame(res).to_csv(out / f"benchmark_paired_{args.task}.tsv", sep="\t", index=False)
+    pd.DataFrame(res).to_csv(out / f"benchmark_paired_{TAG}.tsv", sep="\t", index=False)
     print(pd.DataFrame(res).round(4).to_string(index=False))
 
 # Ablations: drop one feature group at a time
@@ -94,7 +100,7 @@ for drop in DEFAULT_GROUPS:
     if len(p):
         m = score_table(p, "label", ["pred"]).query("group == 'all'").iloc[0]
         abl.append(dict(dropped=drop, auroc=m.auroc, auprc=m.auprc))
-pd.DataFrame(abl).to_csv(out / f"ablation_{args.task}.tsv", sep="\t", index=False)
+pd.DataFrame(abl).to_csv(out / f"ablation_{TAG}.tsv", sep="\t", index=False)
 print("\n== ablations (LOGO, gbm) ==")
 print(pd.DataFrame(abl).round(3).to_string(index=False))
 
@@ -103,7 +109,7 @@ if data.first_published.notna().any():
     p, cols = time_split(data, args.cutoff)
     if p.label.sum() > 0:
         t = score_table(p.merge(data[["key"] + baselines], on="key"), "label", ["pred"] + baselines)
-        t.to_csv(out / f"benchmark_timesplit_{args.task}.tsv", sep="\t", index=False)
+        t.to_csv(out / f"benchmark_timesplit_{TAG}.tsv", sep="\t", index=False)
         print(f"\n== time split (train < {args.cutoff}) ==")
         print(t.round(3).to_string(index=False))
 

@@ -26,6 +26,10 @@ def load_patients(path, genes, fetch):
         raise ValueError(f"patient table missing columns: {sorted(missing)}")
     g = genes.set_index("gene_name")
     keys, errors = [], []
+    if "key" in df.columns and df.key.notna().all():   # already VCF-keyed (e.g. from ClinVar)
+        df["n_probands"] = pd.to_numeric(df.n_probands, errors="coerce").fillna(1).astype(int)
+        df["first_published"] = pd.to_datetime(df.first_published, format="%Y-%m", errors="coerce")
+        return df, errors
     for r in df.itertuples():
         try:
             gi = g.loc[r.gene_name]
