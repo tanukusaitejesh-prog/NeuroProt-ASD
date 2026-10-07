@@ -58,3 +58,10 @@ genes come 1st, 2nd, 4th and 5th of 23 callable genes (RNU2-2, RNU5B-1, RNU4-2, 
 rank-sum permutation p = 4/8855 ≈ 5×10⁻⁴). RN7SK, with no known disease link, ranks 3rd. In RNU4-2 the
 minimum is at n.67, inside the ReNU critical region. These genes were partly discovered from this
 signal, so this checks the pipeline rather than validating the model.
+
+`scripts/06_label_free_checks.py`: ViennaRNA single-molecule features (|ΔΔG fold|, pairing probability)
+do **not** track gnomAD depletion in RNU4-2, RNU2-2, RNU5A-1 or RNU5B-1 (|Spearman| < 0.1, n.s.); only
+RNU4ATAC shows a weak signal (paired positions more depleted, ρ = −0.24, p = 0.006). Whole-molecule
+RNAcofold U4·U6 ΔΔG even trends the wrong way, likely because the MFE dimer does not reproduce the
+native U4/U6 pairing. This matches the clinical guidance that isolated-RNA folding is not informative
+here and puts the weight on cryo-EM contact profiles, conservation and language-model features.
