@@ -34,8 +34,11 @@ def map_positions(query, reference):
     return mapping
 
 
-def identity(query, reference):
+def identity(query, reference, over="longer"):
+    """Identical aligned positions / length. over="query" scores partial models (e.g. a 42-nt
+    fragment of U6 in a cryo-EM map) by how well the modelled part matches."""
     aln = _aligner().align(query, reference)[0]
     matches = sum(query[qs + k] == reference[rs + k]
                   for (qs, qe), (rs, _) in zip(*aln.aligned) for k in range(qe - qs))
-    return matches / max(len(query), len(reference))
+    denom = len(query) if over == "query" else max(len(query), len(reference))
+    return matches / denom

@@ -65,3 +65,20 @@ RNU4ATAC shows a weak signal (paired positions more depleted, ρ = −0.24, p = 
 RNAcofold U4·U6 ΔΔG even trends the wrong way, likely because the MFE dimer does not reproduce the
 native U4/U6 pairing. This matches the clinical guidance that isolated-RNA folding is not informative
 here and puts the weight on cryo-EM contact profiles, conservation and language-model features.
+
+**Cryo-EM contact profiles** (`scripts/04c_add_contacts.py`; 11 human spliceosome structures from the
+AWS PDB snapshot covering tri-snRNP, pre-B, B, Bact, C*, P, 17S U2 and the minor pre-B/Bact). snRNA chains
+are matched by sequence (U1, U2, U4, U5, U6, U11, U12, U4atac, U6atac all found). Against within-gene
+depletion, with a circular-shift permutation that respects autocorrelation along the RNA:
+
+| Gene | snRNA–snRNA contact frequency across states: ρ (p_shift) | max protein contacts: ρ (p_shift) |
+|---|---|---|
+| RNU2-2 | −0.62 (0.006) | −0.21 (0.28) |
+| RNU5A-1 | −0.30 (0.011) | −0.23 (0.09) |
+| RNU5B-1 | −0.30 (0.011) | −0.20 (0.24) |
+| RNU4-2 | −0.20 (0.24) | −0.19 (0.10) |
+
+So RNA–RNA interactions across the splicing cycle carry constraint signal that isolated-RNA folding does
+not, while protein-contact counts are suggestive but not significant after the permutation. Naive
+Spearman p-values (`label_free_feature_vs_depletion.tsv`) overstate significance and should not be quoted.
+This remains a label-free proxy; the decisive test is the patient-vs-population benchmark.

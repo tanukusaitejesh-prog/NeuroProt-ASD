@@ -15,8 +15,8 @@ from .align import identity, map_positions
 # (the cloud session could not reach the PDB). Any extra mmCIF dropped in data/raw/pdb/ is used too.
 SPLICEOSOME_STATES = {
     "3JCR": "tri-snRNP", "6QW6": "tri-snRNP", "6QX9": "pre-B", "5O9Z": "B",
-    "6FF7": "Bact", "5Z56": "C", "5XJC": "C*", "6QDV": "P",
-    "6Y5Q": "U2-snRNP", "7DVQ": "minor", "8Y6O": "minor-preB",
+    "6FF7": "Bact", "5Z56": "Bact-mature", "5XJC": "C*", "6QDV": "P",
+    "6Y5Q": "U2-snRNP", "7DVQ": "minor-Bact", "8Y6O": "minor-preB",
 }
 
 CUTOFF = 4.5
@@ -32,15 +32,18 @@ def chain_sequence(chain):
     return "".join(seq).replace("U", "T"), residues
 
 
-def assign_snrna_chains(structure, references, min_identity=0.7, min_len=40):
-    """{chain_name: (family_gene, {residue_index: ref n_pos})} for chains that match an snRNA."""
+def assign_snrna_chains(structure, references, min_identity=0.85, min_len=30):
+    """{chain_name: (family_gene, {residue_index: ref n_pos})} for chains that match an snRNA.
+
+    Identity is measured over the modelled residues, so partially built snRNAs still match.
+    """
     out = {}
     for chain in structure[0]:
         seq, _ = chain_sequence(chain)
         if len(seq) < min_len:
             continue
-        best = max(references.items(), key=lambda kv: identity(seq, kv[1]))
-        if identity(seq, best[1]) >= min_identity:
+        best = max(references.items(), key=lambda kv: identity(seq, kv[1], over="query"))
+        if identity(seq, best[1], over="query") >= min_identity:
             out[chain.name] = (best[0], map_positions(seq, best[1]))
     return out
 
@@ -104,3 +107,26 @@ def load_structures(paths, references):
         st.setup_entities()
         frames.append(nucleotide_contacts(st, references, pdb_id, SPLICEOSOME_STATES.get(pdb_id, "other")))
     return pd.concat(frames, ignore_index=True) if frames else pd.DataFrame()
+
+
+def family_contact_features(cif_paths, rna, family_reference, family_of_group, paralog_groups):
+    """Contact profiles keyed on (paralog_family, family_ref_pos), ready to merge onto variants.
+
+    `rna` maps gene name -> transcript sequence and should include every expressed paralog so that
+    each structure chain is matched to its true gene before being projected onto family coordinates.
+    """
+    from .align import map_positions
+    per = load_structures(cif_paths, rna)
+    group_of = {g: grp for grp, members in paralog_groups.items() for g in members}
+    maps = {}
+    for gname in per.family_gene.unique():
+        grp = group_of.get(gname)
+        if grp:
+            maps[gname] = (family_of_group[grp], map_positions(rna[gname], rna[family_reference[grp]]))
+    per["paralog_family"] = per.family_gene.map(lambda x: maps.get(x, (None,))[0])
+    per["family_ref_pos"] = [maps[g][1].get(p) if g in maps else None
+                             for g, p in zip(per.family_gene, per.ref_n_pos)]
+    per = per.dropna(subset=["paralog_family", "family_ref_pos"])
+    agg = aggregate_states(per.assign(family_gene=per.paralog_family, ref_n_pos=per.family_ref_pos))
+    agg = agg.rename(columns={"family_gene": "paralog_family", "ref_n_pos": "family_ref_pos"})
+    return per, agg

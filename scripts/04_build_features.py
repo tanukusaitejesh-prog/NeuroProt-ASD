@@ -18,6 +18,7 @@ from snrna_vep import config
 from snrna_vep.align import FAMILY_REFERENCE, map_positions
 from snrna_vep.coords import revcomp
 from snrna_vep.features_rna import DUPLEX_PARTNER, gene_features
+from snrna_vep.genes import PARALOG_GROUPS
 from snrna_vep.reference import fetch_base, fetch_region
 from snrna_vep.variants import enumerate_variants
 
@@ -88,20 +89,9 @@ def main():
     pdb_dir = config.RAW / "pdb"
     cifs = sorted(pdb_dir.glob("*.cif*")) if pdb_dir.exists() else []
     if cifs:
-        from snrna_vep.contacts import aggregate_states, load_structures
-        per = load_structures(cifs, rna)
-        # translate matched-gene positions to family reference coordinates
-        maps = {}
-        for gname in per.family_gene.unique():
-            grp = genes.set_index("gene_name").paralog_group.get(gname)
-            if isinstance(grp, str):
-                maps[gname] = (FAMILY_OF_GROUP[grp], map_positions(rna[gname], rna[FAMILY_REFERENCE[grp]]))
-        per["paralog_family"] = per.family_gene.map(lambda x: maps.get(x, (None,))[0])
-        per["family_ref_pos"] = [maps[g][1].get(p) if g in maps else None for g, p in zip(per.family_gene, per.ref_n_pos)]
+        from snrna_vep.contacts import family_contact_features
+        per, agg = family_contact_features(cifs, rna, FAMILY_REFERENCE, FAMILY_OF_GROUP, PARALOG_GROUPS)
         per.to_csv(config.PROCESSED / "contacts_per_structure.tsv", sep="\t", index=False)
-        agg = aggregate_states(per.dropna(subset=["family_ref_pos"]).assign(
-            family_gene=per.paralog_family, ref_n_pos=per.family_ref_pos))
-        agg = agg.rename(columns={"family_gene": "paralog_family", "ref_n_pos": "family_ref_pos"})
         feat = feat.merge(agg, on=["paralog_family", "family_ref_pos"], how="left")
         print(f"contacts from {len(cifs)} structures merged")
     else:

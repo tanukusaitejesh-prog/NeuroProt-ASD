@@ -17,9 +17,13 @@ for pdb_id, state in SPLICEOSOME_STATES.items():
     dest = out / f"{pdb_id}.cif.gz"
     if dest.exists():
         continue
-    url = f"https://files.rcsb.org/download/{pdb_id}.cif.gz"
-    try:
-        urllib.request.urlretrieve(url, dest)
-        print(f"{pdb_id} ({state}) ok")
-    except Exception as e:
-        print(f"{pdb_id} ({state}) FAILED: {e}  -> check the ID on rcsb.org")
+    mirrors = [f"https://files.rcsb.org/download/{pdb_id}.cif.gz",
+               "https://pdbsnapshots.s3.us-west-2.amazonaws.com/20260101/pub/pdb/data/structures/divided/"
+               f"mmCIF/{pdb_id.lower()[1:3]}/{pdb_id.lower()}.cif.gz"]
+    for url in mirrors:
+        try:
+            urllib.request.urlretrieve(url, dest)
+            print(f"{pdb_id} ({state}) ok from {url.split('/')[2]}")
+            break
+        except Exception as e:
+            print(f"{pdb_id} ({state}) failed from {url.split('/')[2]}: {e}")
