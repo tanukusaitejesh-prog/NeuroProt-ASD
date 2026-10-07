@@ -42,7 +42,7 @@ pat = pat[pat["mode"].isin(MODES)]
 missing = set(pat.key) - set(feat.key)
 if missing:
     print(f"WARN {len(missing)} patient variants are not in the enumerated set (multi-nt indels?): "
-          f"{sorted(pat[pat.key.isin(missing)].hgvs_n)[:10]}")
+          f"{sorted(pat[pat.key.isin(missing)].hgvs_n.fillna(pat.key).replace('', pd.NA).fillna(pat.key))[:10]}")
 
 gn = pd.read_csv(config.PROCESSED / "gnomad_v4.1_core_loci.tsv.gz", sep="\t")
 ctrl = population_controls(gn[gn.gene_name.isin(pat.gene_name.unique())], task=args.task,
