@@ -1,5 +1,0 @@
-Model,Protocol,AUROC,CI_Lower,CI_Upper
-forecASD (Published In-Sample),In-Sample,0.9510430210865509,0.922,0.9759
-forecASD Re-evaluated (Level 1 BrainSpan+STRING RF),Paralog-Safe GroupKFold,0.9042154257825014,0.8694,0.9354
-forecASD Re-evaluated (Full Stack),Paralog-Safe GroupKFold,0.9227580228767407,0.89,0.9527
-NeuroProt-ASD (Multi-Modal Fusion),Paralog-Safe GroupKFold,0.9193283961784159,0.888,0.9509
