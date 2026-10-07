@@ -62,7 +62,7 @@ for c, sign in [("rnalm_dll", -1), ("evo2_dll", -1)]:
         data[c + "_neg"] = sign * data[c]
 if "rel_oe_w10" in data:
     data["depletion_neg_oe"] = -data.rel_oe_w10   # population-derived: circular with gnomAD controls
-baselines = [c for c in ["phylop", "cadd_phred", "alphagenome_avi", "rnalm_dll_neg", "evo2_dll_neg",
+baselines = [c for c in ["phylop", "phylop_gnomadpos", "cadd_phred", "alphagenome_avi", "rnalm_dll_neg", "evo2_dll_neg",
                          "abs_ddG_fold", "ddG_duplex_loss", "paired_wt", "max_protein_res",
                          "frac_states_snrna_contact", "depletion_neg_oe"]
              if c in data and data[c].notna().any()]

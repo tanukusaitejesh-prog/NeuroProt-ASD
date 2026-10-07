@@ -13,7 +13,12 @@ Variant-effect prediction for spliceosomal snRNA genes in neurodevelopmental dis
 | 2 | `scripts/02_fetch_gnomad.py` | public GCS | gnomAD v4.1 genome variants + reference for core genes ±2 kb |
 | 3 | `scripts/03_depletion_scan.py` | step 2 | context-aware, within-gene O/E depletion (`results/depletion_*`, `figures/depletion_profiles.png`) |
 | 4 | `scripts/04_build_features.py` | steps 2–3 (+0, +4b if available) | `data/processed/variant_features.tsv.gz`: every SNV and 1-nt indel with features |
+| 4c | `scripts/04c_add_contacts.py` | `data/raw/pdb/` | refresh cryo-EM contact features without re-folding |
+| 4d | `scripts/04d_add_patient_variants.py <patient tables>` | patient table | featurize patient variants outside the enumerated set (multi-nt indels) |
+| 4e | `scripts/04e_position_conservation.py` | step 2 | interim position-level phyloP from gnomAD annotations (gaps interpolated, no missingness flag) |
 | 4b | `scripts/04b_external_scores.py cadd phylop rnalm evo2 alphagenome=PATH` | internet / GPU | `data/external/*.tsv`; rerun step 4 to merge |
+| 5a | `scripts/05a_clinvar_labels.py` | public GCS | interim patient labels from ClinVar 2025-05 (P/LP) |
+| 5c | `scripts/05c_zero_shot_dominant.py --gene RNU4-2` | 5a | zero-shot feature check on a dominant gene + cross-gene transfer model |
 | 5 | `scripts/05_train_eval.py --task dominant` | `data/curation/patient_variants.tsv` | leave-one-gene-out benchmark, paired bootstrap vs baselines, ablations, time split, SGE zero-shot |
 
 ```bash
@@ -82,3 +87,31 @@ So RNA–RNA interactions across the splicing cycle carry constraint signal that
 not, while protein-contact counts are suggestive but not significant after the permutation. Naive
 Spearman p-values (`label_free_feature_vs_depletion.tsv`) overstate significance and should not be quoted.
 This remains a label-free proxy; the decisive test is the patient-vs-population benchmark.
+
+### First labelled results (ClinVar 2025-05 P/LP; interim, small)
+
+**RNU4-2 zero-shot** (`results/zero_shot_RNU4-2_clinvar.tsv`; 18 ClinVar P/LP vs 215 gnomAD variants, no
+training on RNU4-2):
+
+| Score | AUROC [95% CI] |
+|---|---|
+| max protein contacts across cryo-EM states | **0.73** [0.64, 0.82] |
+| fraction of states with protein contact | **0.73** [0.62, 0.82] |
+| snRNA–snRNA contact frequency | **0.69** [0.58, 0.79] |
+| logistic model trained on the other genes (transfer) | 0.61 [0.50, 0.72] |
+| phyloP (241 mammals, position-level) | 0.34 (inverted) |
+| ViennaRNA \|ΔΔG\| / duplex ΔΔG / pairing | 0.34–0.38 (inverted) |
+| within-gene depletion | 0.98 (**circular**: controls are gnomAD variants) |
+
+Conservation and isolated-RNA folding fail on RNU4-2, as the SGE paper reported for CADD (AUC 0.65 on its
+own variant set); cryo-EM contact profiles are the only non-circular features above chance. Depletion
+needs controls independent of gnomAD (UKB / All of Us counts from the papers) before it can be used.
+
+**Recessive genes, leave-one-gene-out** (`results/benchmark_logo_recessive_clinvar.tsv`; RMRP, RNU4ATAC,
+RNU12, RNU7-1; 105 P/LP vs 31 gnomAD homozygote controls): the trained model is near chance (GBM 0.54,
+logistic 0.61); RMRP dominates the positives, and its pathogenic alleles are mostly insertions, so
+|ΔΔG| alone reaches 0.68. This interim set is too small and too RMRP-heavy to judge the model; the
+dominant spliceosomal benchmark needs the curated supplement table.
+
+CADD could not be computed in the cloud session (no CADD host access; Hail does not build on this Python),
+so the CADD comparison runs locally via `04b_external_scores.py cadd`.

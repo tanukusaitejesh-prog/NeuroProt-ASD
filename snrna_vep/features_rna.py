@@ -64,3 +64,55 @@ def gene_features(variants, rna, partner_rna=None):
     if "ddG_duplex" not in df:
         df["ddG_duplex"] = np.nan
     return df
+
+
+def genomic_edit_to_rna(key, gene, seq_plus):
+    """Apply a VCF-keyed variant (any length) to a gene; return (mutant RNA, first changed n_pos, vtype)
+    or None if the edit is not entirely inside the transcribed region."""
+    from .coords import g_to_n, revcomp
+    chrom, pos, ref, alt = key.split(":")
+    pos = int(pos)
+    # trim the shared VCF anchor/padding so only changed bases remain
+    while ref and alt and ref[0] == alt[0]:
+        ref, alt, pos = ref[1:], alt[1:], pos + 1
+    lo, hi = pos, pos + max(len(ref), 1) - 1
+    if not ref:                      # pure insertion between pos-1 and pos
+        lo, hi = pos - 1, pos
+    if lo < gene.start or hi > gene.end:
+        return None
+    i = pos - gene.start
+    mut_plus = seq_plus[:i] + alt + seq_plus[i + len(ref):]
+    mut = mut_plus if gene.strand == "+" else revcomp(mut_plus)
+    first = g_to_n(pos if gene.strand == "+" else pos + max(len(ref), 1) - 1, gene.start, gene.end, gene.strand)
+    vtype = "snv" if len(ref) == len(alt) == 1 else ("ins" if len(alt) > len(ref) else "del") \
+        if (not ref or not alt) else "complex"
+    return mut, max(1, first), vtype
+
+
+def featurize_keys(keys, gene, seq_plus, partner_rna=None):
+    """Same features as gene_features, for arbitrary variants given as VCF keys (multi-nt indels etc.)."""
+    from .coords import revcomp
+    rna = seq_plus if gene.strand == "+" else revcomp(seq_plus)
+    L = len(rna)
+    wt_mfe = mfe(rna)
+    wt_dimer = cofold_dimer_energy(rna, partner_rna) if partner_rna else None
+    p_unp = unpaired_probability(rna)
+    rows, skipped = [], []
+    for key in keys:
+        r = genomic_edit_to_rna(key, gene, seq_plus)
+        if r is None:
+            skipped.append(key)
+            continue
+        mut, n, vtype = r
+        i = n - 1
+        rows.append({
+            "key": key, "gene_name": gene.gene_name, "n_pos": n, "vtype": vtype,
+            "rel_pos": n / L, "dist_5p": n - 1, "dist_3p": L - n,
+            "is_snv": vtype == "snv", "is_ins": vtype == "ins", "is_del": vtype == "del",
+            "transition": vtype == "snv" and {rna[i], mut[i]} in ({"A", "G"}, {"C", "T"}),
+            "local_gc": sum(c in "GC" for c in rna[max(0, i - 5): i + 6]) / len(rna[max(0, i - 5): i + 6]),
+            "p_unpaired_wt": float(p_unp[min(i, L - 1)]),
+            "ddG_fold": mfe(mut) - wt_mfe,
+            "ddG_duplex": (cofold_dimer_energy(mut, partner_rna) - wt_dimer) if partner_rna else np.nan,
+        })
+    return pd.DataFrame(rows), skipped

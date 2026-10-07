@@ -18,7 +18,7 @@ FEATURE_GROUPS = {
     "contacts": ["n_states_seen", "frac_states_protein_contact", "max_protein_res", "mean_protein_res",
                  "max_protein_chains", "min_protein_dist", "frac_states_snrna_contact",
                  "max_other_rna_contacts"],
-    "conservation": ["phylop"],
+    "conservation": ["phylop", "phylop_gnomadpos"],
     "lm": ["rnalm_dll", "evo2_dll"],
     "paralog": ["paralog_patho_density"],
     "population": ["rel_oe_w10"],
