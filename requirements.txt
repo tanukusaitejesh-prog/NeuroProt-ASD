@@ -5,4 +5,8 @@ scikit-learn
 matplotlib
 pysam
 ViennaRNA
+gemmi
+biopython
+pyBigWig
+requests
 pytest

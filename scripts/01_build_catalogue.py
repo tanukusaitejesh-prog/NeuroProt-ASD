@@ -1,5 +1,4 @@
 """Build the small-RNA gene catalogue from GENCODE v27 (GRCh38)."""
-import subprocess
 import sys
 from pathlib import Path
 
@@ -10,10 +9,17 @@ from snrna_vep.genes import build_catalogue
 config.RAW.mkdir(parents=True, exist_ok=True)
 config.PROCESSED.mkdir(parents=True, exist_ok=True)
 if not config.GENCODE_SMALL_RNA_GTF.exists():
-    cmd = (f"gsutil cat {config.GENCODE_GTF_GS} | awk -F'\\t' '$3==\"gene\"' | "
-           "grep -E 'gene_type \"(snRNA|scaRNA|snoRNA|misc_RNA|ribozyme)\"|gene_name \"(RNU2-2P|CHASERR)\"' "
-           f"> {config.GENCODE_SMALL_RNA_GTF}")
-    subprocess.run(cmd, shell=True, check=True)
+    # Stream the public GENCODE v27 GTF over HTTPS and keep only small-RNA gene records.
+    import re
+    import requests
+    url = config.GENCODE_GTF_GS.replace("gs://", "https://storage.googleapis.com/")
+    keep = re.compile(r'gene_type "(snRNA|scaRNA|snoRNA|misc_RNA|ribozyme)"|gene_name "(RNU2-2P|CHASERR)"')
+    with requests.get(url, stream=True, timeout=60) as r, open(config.GENCODE_SMALL_RNA_GTF, "w") as out:
+        r.raise_for_status()
+        for line in r.iter_lines(decode_unicode=True):
+            f = line.split("\t")
+            if len(f) > 8 and f[2] == "gene" and keep.search(f[8]):
+                out.write(line + "\n")
 
 cat = build_catalogue(config.GENCODE_SMALL_RNA_GTF)
 out = config.PROCESSED / "small_rna_catalogue.tsv"
