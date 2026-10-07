@@ -1,0 +1,47 @@
+graph: 701 nodes; variants with a structure node: 7770; labelled: 1398 (pathogenic 227); SGE: 485
+=== (b) held-out AUROC, extended baselines ===
+ctx                         dominant                       recessive                        
+unit                         RNU2-2P RNU4-2 RNU5B-1   RNU6     RNU12 RNU2-2P RNU4-2 RNU4ATAC
+score                                                                                       
+cadd_phred                     0.462  0.584   0.920    NaN     0.562   0.506  0.642    0.789
+constraint_1_minus_oe          0.779  0.743   0.995  0.547     0.862   0.766  0.533    0.471
+final                          0.807  0.785   0.736  0.912     0.661   0.603  0.594    0.789
+frac_states_protein_contact    0.640  0.704   0.477  0.930     0.714   0.603  0.662    0.671
+phylop447                      0.674  0.502   0.705  0.491     0.554   0.736  0.471    0.796
+trained_secondary_structure    0.571  0.636   0.699  0.753     0.562   0.733  0.484    0.704
+vienna_destab                  0.461  0.311   0.222  0.047     0.473   0.455  0.501    0.645
+vienna_duplex                    NaN  0.466     NaN  0.035       NaN     NaN  0.628    0.644
+vienna_paired                  0.426  0.433   0.122  0.754     0.487   0.457  0.549    0.567
+ctx                          dominant  recessive
+score                                           
+final                           0.810      0.662
+constraint_1_minus_oe           0.766      0.658
+frac_states_protein_contact     0.688      0.663
+trained_secondary_structure     0.665      0.621
+cadd_phred                      0.655      0.625
+phylop447                       0.593      0.639
+vienna_paired                   0.434      0.515
+vienna_destab                   0.260      0.519
+vienna_duplex                   0.251      0.636
+
+=== (a) clustered uncertainty: final minus baseline ===
+Traceback (most recent call last):
+  File "C:\Users\saite\NeuroProt-ASD\scripts\21_robustness.py", line 107, in <module>
+    out.append(dict(ctx=ctx, baseline=b, mean_delta=point, block_ci=f"[{np.quantile(bs, .025):+.3f}, {np.quantile(bs, .975):+.3f}]",
+                                                                        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saite\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4508, in quantile
+    return _quantile_unchecked(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saite\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4522, in _quantile_unchecked
+    return _ureduce(a,
+           ^^^^^^^^^^^
+  File "C:\Users\saite\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 3892, in _ureduce
+    r = func(a, **kwargs)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\saite\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4681, in _quantile_ureduce_func
+    result = _quantile(arr,
+             ^^^^^^^^^^^^^^
+  File "C:\Users\saite\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_function_base_impl.py", line 4805, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+                                  ~~~^^^^^^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0

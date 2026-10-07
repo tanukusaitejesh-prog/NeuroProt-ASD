@@ -1,0 +1,73 @@
+=== (a) per-unit AUROC [position-block 95% CI] ===
+score                      cadd_phred              final frac_states_protein_contact          phylop447
+ctx       unit                                                                                         
+dominant  RNU2-2P   0.46 [0.33, 0.60]  0.81 [0.68, 0.91]           0.64 [0.49, 0.77]  0.67 [0.55, 0.81]
+          RNU4-2    0.58 [0.47, 0.69]  0.79 [0.70, 0.86]           0.70 [0.61, 0.80]  0.50 [0.42, 0.58]
+          RNU5B-1   0.92 [0.85, 0.97]  0.74 [0.58, 0.95]           0.48 [0.33, 0.59]  0.70 [0.58, 0.81]
+          RNU6         nan [nan, nan]  0.91 [0.84, 0.97]           0.93 [0.88, 0.97]  0.49 [0.46, 0.52]
+recessive RNU12     0.56 [0.30, 0.81]  0.66 [0.41, 0.90]           0.71 [0.47, 0.94]  0.55 [0.31, 0.80]
+          RNU2-2P   0.51 [0.38, 0.63]  0.60 [0.49, 0.70]           0.60 [0.50, 0.71]  0.74 [0.65, 0.82]
+          RNU4-2    0.64 [0.52, 0.76]  0.59 [0.46, 0.72]           0.66 [0.55, 0.77]  0.47 [0.32, 0.61]
+          RNU4ATAC  0.79 [0.53, 0.99]  0.79 [0.61, 0.94]           0.67 [0.50, 0.83]  0.80 [0.61, 0.94]
+
+=== (a) GLMM: y ~ z(within-unit rank of score) + (1 | unit); posterior mean (SD) of the score effect, log-odds per SD ===
+      ctx                       score  beta    sd    n  units  OR_per_SD        OR_95
+ dominant                       final 1.253 0.125 1211      4      3.502 [2.74, 4.48]
+ dominant frac_states_protein_contact 0.665 0.128 1211      4      1.945 [1.51, 2.50]
+ dominant                   phylop447 0.276 0.131 1211      4      1.318 [1.02, 1.70]
+ dominant                  cadd_phred 0.277 0.149 1055      4      1.319 [0.98, 1.77]
+recessive                       final 0.454 0.111  566      4      1.575 [1.27, 1.96]
+recessive frac_states_protein_contact 0.513 0.111  566      4      1.670 [1.34, 2.08]
+recessive                   phylop447 0.494 0.110  566      4      1.639 [1.32, 2.03]
+recessive                  cadd_phred 0.322 0.116  534      4      1.380 [1.10, 1.73]
+
+=== (b) dominant vs recessive within RNU4-2 and RNU2-2 ===
+  RNU4-2: dominant 27, recessive 24, controls 298
+  RNU2-2P: dominant 5, recessive 76, controls 61
+                                     coef      se       p
+const                             -5.2733  0.9362  0.0000
+frac_states_protein_contact_r     -0.3912  1.4388  0.7857
+nb_frac_prot_r                     4.3147  1.5925  0.0067
+phylop447_r                        0.8075  0.6200  0.1927
+frac_states_protein_contact_r:rec  2.1321  1.7525  0.2238
+nb_frac_prot_r:rec                -4.8353  1.8110  0.0076
+phylop447_r:rec                    1.1646  0.8780  0.1847
+rec                                0.9857  1.1202  0.3789
+gene_RNU2                         -0.0105  0.6700  0.9874
+gene_RNU2:rec                      2.9841  0.7318  0.0000
+  joint Wald test of the 3 feature x recessive interactions: chi2 9.63, p 2.20e-02
+  pre-specified mechanism criterion (joint p<0.05, contact x rec < 0, phyloP x rec > 0): NOT MET
+  RNU4-2: contact x rec +3.77 (p 0.114), graph x rec -6.68 (p 0.005), phyloP x rec -0.30 (p 0.835); joint p 3.40e-02
+  RNU2-2P: contact x rec +0.59 (p 0.843), graph x rec -1.85 (p 0.457), phyloP x rec +0.42 (p 0.802); joint p 8.95e-01
+
+=== (c) v2 trained without minor-spliceosome genes (RNU4ATAC, RNU12, RNU6ATAC) ===
+minor_excluded     False  True 
+ctx       unit                 
+dominant  RNU2-2P  0.807  0.814
+          RNU4-2   0.785  0.786
+          RNU5B-1  0.736  0.742
+          RNU6     0.912  0.911
+recessive RNU2-2P  0.600  0.440
+          RNU4-2   0.507  0.496
+minor_excluded  False  True 
+ctx                         
+dominant        0.810  0.813
+recessive       0.554  0.468
+
+=== (d) Spearman with -SGE function score, RNU4-2 (no U4-family labels in training) ===
+                   subset                       score   n    rho     lo    hi
+         all SGE variants                      v2_dom 485  0.405  0.260 0.530
+         all SGE variants                nb_frac_prot 485  0.437  0.295 0.565
+         all SGE variants frac_states_protein_contact 485  0.347  0.203 0.484
+         all SGE variants                  cadd_phred 411  0.072 -0.077 0.202
+         all SGE variants                   phylop447 485 -0.004 -0.130 0.119
+                     SNVs                      v2_dom 411  0.324  0.180 0.456
+                     SNVs                nb_frac_prot 411  0.406  0.258 0.520
+                     SNVs frac_states_protein_contact 411  0.331  0.186 0.464
+                     SNVs                  cadd_phred 411  0.072 -0.074 0.217
+                     SNVs                   phylop447 411 -0.022 -0.165 0.113
+n.56-90 (dominant region)                      v2_dom 171  0.575  0.310 0.732
+n.56-90 (dominant region)                nb_frac_prot 171  0.459  0.199 0.679
+n.56-90 (dominant region) frac_states_protein_contact 171  0.341  0.061 0.580
+n.56-90 (dominant region)                  cadd_phred 105 -0.043 -0.313 0.238
+n.56-90 (dominant region)                   phylop447 171  0.139 -0.035 0.299

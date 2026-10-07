@@ -1,0 +1,22 @@
+analysis	score	n	n_pos	value	lo	hi
+A: recessive P/LP vs controls	v2_rec	55	41.0	0.7560975609756098		
+A: recessive P/LP vs controls	combo	55	41.0	0.789198606271777		
+A: recessive P/LP vs controls	frac_states_protein_contact	55	41.0	0.6707317073170731		
+A: recessive P/LP vs controls	phylop447	55	41.0	0.7961672473867596		
+A: recessive P/LP vs controls	cadd_phred	51	41.0	0.7890243902439025		
+A: recessive P/LP vs controls	cadd_source	44	34.0	0.7852941176470588		
+A: recessive P/LP vs controls	published_structure_score	44	34.0	0.7661764705882353		
+A': same variants as published score	v2_rec	44	34.0	0.7411764705882353		
+A': same variants as published score	combo	44	34.0	0.7661764705882352		
+A': same variants as published score	frac_states_protein_contact	44	34.0	0.6294117647058823		
+A': same variants as published score	phylop447	44	34.0	0.7764705882352941		
+A': same variants as published score	cadd_phred	44	34.0	0.7867647058823529		
+A': same variants as published score	cadd_source	44	34.0	0.7852941176470588		
+A': same variants as published score	published_structure_score	44	34.0	0.7661764705882353		
+B: Spearman with -reporter rescue (24-variant assay)	v2_rec	18		0.3065015479876161	-0.2380406934166949	0.7211541887256444
+B: Spearman with -reporter rescue (24-variant assay)	combo	18		0.43718397896413785	-0.05915961099268548	0.7841225008268867
+B: Spearman with -reporter rescue (24-variant assay)	frac_states_protein_contact	18		0.03694547990331758	-0.4710951322594637	0.5009921681629468
+B: Spearman with -reporter rescue (24-variant assay)	phylop447	18		0.6504418407928358	0.21486961774753774	0.9259143024228854
+B: Spearman with -reporter rescue (24-variant assay)	cadd_phred	18		0.7131062951496387	0.3791307882414152	0.8876459463679512
+B: Spearman with -reporter rescue (24-variant assay)	cadd_source	23		0.4429066285060723	-0.04643930517744465	0.7855806646276459
+B: Spearman with -reporter rescue (24-variant assay)	published_structure_score	23		0.045982825476348105	-0.40044426752506407	0.4989420607094455
