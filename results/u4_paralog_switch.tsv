@@ -1,0 +1,23 @@
+sample	rep	stage	stage_label	RNU4-1	RNU4-2	ratio
+Homo sapiens bipolar neuron originated from GM23338 treated 	1	2	differentiated culture	96186	85857	0.8926143097748113
+Homo sapiens bipolar neuron originated from GM23338 treated 	2	2	differentiated culture	70282	43105	0.6133149312768561
+Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	3	fetal brain tissue	16192	54435	3.361845355731225
+Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	3	fetal brain tissue	26604	54202	2.0373628025860775
+Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	3	fetal brain tissue	13331	50395	3.7802865501462755
+Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	3	fetal brain tissue	25245	54961	2.177104377104377
+Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	3	fetal brain tissue	11221	48818	4.350592638802246
+Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	3	fetal brain tissue	15930	51649	3.2422473320778407
+Homo sapiens neural cell originated from H1	1	2	differentiated culture	43068	120060	2.7876845918083033
+Homo sapiens neural cell originated from H1	2	2	differentiated culture	37114	103353	2.784744301341812
+Homo sapiens neural progenitor cell originated from H9	1	1	progenitor	48241	15038	0.31172653966542985
+Homo sapiens neural progenitor cell originated from H9	2	1	progenitor	65043	11938	0.18354011961317898
+Homo sapiens neuronal stem cell originated from H1	1	0	stem cell	9972	2830	0.28379462494985963
+Homo sapiens neuronal stem cell originated from H1	2	0	stem cell	9271	3179	0.3428972063423579
+Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	3	fetal brain tissue	8721	34902	4.002063983488132
+Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	3	fetal brain tissue	10345	37731	3.647269212179797
+Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	3	fetal brain tissue	12879	43304	3.362372855035329
+Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	3	fetal brain tissue	33499	68856	2.0554643422191705
+Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	3	fetal brain tissue	23236	52223	2.247503873300052
+Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	3	fetal brain tissue	56071	100142	1.7859856253678372
+Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	3	fetal brain tissue	24625	101781	4.133238578680203
+Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	3	fetal brain tissue	30417	90164	2.9642634053325443
