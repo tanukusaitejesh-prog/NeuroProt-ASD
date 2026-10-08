@@ -1,0 +1,38 @@
+# Per-variant observed counts in the RNU4-2 critical region (chr12:120,291,825-120,291,842).
+# Source: Chen et al. Nature 2024 (PMC11338827) Extended Data Table 1, transcribed from the published table image
+# (41586_2024_7773_Tab1_ESM.jpg). Parenthesised values in the source are de novo confirmed counts; the totals used
+# here are all carriers. "5+1*" for n.77_78insT is taken as 6.
+# Cohort sizes: GEL NDD 8,841; GEL non-NDD 21,817; gnomAD v4.0 76,215; UK Biobank 490,132; All of Us 245,400.
+key	hgvs	vtype	gel_ndd	nongel_ndd	gel_nonndd	gnomad	ukb	aou
+chr12:120291826:T:TA	n.77_78insT	ins	6	0	0	0	0	0
+chr12:120291827:T:TG	n.76_77insC	ins	0	0	0	1	0	0
+chr12:120291830:G:GA	n.73_74insT	ins	0	0	0	0	0	1
+chr12:120291830:G:GT	n.73_74insA	ins	0	0	0	0	0	1
+chr12:120291835:G:GT	n.68_69insA	ins	1	0	0	0	0	0
+chr12:120291838:T:TA	n.65_66insT	ins	1	0	0	0	0	0
+chr12:120291839:T:TA	n.64_65insT	ins	46	43	0	0	1	0
+chr12:120291839:T:TC	n.64_65insG	ins	0	2	0	0	0	0
+chr12:120291839:T:TG	n.64_65insC	ins	0	0	0	0	1	1
+chr12:120291826:T:C	n.78A>G	snv	0	0	0	0	0	1
+chr12:120291826:T:G	n.78A>C	snv	1	0	0	0	0	0
+chr12:120291827:T:C	n.77A>G	snv	0	0	0	0	6	10
+chr12:120291828:G:A	n.76C>T	snv	1	6	0	0	0	0
+chr12:120291828:G:C	n.76C>G	snv	0	0	0	0	1	0
+chr12:120291830:G:A	n.74C>T	snv	0	0	0	0	1	0
+chr12:120291830:G:C	n.74C>G	snv	0	0	0	0	1	0
+chr12:120291830:G:T	n.74C>A	snv	0	0	0	0	0	2
+chr12:120291831:A:G	n.73T>C	snv	0	0	0	1	3	2
+chr12:120291831:A:T	n.73T>A	snv	0	0	0	0	7	0
+chr12:120291832:A:C	n.72T>G	snv	0	0	0	0	1	0
+chr12:120291832:A:G	n.72T>C	snv	0	0	0	0	2	0
+chr12:120291832:A:T	n.72T>A	snv	0	0	1	0	4	0
+chr12:120291833:A:T	n.71T>A	snv	0	0	0	0	2	0
+chr12:120291833:A:C	n.71T>G	snv	0	0	1	0	4	0
+chr12:120291835:G:A	n.69C>T	snv	0	1	0	0	0	0
+chr12:120291836:T:C	n.68A>G	snv	0	0	0	0	1	0
+chr12:120291837:T:C	n.67A>G	snv	1	2	0	0	0	0
+chr12:120291838:T:C	n.66A>G	snv	0	0	0	1	1	0
+chr12:120291838:T:G	n.66A>C	snv	0	0	0	0	0	2
+chr12:120291839:T:C	n.65A>G	snv	2	0	0	0	0	0
+chr12:120291840:C:G	n.64G>C	snv	0	0	0	0	1	0
+chr12:120291841:A:C	n.63T>G	snv	1	0	0	0	0	0
