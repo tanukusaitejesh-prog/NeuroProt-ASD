@@ -121,3 +121,82 @@ def header(vcf_url, n=400_000):
     """Return the VCF header lines (and so the sample names)."""
     text = _bgzf_blocks(_get(vcf_url, 0, n)).decode("utf8", "replace")
     return [l for l in text.split("\n") if l.startswith("#")]
+
+
+# ---------------------------------------------------------------------------------------------------------
+# CSI (coordinate-sorted index) support. Same purpose as TBI but a different on-disk layout: configurable
+# min_shift/depth, a per-bin loffset instead of a separate linear index. Needed for the Roulette mutation-rate
+# VCFs, which ship .csi only.
+
+def read_csi(url, timeout=900):
+    """Parse a .csi into {chrom: (bins, min_shift, depth)}; chromosome names come from the aux block."""
+    raw = gzip.decompress(_get(url, timeout=timeout))
+    assert raw[:4] == b"CSI\x01", "not a CSI index"
+    min_shift, depth, l_aux = struct.unpack("<3i", raw[4:16])
+    aux = raw[16:16 + l_aux]
+    names = []
+    if l_aux >= 28:                       # tabix-style aux: 7 int32 then the name block
+        l_nm = struct.unpack("<i", aux[24:28])[0]
+        names = [n.decode() for n in aux[28:28 + l_nm].split(b"\x00") if n]
+    off = 16 + l_aux
+    (n_ref,) = struct.unpack("<i", raw[off:off + 4]); off += 4
+    idx = {}
+    for ref in range(n_ref):
+        (n_bin,) = struct.unpack("<i", raw[off:off + 4]); off += 4
+        bins = {}
+        for _ in range(n_bin):
+            bin_id, loffset, n_chunk = struct.unpack("<IQi", raw[off:off + 16]); off += 16
+            chunks = []
+            for _ in range(n_chunk):
+                b, e = struct.unpack("<QQ", raw[off:off + 16]); off += 16
+                chunks.append((b, e))
+            bins[bin_id] = chunks
+        idx[names[ref] if ref < len(names) else str(ref)] = (bins, min_shift, depth)
+    return idx
+
+
+def reg2bins_csi(beg, end, min_shift=14, depth=5):
+    """Bins overlapping [beg, end) under the CSI binning scheme."""
+    end -= 1
+    out, t, s = [], 0, min_shift + depth * 3
+    for lvl in range(depth + 1):
+        b = t + (beg >> s)
+        e = t + (end >> s)
+        out.extend(range(b, e + 1))
+        t += 1 << (lvl * 3)
+        s -= 3
+    return out
+
+
+def fetch_csi(vcf_url, idx, chrom, beg, end, max_bytes=60_000_000):
+    """Yield VCF lines overlapping chrom:beg-end from a remote bgzipped VCF indexed with CSI."""
+    if chrom not in idx:
+        alt = chrom[3:] if chrom.startswith("chr") else "chr" + chrom
+        if alt not in idx:
+            return []
+        chrom = alt
+    bins, min_shift, depth = idx[chrom]
+    want = []
+    for b in reg2bins_csi(beg - 1, end, min_shift, depth):
+        want.extend(bins.get(b, []))
+    if not want:
+        return []
+    lo = min(s >> 16 for s, _ in want)
+    hi = max(e >> 16 for _, e in want)
+    if hi - lo > max_bytes:
+        hi = lo + max_bytes
+    text = _bgzf_blocks(_get(vcf_url, lo, hi + 65536)).decode("utf8", "replace")
+    out = []
+    for line in text.split("\n"):
+        if not line or line[0] == "#":
+            continue
+        f = line.split("\t", 3)
+        if len(f) < 3 or f[0] not in (chrom, chrom.replace("chr", "")):
+            continue
+        try:
+            p = int(f[1])
+        except ValueError:
+            continue
+        if beg <= p <= end:
+            out.append(line)
+    return out
