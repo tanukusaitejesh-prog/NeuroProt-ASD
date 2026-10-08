@@ -93,7 +93,7 @@ established length dependence of replication slippage and serves as an internal 
 |---|---|---|
 | 2 | 0.09–0.11 | 149,527 |
 | 3 | 0.11–0.13 | 64,305 |
-| **4** | **0.21–0.26** | **21,831** |
+| **4** | **0.21–0.26** (short read) / **0.26–0.54** (long read) | **21,831** |
 | 5 | 0.48–0.60 | 8,722 |
 | 6 | 3.44–3.67 | 2,285 |
 | 7 | 7.22–7.39 | 1,005 |
@@ -118,8 +118,8 @@ frequency at a T₄ tract. Insertions at such sites remain roughly 2.5-fold *les
 Using the per-variant carrier counts reported in the discovery cohort, single-base insertions in the critical
 region have 19.8 patient carriers per allele (5 alleles, 99 carriers) against 2.5 for pathogenic
 single-nucleotide variants (6 alleles, 15 carriers) — a 7.9-fold excess per allele. Against a mutational
-expectation of 0.26, the discrepancy is **34-fold**. Considering n.64_65insT alone (89 carriers), it is
-**153-fold**.
+expectation of 0.40, the discrepancy is **20-fold**. Considering n.64_65insT alone (89 carriers), it is
+**89-fold**.
 
 We report the class-level comparison as primary because it does not single out the allele that was discovered
 first, and is therefore substantially more robust to ascertainment.
@@ -206,7 +206,9 @@ patient carriers and versus population carriers, both flat.
 with the fitted slope; T₄ marked. (b) The same split by base. (c) Poisson intervals at length four.
 
 **Figure 3.** The residual. Patient carriers per allele for insertions versus pathogenic substitutions in the
-critical region, alongside the mutational expectation, with the resulting 34-fold discrepancy annotated.
+critical region, alongside the mutational expectation from long-read data, with the resulting 20-fold
+discrepancy annotated. Inset: the short-read versus long-read rate estimate at each tract length, showing the
+measured under-detection.
 
 ## Data files
 
