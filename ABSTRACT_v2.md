@@ -60,6 +60,11 @@ alleles across 76,215 gnomAD genomes, yet carry 22 and 15 variants across 146 an
 the HPRC pangenome — as variable as their callable sibling *RNU1-2* [41]. Constraint and de novo enrichment, the two
 lines of evidence used to nominate snRNA disease genes, are uncomputable there.
 
+Calibrated against measured function, the score reaches a positive likelihood ratio of 12.0 at its 90th
+percentile (position-block 95% CI lower bound 4.87), meeting the ClinGen Bayesian threshold for PP3_moderate on
+the conservative bound, at 33% sensitivity; CADD and phyloP447 reach no evidence band at any threshold (LR+
+0.50-1.04) [sge_calibration]. This is a functional rather than clinical calibration and is labelled as such.
+
 **Conclusions.** Multi-state structural context identifies dominant snRNA variants that conservation and genome-wide
 predictors miss, and is the only evidence type tested here that tracks measured molecular function. We provide
 precomputed scores for 13,280 variants across 17 spliceosomal snRNA genes, annotated with which loci population

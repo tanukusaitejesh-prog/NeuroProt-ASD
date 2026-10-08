@@ -1,0 +1,13 @@
+score	pct	LR_plus	CI_low	sens	band
+snRNA-VEP (zero-shot)	80	3.47	1.79	0.44	none
+snRNA-VEP (zero-shot)	90	12.03	4.87	0.33	moderate
+snRNA-VEP (zero-shot)	95	18.05	2.53	0.2	supporting
+contacts (graph-smoothed)	80	7.41	4.11	0.57	supporting
+contacts (graph-smoothed)	90	5.18	1.86	0.26	none
+contacts (graph-smoothed)	95	3.2	0.67	0.14	none
+CADD	80	0.96	0.47	0.17	none
+CADD	90	0.97	0.29	0.09	none
+CADD	95	0.5	0.0	0.03	none
+phyloP447	80	1.04	0.86	0.8	none
+phyloP447	90	0.66	0.2	0.11	none
+phyloP447	95	0.66	0.2	0.11	none

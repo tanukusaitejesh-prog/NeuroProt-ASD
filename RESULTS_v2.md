@@ -82,6 +82,22 @@ Curated pathogenicity labels are themselves derived in part from population data
 score matches a mechanistic model on labels while carrying almost no independent information about function.
 For non-coding variants the two are therefore not interchangeable benchmarks.
 
+
+## 5b. Calibration against measured function
+
+The 2026 guidance states that in silico tools should inform PP3/BP4 only once calibrated for snRNAs. Using the
+RNU4-2 saturation screen as functional truth (damaging = lowest quartile of function score; 121 damaging, 364
+tolerated across 137 positions) and zero-shot scores with the U4 family withheld, the model reaches a positive
+likelihood ratio of 12.03 at its 90th percentile, with a position-block 95% CI lower bound of 4.87 - meeting the
+ClinGen Bayesian threshold for PP3_moderate on the lower bound - at 33% sensitivity. The graph-smoothed contact
+feature alone reaches PP3_supporting (LR+ 7.41, lower bound 4.11, sensitivity 57%). CADD and phyloP447 reach no
+evidence band at any threshold tested (LR+ 0.50-1.04). [sge_calibration]
+
+This is calibration against a cell-fitness readout, not against clinical outcome, and should not be substituted
+for clinical calibration. It is reported because it is the only functional truth set available for any snRNA
+gene, and because the alternative - calibrating on curated labels - is precisely the circularity documented in
+section 5.
+
 ## 6. Allele-specific structural scoring
 
 The contact model scores positions, so all three substitutions at a nucleotide receive one score. We added
