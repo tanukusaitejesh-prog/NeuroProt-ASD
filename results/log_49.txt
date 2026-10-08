@@ -1,0 +1,53 @@
+reading gnomAD chr12 index ...
+  window 1: 21,487,487-21,687,487  39,472 SNVs, 800 1-bp insertions, 39,735 tracts
+  window 2: 23,687,617-23,887,617  40,749 SNVs, 764 1-bp insertions, 39,148 tracts
+  window 3: 26,771,612-26,971,612  36,478 SNVs, 796 1-bp insertions, 39,554 tracts
+  window 4: 35,774,056-35,974,056  0 SNVs, 0 1-bp insertions, 38,896 tracts
+  window 5: 44,280,804-44,480,804  38,013 SNVs, 568 1-bp insertions, 39,407 tracts
+  window 6: 47,704,648-47,904,648  39,112 SNVs, 587 1-bp insertions, 39,772 tracts
+  window 7: 66,002,283-66,202,283  37,803 SNVs, 817 1-bp insertions, 39,419 tracts
+  window 8: 77,326,551-77,526,551  38,979 SNVs, 637 1-bp insertions, 39,490 tracts
+  window 9: 93,194,321-93,394,321  37,164 SNVs, 818 1-bp insertions, 39,507 tracts
+  window 10: 96,556,180-96,756,180  37,955 SNVs, 659 1-bp insertions, 39,399 tracts
+
+total sequence scanned: 2,000,000 bp; observed PASS SNVs: 345,725
+observed SNV alleles per possible SNV: 0.05762
+
+=== single-base insertion frequency by homopolymer tract, relative to the per-SNV frequency ===
+base  length  n_tracts  n_insertions  ins_per_tract  rel_to_snv
+   A       2     74938           407         0.0054      0.0943
+   C       2     54073           276         0.0051      0.0886
+   G       2     56250           334         0.0059      0.1030
+   T       2     74589           486         0.0065      0.1131
+   A       3     30375           191         0.0063      0.1091
+   C       3     13615           103         0.0076      0.1313
+   G       3     13478           120         0.0089      0.1545
+   T       3     33930           256         0.0075      0.1309
+   A       4     10839           130         0.0120      0.2081
+   C       4      3172            39         0.0123      0.2134
+   G       4      3127            84         0.0269      0.4662
+   T       4     10992           163         0.0148      0.2574
+   A       5      4332           121         0.0279      0.4847
+   C       5       716            35         0.0489      0.8484
+   G       5       695            50         0.0719      1.2485
+   T       5      4390           152         0.0346      0.6009
+   A       6      1130           224         0.1982      3.4403
+   C       6       139            34         0.2446      4.2451
+   G       6       141            45         0.3191      5.5388
+   T       6      1155           244         0.2113      3.6663
+   A       7       493           205         0.4158      7.2165
+   G       7        36            38         1.0556     18.3190
+   T       7       512           218         0.4258      7.3894
+   A       8       177           115         0.6497     11.2757
+   T       8       183           140         0.7650     13.2769
+   A       9       105            82         0.7810     13.5533
+   T       9       104           100         0.9615     16.6873
+   A      10        67            66         0.9851     17.0958
+   T      10        59            50         0.8475     14.7075
+   A      11        44            45         1.0227     17.7493
+   T      11        39            45         1.1538     20.0248
+   T      12        34            48         1.4118     24.5009
+
+T/A homopolymer of length 4: insertions are 0.2x as frequent per tract as an SNV is per possible substitution
+  n.64_65insT has 89 NDD carriers; critical-region pathogenic SNVs average 2.5 per allele
+  36x observed excess / 0.2x mutational expectation = 154.7x residual
