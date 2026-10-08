@@ -1,0 +1,6 @@
+score	n_positions_informative	mean_within_rho	top_allele_correct	expected_by_chance
+allele_score (new)	45	0.3464101615137755	0.4444444444444444	0.3333333333333333
+pair broken by alt	44	0.3739655152705531	0.45454545454545453	0.3333333333333333
+CADD	137	-0.07664233576642336	0.32116788321167883	0.3333333333333333
+phyloP447 (position-level control)	0			0.3333333333333333
+contact fraction (position-level control)	0			0.3333333333333333
