@@ -1,0 +1,35 @@
+{
+  "deposited_utc": "2026-10-08T18:45:33Z",
+  "file": "prospective_deposit_2026-10-09.tsv",
+  "sha256": "b5b2249a570a4169993d260327d03292b20ada2eca98509120b6289b3a60d6a4",
+  "n_variants": 2777,
+  "by_gene": {
+    "RNU2-2P": 1251,
+    "RNU5A-1": 763,
+    "RNU5B-1": 763
+  },
+  "model": "snRNA-VEP v2-nested, label set v5c, frozen in ANALYSIS_PLAN.md",
+  "primary_targets": [
+    "RNU2-2P",
+    "RNU5B-1"
+  ],
+  "secondary_target": [
+    "RNU5A-1"
+  ],
+  "declared_evaluation_protocol": {
+    "primary_metric": "Spearman rho between score_dominant and the negated SGE function score, computed over all assayed SNVs with a structure node",
+    "comparators": [
+      "cadd_phred",
+      "phylop447",
+      "frac_states_protein_contact"
+    ],
+    "success_criterion": "score_dominant exceeds BOTH cadd_phred and phylop447, each with a position-block bootstrap 95% CI on the paired difference excluding zero",
+    "no_refitting": "the model is not retrained, rescored or reselected after the screen is released; the scores in this file are final",
+    "reporting": "the comparison is reported whatever its outcome, including failure"
+  },
+  "caveats": [
+    "RNU2-2P and RNU5B-1 contributed to model training in the frozen v2-nested system; these are therefore NOT zero-shot predictions. A zero-shot variant of the comparison is also pre-declared below.",
+    "zero_shot_addendum: held-out scores for these genes, produced with the gene excluded from training, are in results/v2_heldout_predictions_labels_v5c.tsv.gz and should be used for the stricter test.",
+    "SGE measures a cell-fitness readout, not the clinical phenotype."
+  ]
+}
