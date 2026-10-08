@@ -67,6 +67,11 @@ alleles across 76,215 gnomAD genomes, yet carry 22 and 15 variants across 146 an
 the HPRC pangenome — as variable as their callable sibling *RNU1-2* [41]. Constraint and de novo enrichment, the two
 lines of evidence used to nominate snRNA disease genes, are uncomputable there.
 
+Calibrated against measured function, the score reaches a positive likelihood ratio of 12.0 at its 90th
+percentile (position-block 95% CI lower bound 4.87), meeting the ClinGen Bayesian threshold for PP3_moderate on
+the conservative bound, at 33% sensitivity; CADD and phyloP447 reach no evidence band at any threshold (LR+
+0.50-1.04) [sge_calibration]. This is a functional rather than clinical calibration and is labelled as such.
+
 **Conclusions.** Multi-state structural context identifies dominant snRNA variants that conservation and genome-wide
 predictors miss, and is the only evidence type tested here that tracks measured molecular function. We provide
 precomputed scores for 13,280 variants across 17 spliceosomal snRNA genes, annotated with which loci population
@@ -191,6 +196,22 @@ own top quartile, against 45% for density, 40% for constraint, 21% for CADD and 
 Curated pathogenicity labels are themselves derived in part from population data, which explains why a depletion
 score matches a mechanistic model on labels while carrying almost no independent information about function.
 For non-coding variants the two are therefore not interchangeable benchmarks.
+
+
+## 5b. Calibration against measured function
+
+The 2026 guidance states that in silico tools should inform PP3/BP4 only once calibrated for snRNAs. Using the
+RNU4-2 saturation screen as functional truth (damaging = lowest quartile of function score; 121 damaging, 364
+tolerated across 137 positions) and zero-shot scores with the U4 family withheld, the model reaches a positive
+likelihood ratio of 12.03 at its 90th percentile, with a position-block 95% CI lower bound of 4.87 - meeting the
+ClinGen Bayesian threshold for PP3_moderate on the lower bound - at 33% sensitivity. The graph-smoothed contact
+feature alone reaches PP3_supporting (LR+ 7.41, lower bound 4.11, sensitivity 57%). CADD and phyloP447 reach no
+evidence band at any threshold tested (LR+ 0.50-1.04). [sge_calibration]
+
+This is calibration against a cell-fitness readout, not against clinical outcome, and should not be substituted
+for clinical calibration. It is reported because it is the only functional truth set available for any snRNA
+gene, and because the alternative - calibrating on curated labels - is precisely the circularity documented in
+section 5.
 
 ## 6. Allele-specific structural scoring
 
