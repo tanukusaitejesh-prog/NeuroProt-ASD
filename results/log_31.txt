@@ -1,0 +1,37 @@
+  9OOS (non-active): 4 GluN chains
+  9OOT (pre-active): 4 GluN chains
+  9OOQ (closed): 4 GluN chains
+  9OOR (open): 4 GluN chains
+  9IYP (Mg-bound): 4 GluN chains
+  9IYQ (Mg-free): 4 GluN chains
+  7EU8 (ketamine-blocked): 4 GluN chains
+  9D37 (non-active): 4 GluN chains
+  9D3A (non-active): 4 GluN chains
+  9D38 (open): 4 GluN chains
+  9D39 (antagonist-bound): 4 GluN chains
+  9D3B (NAM-bound): 4 GluN chains
+  9D3C (ketamine-blocked): 4 GluN chains
+  7EOS (agonist-bound): 4 GluN chains
+  7EOQ (antagonist-bound): 4 GluN chains
+  7EOT (CGP-78608-bound): 4 GluN chains
+  7EOR (PAM-bound): 4 GluN chains
+  7EOU (PAM+blocker): 4 GluN chains
+  7EU7 (ketamine-blocked): 4 GluN chains
+  6IRA (agonist pH7): 4 GluN chains
+  6IRF (agonist pH6): 4 GluN chains
+  8E99 (triheteromer): 4 GluN chains
+
+residues with features: 3809; per subunit:
+subunit
+GluN1     813
+GluN2A    795
+GluN2B    787
+GluN2D    777
+GluN2C    637
+states covered per subunit:
+subunit
+GluN1     16
+GluN2A     9
+GluN2B     9
+GluN2C     1
+GluN2D     5
