@@ -1,0 +1,27 @@
+file	exp	sample	rep	unique_assigned	multimapping	unmapped	ambiguous
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	35265456	17587633	2076937	9588997
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	39964443	20648977	2779488	13559469
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	27335653	15399487	1930646	10873440
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	52300782	35195595	4878135	17833385
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	25841504	16855641	1624357	10253979
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	33365398	20603627	1953730	9884305
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	35043284	21000571	1408912	10618926
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	30511802	15108754	892365	9528907
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	40227307	20050027	1540431	14796448
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	34164923	20115254	2067779	16419862
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	38354357	27788008	2843827	14119740
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	32672513	30519656	2922983	13398000
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	31919434	21885458	2846167	15248581
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	44087909	21413531	2603980	15221333
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	3417996	11801629	1144820	2494946
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	3171733	11334961	1313577	2543778
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	45850077	16752699	4279032	28453576
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	37022401	17063907	5595332	32177020
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	25789227	21274326	1257807	13366244
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	20131514	13575267	814349	4868447
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	27218212	54563761	59985249	12516845
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	34861999	68498058	32421065	17748479
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	22576728	46534096	66300555	10985215
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	34360975	53718358	37561296	17353903
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	13982372	82393068	51118804	6311752
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	11737274	60303245	66287278	5287679

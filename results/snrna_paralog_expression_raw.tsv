@@ -1,0 +1,703 @@
+file	exp	sample	rep	gene	family	count
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU5E-1	U5	57147
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU1-1	U1	2
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU1-3	U1	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU1-4	U1	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU1-2	U1	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU11	U11	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU5F-1	U5	74
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU5D-1	U5	840
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU4ATAC	U4atac	50179
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RMRP		0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6ATAC	U6atac	443
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU2-2P	U2	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU7-1	U7	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU4-2	U4	50395
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU4-1	U4	13331
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RPPH1		0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6-7	U6	21
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6-8	U6	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RN7SL1		0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RN7SL2		351
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU5A-1	U5	15778651
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU5B-1	U5	5342521
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6-1	U6	2
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU2-1	U2	0
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6-9	U6	1
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU6-2	U6	7
+ENCFF780KDV	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	1	RNU12	U12	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU5E-1	U5	98609
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU1-1	U1	2
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU1-3	U1	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU1-4	U1	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU1-2	U1	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU11	U11	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU5F-1	U5	148
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU5D-1	U5	1826
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU4ATAC	U4atac	67267
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RMRP		0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6ATAC	U6atac	442
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU2-2P	U2	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU7-1	U7	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU4-2	U4	54961
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU4-1	U4	25245
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RPPH1		0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6-7	U6	36
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6-8	U6	1
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RN7SL1		0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RN7SL2		269
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU5A-1	U5	15588305
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU5B-1	U5	5657672
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6-1	U6	1
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU2-1	U2	0
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6-9	U6	1
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU6-2	U6	7
+ENCFF776MTF	ENCSR000AFR	Homo sapiens diencephalon tissue female embryo (20 weeks) an	2	RNU12	U12	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU5E-1	U5	47598
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU1-1	U1	1
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU1-3	U1	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU1-4	U1	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU1-2	U1	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU11	U11	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU5F-1	U5	294
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU5D-1	U5	1112
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU4ATAC	U4atac	53758
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RMRP		1
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6ATAC	U6atac	314
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU2-2P	U2	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU7-1	U7	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU4-2	U4	52223
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU4-1	U4	23236
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RPPH1		0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6-7	U6	43
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6-8	U6	2
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RN7SL1		0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RN7SL2		1961
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU5A-1	U5	9014053
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU5B-1	U5	2477890
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6-1	U6	5
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU2-1	U2	0
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6-9	U6	3
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU6-2	U6	9
+ENCFF136QQG	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	1	RNU12	U12	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU5E-1	U5	93057
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU1-1	U1	3
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU1-3	U1	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU1-4	U1	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU1-2	U1	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU11	U11	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU5F-1	U5	491
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU5D-1	U5	2300
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU4ATAC	U4atac	68823
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RMRP		1
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6ATAC	U6atac	706
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU2-2P	U2	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU7-1	U7	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU4-2	U4	100142
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU4-1	U4	56071
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RPPH1		0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6-7	U6	13
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6-8	U6	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RN7SL1		0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RN7SL2		10729
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU5A-1	U5	18964276
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU5B-1	U5	6069007
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6-1	U6	5
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU2-1	U2	0
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6-9	U6	12
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU6-2	U6	16
+ENCFF954DDW	ENCSR000AGB	Homo sapiens spinal cord tissue female embryo (24 weeks) and	2	RNU12	U12	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU5E-1	U5	87775
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU1-1	U1	2
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU1-3	U1	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU1-4	U1	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU1-2	U1	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU11	U11	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU5F-1	U5	224
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU5D-1	U5	1116
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU4ATAC	U4atac	69669
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RMRP		0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6ATAC	U6atac	297
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU2-2P	U2	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU7-1	U7	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU4-2	U4	43304
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU4-1	U4	12879
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RPPH1		0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6-7	U6	3
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6-8	U6	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RN7SL1		0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RN7SL2		17
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU5A-1	U5	11789150
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU5B-1	U5	6100741
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6-1	U6	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU2-1	U2	0
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6-9	U6	5
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU6-2	U6	6
+ENCFF888RWL	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	1	RNU12	U12	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU5E-1	U5	144412
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU1-1	U1	2
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU1-3	U1	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU1-4	U1	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU1-2	U1	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU11	U11	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU5F-1	U5	311
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU5D-1	U5	1630
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU4ATAC	U4atac	39739
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RMRP		0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6ATAC	U6atac	646
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU2-2P	U2	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU7-1	U7	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU4-2	U4	68856
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU4-1	U4	33499
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RPPH1		0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6-7	U6	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6-8	U6	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RN7SL1		0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RN7SL2		147
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU5A-1	U5	15033076
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU5B-1	U5	8359149
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6-1	U6	1
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU2-1	U2	0
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6-9	U6	1
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU6-2	U6	2
+ENCFF228RHQ	ENCSR000AFY	Homo sapiens parietal lobe tissue female embryo (24 weeks) a	2	RNU12	U12	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU5E-1	U5	61620
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU1-1	U1	3
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU1-3	U1	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU1-4	U1	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU1-2	U1	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU11	U11	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU5F-1	U5	96
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU5D-1	U5	363
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU4ATAC	U4atac	42290
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RMRP		0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6ATAC	U6atac	119
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU2-2P	U2	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU7-1	U7	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU4-2	U4	34902
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU4-1	U4	8721
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RPPH1		0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6-7	U6	1
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6-8	U6	4
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RN7SL1		0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RN7SL2		1036
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU5A-1	U5	15984101
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU5B-1	U5	5921241
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6-1	U6	3
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU2-1	U2	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6-9	U6	0
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU6-2	U6	12
+ENCFF358UBG	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	1	RNU12	U12	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU5E-1	U5	97785
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU1-1	U1	1
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU1-3	U1	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU1-4	U1	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU1-2	U1	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU11	U11	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU5F-1	U5	88
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU5D-1	U5	1085
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU4ATAC	U4atac	46127
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RMRP		0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6ATAC	U6atac	128
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU2-2P	U2	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU7-1	U7	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU4-2	U4	37731
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU4-1	U4	10345
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RPPH1		0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6-7	U6	6
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6-8	U6	6
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RN7SL1		0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RN7SL2		1592
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU5A-1	U5	14335131
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU5B-1	U5	6624869
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6-1	U6	1
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU2-1	U2	0
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6-9	U6	2
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU6-2	U6	7
+ENCFF844JQT	ENCSR000AFX	Homo sapiens occipital lobe tissue female embryo (20 weeks) 	2	RNU12	U12	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU5E-1	U5	58526
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU1-1	U1	3
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU1-3	U1	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU1-4	U1	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU1-2	U1	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU11	U11	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU5F-1	U5	43
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU5D-1	U5	709
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU4ATAC	U4atac	54254
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RMRP		0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6ATAC	U6atac	230
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU2-2P	U2	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU7-1	U7	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU4-2	U4	48818
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU4-1	U4	11221
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RPPH1		0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6-7	U6	7
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6-8	U6	2
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RN7SL1		0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RN7SL2		339
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU5A-1	U5	14905862
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU5B-1	U5	5919894
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6-1	U6	3
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU2-1	U2	0
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6-9	U6	1
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU6-2	U6	20
+ENCFF314LPK	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	1	RNU12	U12	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU5E-1	U5	66642
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU1-1	U1	2
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU1-3	U1	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU1-4	U1	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU1-2	U1	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU11	U11	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU5F-1	U5	52
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU5D-1	U5	1019
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU4ATAC	U4atac	55222
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RMRP		0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6ATAC	U6atac	249
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU2-2P	U2	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU7-1	U7	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU4-2	U4	51649
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU4-1	U4	15930
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RPPH1		0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6-7	U6	15
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6-8	U6	3
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RN7SL1		0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RN7SL2		478
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU5A-1	U5	11152694
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU5B-1	U5	5084720
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6-1	U6	2
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU2-1	U2	0
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6-9	U6	3
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU6-2	U6	12
+ENCFF484IXG	ENCSR000AFS	Homo sapiens frontal cortex tissue female embryo (20 weeks) 	2	RNU12	U12	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU5E-1	U5	103119
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU1-1	U1	8
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU1-3	U1	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU1-4	U1	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU1-2	U1	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU11	U11	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU5F-1	U5	407
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU5D-1	U5	719
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU4ATAC	U4atac	81967
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RMRP		0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6ATAC	U6atac	665
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU2-2P	U2	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU7-1	U7	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU4-2	U4	101781
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU4-1	U4	24625
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RPPH1		0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6-7	U6	8
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6-8	U6	2
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RN7SL1		0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RN7SL2		609
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU5A-1	U5	12778854
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU5B-1	U5	6070633
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6-1	U6	2
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU2-1	U2	0
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6-9	U6	6
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU6-2	U6	13
+ENCFF478BQT	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	1	RNU12	U12	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU5E-1	U5	86814
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU1-1	U1	10
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU1-3	U1	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU1-4	U1	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU1-2	U1	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU11	U11	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU5F-1	U5	383
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU5D-1	U5	1362
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU4ATAC	U4atac	75911
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RMRP		0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6ATAC	U6atac	535
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU2-2P	U2	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU7-1	U7	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU4-2	U4	90164
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU4-1	U4	30417
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RPPH1		0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6-7	U6	2
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6-8	U6	2
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RN7SL1		0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RN7SL2		6842
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU5A-1	U5	11014838
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU5B-1	U5	6341815
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6-1	U6	2
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU2-1	U2	0
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6-9	U6	3
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU6-2	U6	12
+ENCFF590RAN	ENCSR000AGD	Homo sapiens temporal lobe tissue female embryo (20 weeks) a	2	RNU12	U12	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU5E-1	U5	38379
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU1-1	U1	3
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU1-3	U1	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU1-4	U1	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU1-2	U1	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU11	U11	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU5F-1	U5	102
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU5D-1	U5	200
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU4ATAC	U4atac	81582
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RMRP		0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6ATAC	U6atac	254
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU2-2P	U2	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU7-1	U7	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU4-2	U4	54435
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU4-1	U4	16192
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RPPH1		0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6-7	U6	19
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6-8	U6	1
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RN7SL1		0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RN7SL2		185
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU5A-1	U5	12701412
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU5B-1	U5	4860529
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6-1	U6	1
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU2-1	U2	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6-9	U6	0
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU6-2	U6	10
+ENCFF231OME	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	1	RNU12	U12	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU5E-1	U5	85289
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU1-1	U1	3
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU1-3	U1	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU1-4	U1	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU1-2	U1	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU11	U11	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU5F-1	U5	142
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU5D-1	U5	882
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU4ATAC	U4atac	83856
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RMRP		0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6ATAC	U6atac	488
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU2-2P	U2	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU7-1	U7	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU4-2	U4	54202
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU4-1	U4	26604
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RPPH1		0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6-7	U6	115
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6-8	U6	4
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RN7SL1		0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RN7SL2		90
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU5A-1	U5	21883667
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU5B-1	U5	5780127
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6-1	U6	1
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU2-1	U2	0
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6-9	U6	2
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU6-2	U6	16
+ENCFF444BMK	ENCSR000AFQ	Homo sapiens cerebellum tissue female embryo (19 weeks) and 	2	RNU12	U12	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU5E-1	U5	4074
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU1-1	U1	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU1-3	U1	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU1-4	U1	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU1-2	U1	1
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU11	U11	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU5F-1	U5	15
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU5D-1	U5	37
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU4ATAC	U4atac	652
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RMRP		0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6ATAC	U6atac	16
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU2-2P	U2	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU7-1	U7	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU4-2	U4	2830
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU4-1	U4	9972
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RPPH1		0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6-7	U6	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6-8	U6	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RN7SL1		0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RN7SL2		6
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU5A-1	U5	9997
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU5B-1	U5	1364
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6-1	U6	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU2-1	U2	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6-9	U6	0
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU6-2	U6	1
+ENCFF362BTN	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	1	RNU12	U12	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU5E-1	U5	8321
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU1-1	U1	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU1-3	U1	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU1-4	U1	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU1-2	U1	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU11	U11	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU5F-1	U5	7
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU5D-1	U5	35
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU4ATAC	U4atac	679
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RMRP		0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6ATAC	U6atac	15
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU2-2P	U2	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU7-1	U7	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU4-2	U4	3179
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU4-1	U4	9271
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RPPH1		0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6-7	U6	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6-8	U6	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RN7SL1		0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RN7SL2		0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU5A-1	U5	12841
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU5B-1	U5	1528
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6-1	U6	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU2-1	U2	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6-9	U6	0
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU6-2	U6	1
+ENCFF632HTI	ENCSR291IZK	Homo sapiens neuronal stem cell originated from H1	2	RNU12	U12	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU5E-1	U5	147207
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU1-1	U1	3
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU1-3	U1	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU1-4	U1	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU1-2	U1	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU11	U11	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU5F-1	U5	1547
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU5D-1	U5	5037
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU4ATAC	U4atac	87374
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RMRP		0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6ATAC	U6atac	232
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU2-2P	U2	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU7-1	U7	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU4-2	U4	15038
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU4-1	U4	48241
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RPPH1		0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6-7	U6	554
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6-8	U6	11
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RN7SL1		0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RN7SL2		4881
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU5A-1	U5	12518128
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU5B-1	U5	602118
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6-1	U6	143
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU2-1	U2	0
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6-9	U6	17
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU6-2	U6	53
+ENCFF679UJV	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	1	RNU12	U12	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU5E-1	U5	51946
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU1-1	U1	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU1-3	U1	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU1-4	U1	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU1-2	U1	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU11	U11	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU5F-1	U5	376
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU5D-1	U5	1417
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU4ATAC	U4atac	49267
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RMRP		0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6ATAC	U6atac	171
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU2-2P	U2	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU7-1	U7	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU4-2	U4	11938
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU4-1	U4	65043
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RPPH1		0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6-7	U6	433
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6-8	U6	9
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RN7SL1		0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RN7SL2		7517
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU5A-1	U5	1246912
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU5B-1	U5	68916
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6-1	U6	93
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU2-1	U2	0
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6-9	U6	15
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU6-2	U6	12
+ENCFF849YFL	ENCSR828LSC	Homo sapiens neural progenitor cell originated from H9	2	RNU12	U12	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU5E-1	U5	148939
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU1-1	U1	1
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU1-3	U1	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU1-4	U1	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU1-2	U1	1
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU11	U11	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU5F-1	U5	844
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU5D-1	U5	262
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU4ATAC	U4atac	110157
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RMRP		0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6ATAC	U6atac	81
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU2-2P	U2	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU7-1	U7	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU4-2	U4	85857
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU4-1	U4	96186
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RPPH1		0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6-7	U6	48
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6-8	U6	2
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RN7SL1		0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RN7SL2		16757
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU5A-1	U5	8969690
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU5B-1	U5	903191
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6-1	U6	22
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU2-1	U2	0
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6-9	U6	10
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU6-2	U6	13
+ENCFF587ITO	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	1	RNU12	U12	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU5E-1	U5	507812
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU1-1	U1	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU1-3	U1	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU1-4	U1	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU1-2	U1	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU11	U11	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU5F-1	U5	2570
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU5D-1	U5	581
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU4ATAC	U4atac	57963
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RMRP		0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6ATAC	U6atac	157
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU2-2P	U2	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU7-1	U7	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU4-2	U4	43105
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU4-1	U4	70282
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RPPH1		0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6-7	U6	16
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6-8	U6	3
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RN7SL1		0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RN7SL2		2171
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU5A-1	U5	12706830
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU5B-1	U5	1307326
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6-1	U6	10
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU2-1	U2	0
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6-9	U6	11
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU6-2	U6	18
+ENCFF890UCC	ENCSR603RPC	Homo sapiens bipolar neuron originated from GM23338 treated 	2	RNU12	U12	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU5E-1	U5	20024
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU1-1	U1	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU1-3	U1	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU1-4	U1	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU1-2	U1	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU11	U11	84
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU5F-1	U5	40
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU5D-1	U5	793
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU4ATAC	U4atac	63342
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RMRP		0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6ATAC	U6atac	17327
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU2-2P	U2	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU7-1	U7	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU4-2	U4	120060
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU4-1	U4	43068
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RPPH1		0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6-7	U6	1
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6-8	U6	99
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RN7SL1		0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RN7SL2		131
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU5A-1	U5	17872
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU5B-1	U5	136801
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6-1	U6	2
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU2-1	U2	0
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6-9	U6	29
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU6-2	U6	628
+ENCFF240NOH	ENCSR000CVR	Homo sapiens neural cell originated from H1	1	RNU12	U12	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU5E-1	U5	24184
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU1-1	U1	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU1-3	U1	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU1-4	U1	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU1-2	U1	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU11	U11	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU5F-1	U5	2
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU5D-1	U5	1107
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU4ATAC	U4atac	116366
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RMRP		0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6ATAC	U6atac	40630
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU2-2P	U2	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU7-1	U7	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU4-2	U4	103353
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU4-1	U4	37114
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RPPH1		0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6-7	U6	1
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6-8	U6	120
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RN7SL1		0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RN7SL2		296
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU5A-1	U5	15396
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU5B-1	U5	112277
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6-1	U6	79
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU2-1	U2	0
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6-9	U6	112
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU6-2	U6	533
+ENCFF245SJH	ENCSR000CVR	Homo sapiens neural cell originated from H1	2	RNU12	U12	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU5E-1	U5	13218
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU1-1	U1	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU1-3	U1	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU1-4	U1	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU1-2	U1	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU11	U11	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU5F-1	U5	1
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU5D-1	U5	205
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU4ATAC	U4atac	7752
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RMRP		0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6ATAC	U6atac	1327
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU2-2P	U2	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU7-1	U7	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU4-2	U4	51816
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU4-1	U4	16680
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RPPH1		0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6-7	U6	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6-8	U6	70
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RN7SL1		0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RN7SL2		23
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU5A-1	U5	9858
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU5B-1	U5	77849
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6-1	U6	3
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU2-1	U2	0
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6-9	U6	6
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU6-2	U6	20
+ENCFF368OTJ	ENCSR000CVP	Homo sapiens neural cell originated from H1	1	RNU12	U12	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU5E-1	U5	17116
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU1-1	U1	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU1-3	U1	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU1-4	U1	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU1-2	U1	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU11	U11	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU5F-1	U5	10
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU5D-1	U5	368
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU4ATAC	U4atac	7338
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RMRP		0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6ATAC	U6atac	2282
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU2-2P	U2	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU7-1	U7	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU4-2	U4	31237
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU4-1	U4	12145
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RPPH1		0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6-7	U6	8
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6-8	U6	79
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RN7SL1		0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RN7SL2		15
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU5A-1	U5	9055
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU5B-1	U5	85940
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6-1	U6	2
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU2-1	U2	0
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6-9	U6	71
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU6-2	U6	25
+ENCFF321FEM	ENCSR000CVP	Homo sapiens neural cell originated from H1	2	RNU12	U12	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU5E-1	U5	59953
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU1-1	U1	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU1-3	U1	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU1-4	U1	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU1-2	U1	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU11	U11	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU5F-1	U5	116
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU5D-1	U5	2108
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU4ATAC	U4atac	285806
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RMRP		0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6ATAC	U6atac	86432
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU2-2P	U2	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU7-1	U7	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU4-2	U4	510231
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU4-1	U4	171694
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RPPH1		0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6-7	U6	57
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6-8	U6	42
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RN7SL1		0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RN7SL2		452
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU5A-1	U5	55981
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU5B-1	U5	320750
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6-1	U6	50
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU2-1	U2	0
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6-9	U6	228
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU6-2	U6	1479
+ENCFF711LJB	ENCSR000CVQ	Homo sapiens neural cell originated from H1	1	RNU12	U12	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU5E-1	U5	44360
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU1-1	U1	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU1-3	U1	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU1-4	U1	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU1-2	U1	3
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU11	U11	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU5F-1	U5	120
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU5D-1	U5	1628
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU4ATAC	U4atac	169835
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RMRP		0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6ATAC	U6atac	64429
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU2-2P	U2	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU7-1	U7	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU4-2	U4	419830
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU4-1	U4	147353
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RPPH1		0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6-7	U6	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6-8	U6	91
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RN7SL1		0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RN7SL2		366
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU5A-1	U5	47241
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU5B-1	U5	273276
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6-1	U6	2
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU2-1	U2	0
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6-9	U6	245
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU6-2	U6	1315
+ENCFF826APU	ENCSR000CVQ	Homo sapiens neural cell originated from H1	2	RNU12	U12	0
