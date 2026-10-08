@@ -1,0 +1,893 @@
+  5/296 files
+  10/296 files
+  15/296 files
+  20/296 files
+  25/296 files
+  30/296 files
+  35/296 files
+  40/296 files
+  45/296 files
+  50/296 files
+  55/296 files
+  60/296 files
+  65/296 files
+  70/296 files
+  75/296 files
+  80/296 files
+  85/296 files
+  90/296 files
+  95/296 files
+  100/296 files
+  105/296 files
+  110/296 files
+  115/296 files
+  120/296 files
+  125/296 files
+  130/296 files
+  135/296 files
+  140/296 files
+  145/296 files
+  150/296 files
+  155/296 files
+  160/296 files
+  165/296 files
+  170/296 files
+  175/296 files
+  180/296 files
+  185/296 files
+  190/296 files
+  195/296 files
+  200/296 files
+  205/296 files
+  210/296 files
+  215/296 files
+  220/296 files
+  225/296 files
+  230/296 files
+  235/296 files
+  240/296 files
+  245/296 files
+  250/296 files
+  255/296 files
+  260/296 files
+  265/296 files
+  270/296 files
+  275/296 files
+  280/296 files
+  285/296 files
+  290/296 files
+  295/296 files
+
+samples: 296; snRNA gene records: 7992
+
+=== fraction of each small RNA-seq library discarded as multimapping ===
+                                      sample rep  multimapping  pct_multimapping
+Homo sapiens Peyer's patch tissue female adu   1      13447493         26.759226
+Homo sapiens Peyer's patch tissue male adult   1      23581001         35.882191
+Homo sapiens upper lobe of left lung tissue    1      28101262         54.763578
+Homo sapiens upper lobe of left lung tissue    1      15796991         32.351374
+Homo sapiens upper lobe of left lung tissue    1      20618247         45.107539
+Homo sapiens upper lobe of left lung tissue    1      17820146         32.055431
+Homo sapiens right lobe of liver tissue fema   1      25155688         42.983144
+Homo sapiens right lobe of liver tissue fema   1      24396850         42.786075
+Homo sapiens stomach tissue female adult (51   1      17629371         30.540899
+Homo sapiens stomach tissue female adult (53   1      24092148         46.873115
+Homo sapiens stomach tissue male adult (54 y   1      17355495         35.295447
+Homo sapiens stomach tissue male adult (37 y   1      18911836         33.052506
+Homo sapiens spleen tissue female adult (51    1      15811315         27.441866
+Homo sapiens spleen tissue female adult (53    1      12086432         26.395304
+Homo sapiens spleen tissue male adult (54 ye   1      15480657         33.837911
+Homo sapiens spleen tissue male adult (37 ye   1      11891822         23.332055
+Homo sapiens prostate gland tissue male adul   1      14879377         31.221621
+Homo sapiens prostate gland tissue male adul   1      18645894         41.683851
+Homo sapiens body of pancreas tissue female    1      12860005         39.776421
+Homo sapiens body of pancreas tissue female    1      18798402         24.744753
+Homo sapiens ovary tissue female adult (51 y   1       9322286         22.125006
+Homo sapiens esophagus muscularis mucosa tis   1      14200145         37.663667
+Homo sapiens esophagus muscularis mucosa tis   1      10305304         21.227773
+Homo sapiens esophagus muscularis mucosa tis   1       9577598         27.735491
+Homo sapiens esophagus squamous epithelium t   1      15593858         37.965135
+Homo sapiens esophagus squamous epithelium t   1      12858339         22.685517
+Homo sapiens esophagus squamous epithelium t   1      18447733         38.295489
+Homo sapiens esophagus squamous epithelium t   1      11098654         23.554222
+Homo sapiens adrenal gland tissue female adu   1      17157631         43.709564
+Homo sapiens adrenal gland tissue female adu   1      16281166         37.770899
+Homo sapiens omental fat pad tissue male adu   1      30075652         54.123636
+Homo sapiens subcutaneous adipose tissue tis   1      27198983         53.094753
+Homo sapiens gastroesophageal sphincter tiss   1      22439714         52.029886
+Homo sapiens gastroesophageal sphincter tiss   1      14233398         32.695154
+Homo sapiens gastroesophageal sphincter tiss   1      14599756         37.763393
+Homo sapiens gastroesophageal sphincter tiss   1      18888067         32.508950
+Homo sapiens transverse colon tissue female    1      27474874         58.960869
+Homo sapiens transverse colon tissue female    1      17957100         40.838712
+Homo sapiens transverse colon tissue male ad   1      20997820         41.159092
+Homo sapiens transverse colon tissue male ad   1      16751729         42.652328
+Homo sapiens vagina tissue female adult (53    1      11141660         29.390130
+Homo sapiens uterus tissue female adult (51    1       6008832         15.693217
+Homo sapiens thyroid gland tissue female adu   1      12648371         29.233880
+Homo sapiens testis tissue male adult (54 ye   1       8966414         26.429212
+Homo sapiens testis tissue male adult (37 ye   1       4872758         16.806012
+Homo sapiens tibial nerve tissue male adult    1      11936701         34.487805
+Homo sapiens sigmoid colon tissue female adu   1      19992821         50.914917
+Homo sapiens sigmoid colon tissue female adu   1      11857819         21.718318
+Homo sapiens sigmoid colon tissue male adult   1      11742570         17.515168
+Homo sapiens sigmoid colon tissue male adult   1       9219722         21.359094
+Homo sapiens trophoblast cell originated fro   1       7864231         44.781852
+Homo sapiens trophoblast cell originated fro   2       8810787         47.239257
+ Homo sapiens mesendoderm originated from H1   1       6665623         38.371621
+ Homo sapiens mesendoderm originated from H1   2       7355577         42.360026
+                             Homo sapiens H1   2       7562916         44.496015
+                             Homo sapiens H1   1       8531006         44.880121
+Homo sapiens mesenchymal stem cell originate   1       4735958         23.081508
+Homo sapiens mesenchymal stem cell originate   2       5069503         22.790982
+Homo sapiens neuronal stem cell originated f   1      11801629         62.576936
+Homo sapiens neuronal stem cell originated f   2      11334961         61.723648
+Homo sapiens smooth muscle cell originated f   1      26950905         23.436040
+Homo sapiens smooth muscle cell originated f   2      18677559         20.220229
+  Homo sapiens hepatocyte originated from H9   1      23432966         21.809895
+  Homo sapiens hepatocyte originated from H9   2      19520016         20.977862
+Homo sapiens neural progenitor cell originat   1      16752699         17.572383
+Homo sapiens neural progenitor cell originat   2      17063907         18.576264
+        Homo sapiens HT1080 nuclear fraction   1       9562119         10.876702
+        Homo sapiens HT1080 nuclear fraction   2      13217606         13.674025
+     Homo sapiens SK-N-DZ cytosolic fraction   1      27301979         57.797791
+     Homo sapiens SK-N-DZ cytosolic fraction   2      32861157         49.031300
+       Homo sapiens SK-N-DZ nuclear fraction   1       9504123         13.108225
+       Homo sapiens SK-N-DZ nuclear fraction   2      12981960         15.602773
+    Homo sapiens SK-MEL-5 cytosolic fraction   1      42953760         53.655212
+    Homo sapiens SK-MEL-5 cytosolic fraction   2      48899998         59.004761
+      Homo sapiens SK-MEL-5 nuclear fraction   1      12953923         13.502325
+      Homo sapiens SK-MEL-5 nuclear fraction   2       9155641          9.555146
+      Homo sapiens NCI-H460 nuclear fraction   1       9508985         11.288438
+      Homo sapiens NCI-H460 nuclear fraction   2      10348417         10.867450
+    Homo sapiens NCI-H460 cytosolic fraction   1      40626888         55.521117
+    Homo sapiens NCI-H460 cytosolic fraction   2      41904801         56.153078
+Homo sapiens bipolar neuron originated from    1      21274326         34.487198
+Homo sapiens bipolar neuron originated from    2      13575267         34.464110
+Homo sapiens GM23338 originated from GM23248   1      23797612         26.818637
+Homo sapiens GM23338 originated from GM23248   2      19274488         53.046629
+                        Homo sapiens GM23248   1       5510772         23.176851
+                        Homo sapiens GM23248   2       6872968         27.592242
+                           Homo sapiens A375   1      19698260         37.223397
+                           Homo sapiens A375   2      16013879         36.045751
+                          Homo sapiens HT-29   1      14405963         46.086932
+                          Homo sapiens HT-29   2      13011934         40.167530
+                     Homo sapiens Karpas-422   1      19373962         39.010699
+                     Homo sapiens Karpas-422   2      19154458         31.529830
+                        Homo sapiens OCI-LY7   1      11911149         33.476963
+                        Homo sapiens OCI-LY7   2      13272668         33.412603
+ Homo sapiens neural cell originated from H1   1      54563761         35.365778
+ Homo sapiens neural cell originated from H1   2      68498058         44.615538
+Homo sapiens mesenchymal stem cell of the bo   1     214486000         58.604116
+Homo sapiens mesenchymal stem cell of the bo   2     234783345         52.913843
+ Homo sapiens neural cell originated from H1   1      46534096         31.786324
+ Homo sapiens neural cell originated from H1   2      53718358         37.566722
+ Homo sapiens neural cell originated from H1   1      82393068         53.569477
+ Homo sapiens neural cell originated from H1   2      60303245         41.989378
+     Homo sapiens GM12878 nucleolus fraction   3      57675174         37.790660
+     Homo sapiens GM12878 nucleolus fraction   4      49048749         40.090847
+Homo sapiens mesenchymal stem cell of Wharto   1     117393539         66.449160
+Homo sapiens mesenchymal stem cell of Wharto   2     143702275         66.578479
+Homo sapiens melanocyte of skin female adult   1     175458324         73.509395
+Homo sapiens melanocyte of skin female adult   2      72640575         71.570526
+Homo sapiens subcutaneous preadipocyte femal   1     168808336         71.599983
+Homo sapiens subcutaneous preadipocyte femal   2     142131883         61.459307
+Homo sapiens melanocyte of skin male child (   1     146106769         74.378894
+Homo sapiens melanocyte of skin male child (   2     102114544         69.799444
+Homo sapiens placental epithelial cell femal   1     137323330         62.387479
+Homo sapiens placental epithelial cell femal   2      96689017         58.964120
+Homo sapiens vein endothelial cell male adul   1     132919664         64.369975
+Homo sapiens vein endothelial cell male adul   2     121947676         59.937123
+Homo sapiens mammary epithelial cell female    1      33042427         46.127358
+Homo sapiens mesenchymal stem cell of adipos   1     126455284         62.315477
+Homo sapiens mesenchymal stem cell of adipos   2     132967537         61.703382
+     Homo sapiens GM12878 chromatin fraction   3      26730831         51.116176
+     Homo sapiens GM12878 chromatin fraction   4      31436308         37.457139
+Homo sapiens articular chondrocyte of knee j   1      61551516         43.086788
+Homo sapiens articular chondrocyte of knee j   2      59719214         53.040148
+Homo sapiens hair follicle dermal papilla ce   1      64117294         54.390219
+Homo sapiens hair follicle dermal papilla ce   2      63149385         57.478083
+Homo sapiens thoracic aorta endothelial cell   1      57173984         66.077578
+Homo sapiens thoracic aorta endothelial cell   2      66372220         64.595198
+Homo sapiens osteoblast female adult (56 yea   1      39850049         59.172006
+Homo sapiens osteoblast female adult (56 yea   2      68325167         65.297477
+Homo sapiens fibroblast of the aortic advent   1      45404570         56.825171
+Homo sapiens fibroblast of the aortic advent   2      62365627         61.846558
+Homo sapiens B cell female adult (27 years)    1      10013095         30.923569
+Homo sapiens B cell female adult (27 years)    2       4656999         14.368684
+Homo sapiens skeletal muscle satellite cell    1      71185274         69.224480
+Homo sapiens skeletal muscle satellite cell    2      67579557         64.824426
+Homo sapiens fibroblast of dermis female adu   1      66351525         70.002901
+Homo sapiens fibroblast of dermis female adu   2      65791886         66.556335
+Homo sapiens fibroblast of villous mesenchym   1      61653020         72.278124
+Homo sapiens fibroblast of villous mesenchym   2      72431897         68.600390
+                          Homo sapiens HepG2   1       7460881         25.892850
+                          Homo sapiens HepG2   2       8877309         30.339736
+       Homo sapiens HepG2 cytosolic fraction   1       7913259         26.790570
+       Homo sapiens HepG2 cytosolic fraction   2       5213683         19.024014
+         Homo sapiens HepG2 nuclear fraction   1       5042952         15.418680
+         Homo sapiens HepG2 nuclear fraction   2       3641041         12.915844
+    Homo sapiens K562 nucleoplasmic fraction   3       9219448         51.900108
+    Homo sapiens K562 nucleoplasmic fraction   4       9694376         59.739647
+                           Homo sapiens K562   1       5004197         22.986647
+                           Homo sapiens K562   2       8222630         30.007911
+                        Homo sapiens GM12878   1      11641018         45.404836
+                        Homo sapiens GM12878   2      12614934         39.571766
+Homo sapiens endothelial cell of umbilical v   3       4834852         16.392876
+Homo sapiens endothelial cell of umbilical v   4       3128025         14.563208
+                        Homo sapiens AG04450   1       8694313         30.008122
+                        Homo sapiens AG04450   2      10348847         33.119474
+          Homo sapiens K562 nuclear fraction   1       6828739         21.641228
+          Homo sapiens K562 nuclear fraction   2       5222067         19.181372
+Homo sapiens SK-N-SH treated with 6 μM all-t   1      12281469         39.551192
+Homo sapiens SK-N-SH treated with 6 μM all-t   2      12516146         40.084302
+        Homo sapiens IMR-90 nuclear fraction   1      48971143         50.752231
+        Homo sapiens IMR-90 nuclear fraction   2      57220391         66.281496
+        Homo sapiens IMR-90 nuclear fraction   1      51407825         59.383092
+        Homo sapiens IMR-90 nuclear fraction   2      63607834         70.846538
+Homo sapiens hematopoietic multipotent proge   1      58096509         57.307718
+                         Homo sapiens IMR-90   1      52109352         49.064876
+                         Homo sapiens IMR-90   2      46611838         52.308611
+        Homo sapiens IMR-90 nuclear fraction   1      86374402         66.978507
+        Homo sapiens IMR-90 nuclear fraction   2      71206991         53.240255
+      Homo sapiens IMR-90 cytosolic fraction   1      64156410         66.772172
+      Homo sapiens IMR-90 cytosolic fraction   2      87587741         67.823299
+            Homo sapiens keratinocyte female   1      11589318         40.938033
+            Homo sapiens keratinocyte female   2       8168602         35.761942
+       Homo sapiens SK-N-SH nuclear fraction   3      90810493         64.045054
+       Homo sapiens SK-N-SH nuclear fraction   4      43826477         72.881845
+     Homo sapiens SK-N-SH cytosolic fraction   3      56945105         46.522824
+     Homo sapiens SK-N-SH cytosolic fraction   4      69856586         56.295635
+                        Homo sapiens SK-N-SH   3      80849684         58.755320
+                        Homo sapiens SK-N-SH   4      61441780         44.008296
+Homo sapiens keratinocyte cytosolic fraction   3      18416768         50.848795
+Homo sapiens keratinocyte cytosolic fraction   4      12841821         37.460468
+Homo sapiens keratinocyte nuclear fraction f   3       1267142          4.673691
+Homo sapiens keratinocyte nuclear fraction f   4       2045047          6.576542
+        Homo sapiens K562 nucleolus fraction   3       6239107         24.368297
+        Homo sapiens K562 nucleolus fraction   4       5822484         23.824179
+        Homo sapiens K562 cytosolic fraction   1      11012713         47.608206
+        Homo sapiens K562 cytosolic fraction   2      11074452         51.802716
+        Homo sapiens K562 chromatin fraction   3      11687378         47.689857
+        Homo sapiens K562 chromatin fraction   4      11788152         61.723050
+       Homo sapiens GM12878 nuclear fraction   1       7500291         25.622367
+       Homo sapiens GM12878 nuclear fraction   2      12553943         34.023092
+     Homo sapiens GM12878 cytosolic fraction   1      13799601         64.716713
+     Homo sapiens GM12878 cytosolic fraction   2      16954406         54.222354
+Homo sapiens placental pericyte female newbo   1     120509855         59.437031
+Homo sapiens placental pericyte female newbo   2     131901042         57.049133
+                             Homo sapiens BJ   1      10642583         36.366903
+                             Homo sapiens BJ   2       9467482         33.624902
+  Homo sapiens CD14-positive monocyte female   1      11421259         32.992078
+  Homo sapiens CD14-positive monocyte female   2       6678956         19.778584
+          Homo sapiens A549 nuclear fraction   3      34929964         68.791180
+          Homo sapiens A549 nuclear fraction   4      17626695         40.502045
+                          Homo sapiens MCF-7   3      44534414         50.625249
+                          Homo sapiens MCF-7   4      45151357         60.558752
+                          Homo sapiens MCF-7   3      57211651         57.303605
+                          Homo sapiens MCF-7   4      55996799         56.373757
+         Homo sapiens MCF-7 nuclear fraction   3      27374896         43.513540
+         Homo sapiens MCF-7 nuclear fraction   4      40554864         45.302559
+       Homo sapiens MCF-7 cytosolic fraction   3      53295362         55.158193
+       Homo sapiens MCF-7 cytosolic fraction   4      67541633         60.311439
+                           Homo sapiens A549   3      39319650         43.265086
+                           Homo sapiens A549   4      37101206         47.256769
+          Homo sapiens A549 nuclear fraction   3      39516926         44.669748
+          Homo sapiens A549 nuclear fraction   4      34148749         44.647794
+        Homo sapiens A549 cytosolic fraction   3      37217968         48.870862
+        Homo sapiens A549 cytosolic fraction   4      71013717         73.969913
+                           Homo sapiens A549   3      66411781         70.703027
+                           Homo sapiens A549   4      57290831         65.808238
+        Homo sapiens A549 cytosolic fraction   3      60917031         70.993632
+        Homo sapiens A549 cytosolic fraction   4      65526820         71.723166
+         Homo sapiens MCF-7 nuclear fraction   3      68933692         61.578235
+         Homo sapiens MCF-7 nuclear fraction   4      63569102         60.996889
+       Homo sapiens MCF-7 cytosolic fraction   3      50654344         48.705996
+       Homo sapiens MCF-7 cytosolic fraction   4      45686914         41.947280
+          Homo sapiens A549 nuclear fraction   3      80564426         66.643235
+          Homo sapiens A549 nuclear fraction   4      61486490         67.766614
+        Homo sapiens A549 cytosolic fraction   3      34730383         32.935612
+        Homo sapiens A549 cytosolic fraction   4      31750509         31.313838
+                           Homo sapiens A549   1      33490679         32.332819
+                           Homo sapiens A549   2      37610919         35.476656
+                          Homo sapiens MCF-7   1      54273850         52.024419
+                          Homo sapiens MCF-7   2      40265688         40.478254
+                        Homo sapiens HeLa-S3   1       9239636         31.574503
+                        Homo sapiens HeLa-S3   2       8281439         28.677846
+       Homo sapiens HeLa-S3 nuclear fraction   1       3424763         13.105083
+       Homo sapiens HeLa-S3 nuclear fraction   2       4393859         19.193180
+     Homo sapiens HeLa-S3 cytosolic fraction   1      10725417         36.754879
+     Homo sapiens HeLa-S3 cytosolic fraction   2      11006930         37.782476
+            Homo sapiens H1 nuclear fraction   2       3539784         11.673994
+          Homo sapiens H1 cytosolic fraction   2       3719839         23.948429
+                             Homo sapiens H1   1       4266786         14.900447
+                             Homo sapiens H1   2       4444534         16.824146
+Homo sapiens urinary bladder tissue female e   1      19568907         26.915788
+                           Homo sapiens K562   1      38675883         33.726473
+                           Homo sapiens K562   2      26054625         28.097131
+Homo sapiens skin of body tissue female embr   1      19601141         24.920567
+Homo sapiens skin of body tissue female embr   2      26823629         35.328472
+Homo sapiens metanephros tissue female embry   1      15264225         19.532226
+Homo sapiens metanephros tissue female embry   2      21338414         27.737738
+Homo sapiens lung tissue female embryo (20 w   1      25348944         24.494559
+Homo sapiens lung tissue female embryo (20 w   2      19245645         29.083712
+Homo sapiens uterus tissue female embryo (24   1      23837261         27.463348
+Homo sapiens uterus tissue female embryo (24   2      20870697         23.256176
+                        Homo sapiens GM12878   1      29995802         28.377824
+                        Homo sapiens GM12878   2      36982905         34.899758
+Homo sapiens thyroid gland tissue female emb   1      19407242         26.616765
+Homo sapiens thyroid gland tissue female emb   2      29876512         24.523455
+Homo sapiens skeletal muscle tissue tissue f   1      20642224         25.420575
+Homo sapiens skeletal muscle tissue tissue f   2      13181786         22.722191
+Homo sapiens heart tissue female embryo (19    1      24757869         34.516636
+Homo sapiens heart tissue female embryo (19    2      24153911         23.747075
+Homo sapiens diencephalon tissue female embr   1      17587633         27.259608
+Homo sapiens diencephalon tissue female embr   2      20648977         26.833449
+Homo sapiens tongue tissue female embryo (20   1      24584885         21.115989
+Homo sapiens tongue tissue female embryo (20   2      22924820         33.665771
+Homo sapiens spinal cord tissue female embry   1      15399487         27.727227
+Homo sapiens spinal cord tissue female embry   2      35195595         31.935638
+Homo sapiens parietal lobe tissue female emb   1      16855641         30.885007
+Homo sapiens parietal lobe tissue female emb   2      20603627         31.309144
+Homo sapiens occipital lobe tissue female em   1      21000571         30.850667
+Homo sapiens occipital lobe tissue female em   2      15108754         26.959781
+Homo sapiens liver tissue female embryo (20    1      22822425         25.549681
+Homo sapiens frontal cortex tissue female em   1      20050027         26.170114
+Homo sapiens frontal cortex tissue female em   2      20115254         27.643063
+Homo sapiens temporal lobe tissue female emb   1      27788008         33.436853
+Homo sapiens temporal lobe tissue female emb   2      30519656         38.383155
+Homo sapiens cerebellum tissue female embryo   1      21885458         30.438898
+Homo sapiens cerebellum tissue female embryo   2      21413531         25.698266
+                        Homo sapiens SK-N-SH   3      45540354         64.297017
+                        Homo sapiens SK-N-SH   4      32153701         54.254481
+                         Homo sapiens IMR-90   1      42303461         46.551722
+                         Homo sapiens IMR-90   2      56618766         50.164278
+                         Homo sapiens IMR-90   1      59958990         66.510208
+                         Homo sapiens IMR-90   2      30565597         38.816141
+       Homo sapiens SK-N-SH nuclear fraction   3      35117960         55.260531
+       Homo sapiens SK-N-SH nuclear fraction   4      41853642         54.017063
+     Homo sapiens SK-N-SH cytosolic fraction   3      57204142         66.462946
+     Homo sapiens SK-N-SH cytosolic fraction   4      55120163         67.741642
+                        Homo sapiens SK-N-SH   3      24294034         27.164598
+                        Homo sapiens SK-N-SH   4      22609774         30.969510
+       Homo sapiens SK-N-SH nuclear fraction   3      51509137         72.661835
+       Homo sapiens SK-N-SH nuclear fraction   4      77517070         80.344742
+     Homo sapiens SK-N-SH cytosolic fraction   3      47792716         42.914623
+     Homo sapiens SK-N-SH cytosolic fraction   4      45968244         45.067455
+      Homo sapiens IMR-90 cytosolic fraction   1      53026337         67.367817
+      Homo sapiens IMR-90 cytosolic fraction   2      55647358         64.557184
+      Homo sapiens IMR-90 cytosolic fraction   1      39178467         50.827237
+      Homo sapiens IMR-90 cytosolic fraction   2      54915147         68.439480
+
+median across samples: 39.3%
+
+=== genes reported as ZERO in every sample ===
+   gene family  samples
+ RNU1-4     U1      296
+  RNU12    U12      296
+ RNU2-1     U2      296
+RNU2-2P     U2      296
+ RNU7-1     U7      296
+
+=== all snRNA genes, median count across samples ===
+    gene family  median_count  max_count  zero_in  samples
+ RNU5A-1     U5       15673.5   24940084        5      296
+ RNU5B-1     U5       11469.0    8359149        5      296
+  RNU4-2     U4        6519.5     510231        3      296
+  RNU4-1     U4        4672.5     500371        6      296
+ RNU5E-1     U5        3968.0    5111808        5      296
+RNU4ATAC U4atac        2279.0     285806        6      296
+ RNU5D-1     U5        1002.0     174553        8      296
+ RNU5F-1     U5         300.0     135275       16      296
+RNU6ATAC U6atac         166.0      86432       16      296
+  RNU6-9     U6          11.5       6690       55      296
+  RNU6-2     U6          11.0       1479       41      296
+  RNU6-1     U6           5.0        317       78      296
+  RNU6-8     U6           2.0        495      107      296
+  RNU6-7     U6           1.0       1603      146      296
+  RNU1-1     U1           0.0         98      222      296
+  RNU2-1     U2           0.0          0      296      296
+   RNU12    U12           0.0          0      296      296
+   RNU11    U11           0.0         84      282      296
+  RNU1-4     U1           0.0          0      296      296
+  RNU1-3     U1           0.0          1      295      296
+  RNU1-2     U1           0.0         12      232      296
+ RNU2-2P     U2           0.0          0      296      296
+  RNU7-1     U7           0.0          0      296      296
+
+=== paralog-resolved expression, U4 and U5 (assignable families) ===
+gene                                                                                                           RNU4-1  RNU4-2   RNU5A-1  RNU5B-1  RNU5D-1  RNU5E-1  RNU5F-1
+sample                                                                                                    rep                                                              
+Homo sapiens A375                                                                                         1     20296   14008  15026449   835417     8168    87711    16980
+                                                                                                          2     18516   13105  13076041   750846     6985    77423    17293
+Homo sapiens A549                                                                                         1       237     531      1053      750     5907      654     1797
+                                                                                                          2       255     689      1260      999     8611      887     2716
+                                                                                                          3       988    4203     10087    11796     6817     5205      568
+                                                                                                          4       321     837      1855     2314     1959      815      425
+Homo sapiens A549 cytosolic fraction                                                                      3       309     661      1931     1862     3348      923      865
+                                                                                                          4      7511   12272     35224    33049    24859    16907     2437
+Homo sapiens A549 nuclear fraction                                                                        3      3939    6231     15951    14697    11394     7664     1250
+                                                                                                          4       219     405       903      782     1236      486      299
+Homo sapiens AG04450                                                                                      1        34    1579       520       96      173      848       17
+                                                                                                          2        20    1459       378      128      129      932       42
+Homo sapiens B cell female adult (27 years) and female adult (43 years)                                   1       101     518      2771      365       84       49      301
+                                                                                                          2       161     976      1912      540       33      302      284
+Homo sapiens BJ                                                                                           1        13     771        98       88      290       57       53
+                                                                                                          2         8      88        91       61      154       56       69
+Homo sapiens CD14-positive monocyte female                                                                1       109     652      3324      643      115       62      499
+                                                                                                          2       291    1685      4174      848       75       66      674
+Homo sapiens GM12878                                                                                      1        28     403       280       96      189      187      873
+                                                                                                          2        39     711       390      127      237      226     1177
+Homo sapiens GM12878 chromatin fraction                                                                   3      1178    2108      6630     7030     7950     3283    30802
+                                                                                                          4      1273    3509     17597    22782     2073     3812     5553
+Homo sapiens GM12878 cytosolic fraction                                                                   1        70     631       357      116      208      227     1014
+                                                                                                          2        60     524       222      122      180      239      449
+Homo sapiens GM12878 nuclear fraction                                                                     1       113    1294      1590      795      292     1220     1283
+                                                                                                          2       111    1987      1724      715      504     1215     1713
+Homo sapiens GM12878 nucleolus fraction                                                                   3      4910    9532     30900    41495     1655     7054     6536
+                                                                                                          4      4463    8711     18546    25141     1374     5105     8420
+Homo sapiens GM23248                                                                                      1      3959    5608  11966881  1337154      480    38977      569
+                                                                                                          2      3226    3515  13486322  1286033      478    42500      835
+Homo sapiens GM23338 originated from GM23248                                                              1    177002   31291  18613120  1901300    13348   370620     5034
+                                                                                                          2    369791   27339   1663050   145794     3721    59381     4090
+Homo sapiens H1                                                                                           1     10215    2334      6350      585      214     6353      143
+                                                                                                          2      9743    2190      8099      705      240     7747      140
+Homo sapiens H1 cytosolic fraction                                                                        2        66     109       257       29      164      494       58
+Homo sapiens H1 nuclear fraction                                                                          2        18      87       454       49      160      279       30
+Homo sapiens HT-29                                                                                        1      6742    9580   7793764   751638     4089    50135     2139
+                                                                                                          2      7285    9480   9821884   919088     4099    47744     1556
+Homo sapiens HT1080 nuclear fraction                                                                      1    135431   32030  10804688   912728    11956    97093     9502
+                                                                                                          2    184990   39030  11208074   866563    15670   112894    14256
+Homo sapiens HeLa-S3                                                                                      1        28     624       317       67      758       59      262
+                                                                                                          2         6     124       160       24       61       30       40
+Homo sapiens HeLa-S3 cytosolic fraction                                                                   1        32    2585       728       83      431      173      115
+                                                                                                          2        33     737       569      233      255      213      281
+Homo sapiens HeLa-S3 nuclear fraction                                                                     1        50     720       646      132      302       94       63
+                                                                                                          2        47     488       971      502      312      243      244
+Homo sapiens HepG2                                                                                        1        12      72       444       27      431      478      453
+                                                                                                          2        33      90       368       28      428      630     1376
+Homo sapiens HepG2 cytosolic fraction                                                                     1        39     245       733       92      246     1677      444
+                                                                                                          2        18      97       371       35      193      541      200
+Homo sapiens HepG2 nuclear fraction                                                                       1        39     170      2166      263      401     2511      582
+                                                                                                          2        20      91      1787      165      242     1540      415
+Homo sapiens IMR-90                                                                                       1       279     973      3205     3660    39033    10445     2782
+                                                                                                          2       394    1217      5289     4972    35989    10724     1589
+Homo sapiens IMR-90 cytosolic fraction                                                                    1       491    1054      4251     3504    27298     9835     1365
+                                                                                                          2       635    1261      3621     4183    17501     7710     1310
+Homo sapiens IMR-90 nuclear fraction                                                                      1         0       0         0        0        0       11        0
+                                                                                                          2         0       9         0        1        0        0        0
+Homo sapiens K562                                                                                         1         3     129        31       13      154       37      405
+                                                                                                          2        13     310        74       19       84       60      449
+Homo sapiens K562 chromatin fraction                                                                      3     45241  116771     58968   253434    14947   153193   135275
+                                                                                                          4     26407   60733     37022   117703    30278    39817    67369
+Homo sapiens K562 cytosolic fraction                                                                      1        94     591       146       90      347      190      711
+                                                                                                          2       207     454        56       30      200       77      296
+Homo sapiens K562 nuclear fraction                                                                        1       167    1226      3413     1501     1693     4526     4620
+                                                                                                          2       211     592      1615      943     1294     1896     2615
+Homo sapiens K562 nucleolus fraction                                                                      3      4882   15778      5823    33974     4238    14401    13123
+                                                                                                          4     11387   29089      9850    20602     3158    16285    20653
+Homo sapiens K562 nucleoplasmic fraction                                                                  3      5502   15113      4079     9418     1023    11759     8952
+                                                                                                          4      2602    6991      1749     5408      732     4642     3759
+Homo sapiens Karpas-422                                                                                   1     52838   13385   7184471   586810     1420    95934     4767
+                                                                                                          2     60126   14862  17419775  1289534     2471   164364     8923
+Homo sapiens MCF-7                                                                                        1       689    1213      3588     3692    31445     2707     2106
+                                                                                                          2       261     736      3664     3760    34544     3178     4249
+                                                                                                          3      1108    2473     16341    18108    13124     1619      597
+                                                                                                          4       724    1803     11058    11633     9436     2043     1170
+Homo sapiens MCF-7 cytosolic fraction                                                                     3       316     324       363      285     1317      340       64
+                                                                                                          4       228     297       625      343     1756      453       67
+Homo sapiens MCF-7 nuclear fraction                                                                       3        90     325      1404     1178     3528      998       64
+                                                                                                          4       158     396      1593     1583     9668     1642       97
+Homo sapiens NCI-H460 cytosolic fraction                                                                  1     39967   15014   9699051   730689      742    18811     3972
+                                                                                                          2     51595   16823  12268043   868625      580    17072     2630
+Homo sapiens NCI-H460 nuclear fraction                                                                    1     31493   11967  10611080   923629      281    20203     2026
+                                                                                                          2     50068   17449  13452588  1137316      288    33724     2278
+Homo sapiens OCI-LY7                                                                                      1     25857   16916  11925861  1207498     1424   100150     1873
+                                                                                                          2     26693   17868  14067794  1334396     1626   105342     2050
+Homo sapiens Peyer's patch tissue female adult (53 years)                                                 1     33838    9668    160808    19958       23     1919       17
+Homo sapiens Peyer's patch tissue male adult (54 years)                                                   1     61369   15592    268228    32537       48     3349       22
+Homo sapiens SK-MEL-5 cytosolic fraction                                                                  1     15211   25917  15936133  1062930      951   192610     3650
+                                                                                                          2     11273   13027   6739772   240648      363    69600     4377
+Homo sapiens SK-MEL-5 nuclear fraction                                                                    1     21230   25076  10109281   822494      650   153389     1376
+                                                                                                          2     25484   24035   6214030   281666      472    90428     2260
+Homo sapiens SK-N-DZ cytosolic fraction                                                                   1     48816   15920   9096665   591549    14743  2780911     8500
+                                                                                                          2     41004   30716  17598029  1585650    23600  5111808    13096
+Homo sapiens SK-N-DZ nuclear fraction                                                                     1     75679   29195  10852542  1108969    12915  2177439     5872
+                                                                                                          2    128329   68787  14200359  1436426    17314  2473727     7277
+Homo sapiens SK-N-SH                                                                                      3       371    2239      3172     2046    46149     5794    11062
+                                                                                                          4       129     414      1916     1345    30958      864      566
+Homo sapiens SK-N-SH cytosolic fraction                                                                   3       147     513      1114      769    14501     1559     3648
+                                                                                                          4       140     754      2591     2110    24519     3688     1611
+Homo sapiens SK-N-SH nuclear fraction                                                                     3       876    3772     10529    10820    60904     6898     2787
+                                                                                                          4      1989   10848      4824     6021    27571     5910     7474
+Homo sapiens SK-N-SH treated with 6 μM all-trans-retinoic acid for 48 hours                               1        43    3172       776      138      294      756       51
+                                                                                                          2        43    2767       421      107      179      605       28
+Homo sapiens adrenal gland tissue female adult (51 years)                                                 1     16897   16021    125335    11504        6      928       24
+Homo sapiens adrenal gland tissue female adult (53 years)                                                 1      8564    7980     91922    10111       34     1153       23
+Homo sapiens articular chondrocyte of knee joint female adult (56 years) and male adult (64 years)        1      2078    4773      7490    11434     4128     4028      774
+                                                                                                          2      2079    5355      8818    10258     7325     5368      639
+Homo sapiens bipolar neuron originated from GM23338 treated with 0.5 μg/mL doxycycline hyclate for 4 days 1     96186   85857   8969690   903191      262   148939      844
+                                                                                                          2     70282   43105  12706830  1307326      581   507812     2570
+Homo sapiens body of pancreas tissue female adult (51 years)                                              1      5112    4034     23150      578        0       73        0
+Homo sapiens body of pancreas tissue female adult (53 years)                                              1     17846   13569     95382     7688       32     1187       19
+Homo sapiens cerebellum tissue female embryo (19 weeks) and female embryo (37 weeks)                      1     16192   54435  12701412  4860529      200    38379      102
+                                                                                                          2     26604   54202  21883667  5780127      882    85289      142
+Homo sapiens diencephalon tissue female embryo (20 weeks) and male embryo (22 weeks)                      1     13331   50395  15778651  5342521      840    57147       74
+                                                                                                          2     25245   54961  15588305  5657672     1826    98609      148
+Homo sapiens endothelial cell of umbilical vein nuclear fraction newborn                                  3        38     525       897       95      435      230       90
+                                                                                                          4       135     470       864      187      474      531       69
+Homo sapiens esophagus muscularis mucosa tissue female adult (51 years)                                   1      3051    4361     43573     8143        3      744        0
+Homo sapiens esophagus muscularis mucosa tissue female adult (53 years)                                   1      6493    6918    123188    17345       11     2420        0
+Homo sapiens esophagus muscularis mucosa tissue male adult (37 years)                                     1     14114   14583    117296    24112        2     3804        5
+Homo sapiens esophagus squamous epithelium tissue female adult (51 years)                                 1     11855    7320     91091     7627      170     4193      112
+Homo sapiens esophagus squamous epithelium tissue female adult (53 years)                                 1     19128   16518    120065    10280      753     7376      195
+Homo sapiens esophagus squamous epithelium tissue male adult (37 years)                                   1      9037    4759    127125    14805       43     3152        5
+Homo sapiens esophagus squamous epithelium tissue male adult (54 years)                                   1     14022    8835    123831    12733      539     8421      293
+Homo sapiens fibroblast of dermis female adult (44 years) and female adult (55 years)                     1      1637    5173      4496    10081     1912     2211      935
+                                                                                                          2      2433    8811      7068    12384     4765     4083      316
+Homo sapiens fibroblast of the aortic adventitia female adult (24 years) and male adult (47 years)        1      1031    2855      2271     3738      424      462      285
+                                                                                                          2      3508   11869      4892    10849     2755     3165      640
+Homo sapiens fibroblast of villous mesenchyme female newborn and male newborn                             1       901    2109      2553     3568     4589     2116      789
+                                                                                                          2      1313    4502      5795     9213     3746     3908      372
+Homo sapiens frontal cortex tissue female embryo (20 weeks) and male embryo (22 weeks)                    1     11221   48818  14905862  5919894      709    58526       43
+                                                                                                          2     15930   51649  11152694  5084720     1019    66642       52
+Homo sapiens gastroesophageal sphincter tissue female adult (51 years)                                    1      2126    5955     59502     5053        9      677        0
+Homo sapiens gastroesophageal sphincter tissue female adult (53 years)                                    1      3247    6566     50007     4435       11      888       13
+Homo sapiens gastroesophageal sphincter tissue male adult (37 years)                                      1     10477   19389    101551    18505       14     2671        2
+Homo sapiens gastroesophageal sphincter tissue male adult (54 years)                                      1      4454    9078     66533     8052       25     1512        5
+Homo sapiens hair follicle dermal papilla cell female adult (47 years) and female adult (70 years)        1      7232   16007     18260    23703     1159     6931     1627
+                                                                                                          2      4135   10695     12641    14448     1046     5271      853
+Homo sapiens heart tissue female embryo (19 weeks) and female embryo (28 weeks)                           1     20727   81026  12546730  2642778      849   113044      114
+                                                                                                          2     41250   66598  17284625  2833736     1304    66453      844
+Homo sapiens hematopoietic multipotent progenitor cell                                                    1      1474    5069      4009     5180     2826     1388     2483
+Homo sapiens hepatocyte originated from H9                                                                1     29962   12175   1920787    93229       61     5196       33
+                                                                                                          2     33479   20770  13693322   728064      250    17316       94
+Homo sapiens keratinocyte cytosolic fraction female                                                       3        30     512        66       38       17       85       45
+                                                                                                          4        18     140        46       21       13       49       24
+Homo sapiens keratinocyte female                                                                          1        47     263       185      103       52      232      526
+                                                                                                          2        85     761       122       69       26      103      262
+Homo sapiens keratinocyte nuclear fraction female                                                         3        19      66       103      109        1      118       44
+                                                                                                          4        49     127       157      139       13      126       57
+Homo sapiens liver tissue female embryo (20 weeks)                                                        1     44035   73246  22271174  2876379     4205   279909     7577
+Homo sapiens lung tissue female embryo (20 weeks) and female embryo (24 weeks)                            1     17675   53826  24940084  4601851     2425   101517      938
+                                                                                                          2     39715   33683  12540999  2468715      985    38129      392
+Homo sapiens mammary epithelial cell female adult (23 years)                                              1      1517    3388      7578     9864     3177     3056      349
+Homo sapiens melanocyte of skin female adult (52 years) and male adult (55 years)                         1      3486    7562      9310    12653     8031     7743      977
+                                                                                                          2      1882    4399      5054     6451     7771     2701      216
+Homo sapiens melanocyte of skin male child (1 year) and male child (3 years)                              1      1583    3909      7259    10857    11115     7134     5301
+                                                                                                          2      4079    7185      9365    14420    12805    17291     7456
+Homo sapiens mesenchymal stem cell of Wharton's jelly female newborn and male newborn                     1      1884    3934      5532     8574      908     4308     3754
+                                                                                                          2      4280    9138      8635    11166     6435     3008     5862
+Homo sapiens mesenchymal stem cell of adipose female adult (37 years) and female adult (42 years)         1      5147   11119     19924    21947     7734     7093      744
+                                                                                                          2      7576   11566     21017    25538     8613    13855     3709
+Homo sapiens mesenchymal stem cell of the bone marrow female adult (60 years) and male adult (57 years)   1      7990   19489     29182    43932    45609    33262    24289
+                                                                                                          2     12698   33214     41881    90651    21179    33691     4650
+Homo sapiens mesenchymal stem cell originated from H1                                                     1     10746    2737      4136      452       21     1947       33
+                                                                                                          2     12333    3335      5747      670       28     1570       38
+Homo sapiens mesendoderm originated from H1                                                               1     10732    2081      4203      442      139     3868       86
+                                                                                                          2     14802    3147      8606      904      159    10920       92
+Homo sapiens metanephros tissue female embryo (20 weeks) and female embryo (24 weeks)                     1     22393   63431  17060390  3405772     1292    41657      192
+                                                                                                          2     22253   31687  11581134  2746023     1150    30665      263
+Homo sapiens neural cell originated from H1                                                               1     43068  120060     17872   136801      793    20024       40
+                                                                                                          2     37114  103353     15396   112277     1107    24184        2
+Homo sapiens neural progenitor cell originated from H9                                                    1     48241   15038  12518128   602118     5037   147207     1547
+                                                                                                          2     65043   11938   1246912    68916     1417    51946      376
+Homo sapiens neuronal stem cell originated from H1                                                        1      9972    2830      9997     1364       37     4074       15
+                                                                                                          2      9271    3179     12841     1528       35     8321        7
+Homo sapiens occipital lobe tissue female embryo (20 weeks) and male embryo (22 weeks)                    1      8721   34902  15984101  5921241      363    61620       96
+                                                                                                          2     10345   37731  14335131  6624869     1085    97785       88
+Homo sapiens omental fat pad tissue male adult (37 years)                                                 1     13027    7076     64067     9335        5     1188        4
+Homo sapiens osteoblast female adult (56 years) and male adult (62 years)                                 1      2151    7985      4575     6830     1076     2378      439
+                                                                                                          2      1826    5423      2302     5580     3787     3603      117
+Homo sapiens ovary tissue female adult (51 years)                                                         1      5063    8491    148245    24365        5     1035        0
+Homo sapiens parietal lobe tissue female embryo (24 weeks) and male embryo (22 weeks)                     1     12879   43304  11789150  6100741     1116    87775      224
+                                                                                                          2     33499   68856  15033076  8359149     1630   144412      311
+Homo sapiens placental epithelial cell female newborn and male newborn                                    1      9345   16199     17966    20227     9933     9844     6410
+                                                                                                          2      5167    9121     17514    20382     2855     7676      458
+Homo sapiens placental pericyte female newborn and male newborn                                           1      7408   15488     17821    24573    59415     9777     1901
+                                                                                                          2     34674   49810    209036   305144     4442   171128    82288
+Homo sapiens prostate gland tissue male adult (37 years)                                                  1     14377    7428     95487    16106       26     1933        5
+Homo sapiens prostate gland tissue male adult (54 years)                                                  1     21184   16674    117530    21688       29     2227       13
+Homo sapiens right lobe of liver tissue female adult (53 years)                                           1     28575    7250    228444    20040       83     2926       11
+Homo sapiens sigmoid colon tissue female adult (51 years)                                                 1      1079    2359   1713807   214137       30     1471        2
+Homo sapiens sigmoid colon tissue female adult (53 years)                                                 1     10120   10287    145490    29413       42     2876        0
+Homo sapiens sigmoid colon tissue male adult (37 years)                                                   1     15621    5978     68530    19045        4     2291        0
+Homo sapiens sigmoid colon tissue male adult (54 years)                                                   1     10986   14348   5416404   790128      194    24006        7
+Homo sapiens skeletal muscle satellite cell female adult (64 years) and male adult (21 years)             1      1064    1671      2149     4062    14261     4741      628
+                                                                                                          2      4019    9138      6281     9808    10723     5061     2054
+Homo sapiens skeletal muscle tissue tissue female embryo (19 weeks) and male embryo (22 weeks)            1     15084   40931  16328372  2850866     1059    39612      232
+                                                                                                          2      6872   26160  10582618  2082205      714    25073      156
+Homo sapiens skin of body tissue female embryo (24 weeks) and male embryo (22 weeks)                      1     20596   69436  19688634  3822479     2013    68707      371
+                                                                                                          2     20422   55560  15674410  3566612     1235    41240      346
+Homo sapiens smooth muscle cell originated from H9                                                        1     45539   16362   1105848    79403      332    24771       80
+                                                                                                          2     34683   19517   5603318   211342      443    23275      156
+Homo sapiens spinal cord tissue female embryo (24 weeks) and male embryo (22 weeks)                       1     23236   52223   9014053  2477890     1112    47598      294
+                                                                                                          2     56071  100142  18964276  6069007     2300    93057      491
+Homo sapiens spleen tissue female adult (51 years)                                                        1     55028   21847    513496    48377       29     4940       32
+Homo sapiens spleen tissue female adult (53 years)                                                        1    128971   23291    532976    47716       74     3189       17
+Homo sapiens spleen tissue male adult (37 years)                                                          1    500371   18609    833930    67125       25    13596       32
+Homo sapiens spleen tissue male adult (54 years)                                                          1    360920   20417    485849    47066      118     6693       58
+Homo sapiens stomach tissue female adult (51 years)                                                       1     13618   12734    176486    33795        8     1793        0
+Homo sapiens stomach tissue female adult (53 years)                                                       1     13840    9673    110410    13905       51     1277       14
+Homo sapiens stomach tissue male adult (37 years)                                                         1     59397   13019    131866    13809       78     4429        0
+Homo sapiens stomach tissue male adult (54 years)                                                         1     15175   11015    174542    30948       42     3150        1
+Homo sapiens subcutaneous adipose tissue tissue female adult (53 years)                                   1     10653   23133     65564     9704       28      674        7
+Homo sapiens subcutaneous preadipocyte female adult (62 years) and male adult (65 years)                  1      6247    9536     10555    14075    57368    14511     3166
+                                                                                                          2      3698    9325     10915    13488    26557     7545     2097
+Homo sapiens temporal lobe tissue female embryo (20 weeks) and female embryo (24 weeks)                   1     24625  101781  12778854  6070633      719   103119      407
+                                                                                                          2     30417   90164  11014838  6341815     1362    86814      383
+Homo sapiens testis tissue male adult (37 years)                                                          1     15922    6121    116720    21056       37     7446        1
+Homo sapiens testis tissue male adult (54 years)                                                          1     14523    6473    125464    19823      114     3677       22
+Homo sapiens thoracic aorta endothelial cell female adult (22 years) and male adult (55 years)            1      2702    3928      2338     3162    16591     5278      170
+                                                                                                          2      7131   13544     11429    13077    28769    20321     3174
+Homo sapiens thyroid gland tissue female adult (53 years)                                                 1     15253    9610    214952    38664       39     2253        1
+Homo sapiens thyroid gland tissue female embryo (37 weeks) and female embryo (40 weeks)                   1     26399   68816  13354971  2412553      183    29378      835
+                                                                                                          2     33433   70201  17237825  1789636      413    56112      222
+Homo sapiens tibial nerve tissue male adult (37 years)                                                    1      7020    8652    131184    23886        2     1202        0
+Homo sapiens tongue tissue female embryo (20 weeks) and female embryo (24 weeks)                          1     14430   68737  22445561  3789340      865    99382      390
+                                                                                                          2     19476   41545   7717280  1610655      580    32786      299
+Homo sapiens transverse colon tissue female adult (51 years)                                              1      3148    3064     17225     1674       18      626        4
+Homo sapiens transverse colon tissue female adult (53 years)                                              1     16495   12968    107453     9798       26     1534        4
+Homo sapiens transverse colon tissue male adult (37 years)                                                1     20865    5583     40370     8657       12     1661        1
+Homo sapiens transverse colon tissue male adult (54 years)                                                1     34322   16391    101508     9001       92     3243        6
+Homo sapiens trophoblast cell originated from H1                                                          1      8849    2188      7756      849       90     6712       50
+                                                                                                          2     10501    2333      9198     1057       91     7450       66
+Homo sapiens upper lobe of left lung tissue female adult (51 years)                                       1     17091    6799     40745     2624       18      304        3
+Homo sapiens upper lobe of left lung tissue female adult (53 years)                                       1     15623    9642   1233372   102232      107     6484       36
+Homo sapiens upper lobe of left lung tissue male adult (37 years)                                         1     24276   10601    108377    14486        3     2514        0
+Homo sapiens upper lobe of left lung tissue male adult (54 years)                                         1     38035   12802    177884    12111       36     1310       17
+Homo sapiens urinary bladder tissue female embryo (20 weeks)                                              1      9280   50755  15925086  3488195      700    49912      162
+Homo sapiens uterus tissue female adult (51 years)                                                        1      2993    5456    108247    21979        0     1000        0
+Homo sapiens uterus tissue female embryo (24 weeks) and female embryo (28 weeks)                          1     45627   64951  13005354  3636325     2267    70068     3587
+                                                                                                          2     34928   81608  17186642  3281419      455    32616      267
+Homo sapiens vagina tissue female adult (53 years)                                                        1      8140    4477     60780    11321       14      849        0
+Homo sapiens vein endothelial cell male adult (48 years) and male adult (52 years)                        1      3840   12093     11112    15585    15004     9016     1832
+                                                                                                          2      8127   11129      9713    13104    17479     6731      746
+
+RNU4-2 : RNU4-1 ratio across samples - median 2.10, range 0.04-80.78
+sample                                                                                                     rep
+Homo sapiens A375                                                                                          1       0.69
+                                                                                                           2       0.71
+Homo sapiens A549                                                                                          1       2.24
+                                                                                                           2       2.70
+                                                                                                           3       4.25
+                                                                                                           4       2.61
+Homo sapiens A549 cytosolic fraction                                                                       3       2.14
+                                                                                                           4       1.63
+Homo sapiens A549 nuclear fraction                                                                         3       1.58
+                                                                                                           4       1.85
+Homo sapiens AG04450                                                                                       1      46.44
+                                                                                                           2      72.95
+Homo sapiens B cell female adult (27 years) and female adult (43 years)                                    1       5.13
+                                                                                                           2       6.06
+Homo sapiens BJ                                                                                            1      59.31
+                                                                                                           2      11.00
+Homo sapiens CD14-positive monocyte female                                                                 1       5.98
+                                                                                                           2       5.79
+Homo sapiens GM12878                                                                                       1      14.39
+                                                                                                           2      18.23
+Homo sapiens GM12878 chromatin fraction                                                                    3       1.79
+                                                                                                           4       2.76
+Homo sapiens GM12878 cytosolic fraction                                                                    1       9.01
+                                                                                                           2       8.73
+Homo sapiens GM12878 nuclear fraction                                                                      1      11.45
+                                                                                                           2      17.90
+Homo sapiens GM12878 nucleolus fraction                                                                    3       1.94
+                                                                                                           4       1.95
+Homo sapiens GM23248                                                                                       1       1.42
+                                                                                                           2       1.09
+Homo sapiens GM23338 originated from GM23248                                                               1       0.18
+                                                                                                           2       0.07
+Homo sapiens H1                                                                                            1       0.23
+                                                                                                           2       0.22
+Homo sapiens H1 cytosolic fraction                                                                         2       1.65
+Homo sapiens H1 nuclear fraction                                                                           2       4.83
+Homo sapiens HT-29                                                                                         1       1.42
+                                                                                                           2       1.30
+Homo sapiens HT1080 nuclear fraction                                                                       1       0.24
+                                                                                                           2       0.21
+Homo sapiens HeLa-S3                                                                                       1      22.29
+                                                                                                           2      20.67
+Homo sapiens HeLa-S3 cytosolic fraction                                                                    1      80.78
+                                                                                                           2      22.33
+Homo sapiens HeLa-S3 nuclear fraction                                                                      1      14.40
+                                                                                                           2      10.38
+Homo sapiens HepG2                                                                                         1       6.00
+                                                                                                           2       2.73
+Homo sapiens HepG2 cytosolic fraction                                                                      1       6.28
+                                                                                                           2       5.39
+Homo sapiens HepG2 nuclear fraction                                                                        1       4.36
+                                                                                                           2       4.55
+Homo sapiens IMR-90                                                                                        1       3.49
+                                                                                                           2       3.09
+Homo sapiens IMR-90 cytosolic fraction                                                                     1       2.15
+                                                                                                           2       1.99
+Homo sapiens K562                                                                                          1      43.00
+                                                                                                           2      23.85
+Homo sapiens K562 chromatin fraction                                                                       3       2.58
+                                                                                                           4       2.30
+Homo sapiens K562 cytosolic fraction                                                                       1       6.29
+                                                                                                           2       2.19
+Homo sapiens K562 nuclear fraction                                                                         1       7.34
+                                                                                                           2       2.81
+Homo sapiens K562 nucleolus fraction                                                                       3       3.23
+                                                                                                           4       2.55
+Homo sapiens K562 nucleoplasmic fraction                                                                   3       2.75
+                                                                                                           4       2.69
+Homo sapiens Karpas-422                                                                                    1       0.25
+                                                                                                           2       0.25
+Homo sapiens MCF-7                                                                                         1       1.76
+                                                                                                           2       2.82
+                                                                                                           3       2.23
+                                                                                                           4       2.49
+Homo sapiens MCF-7 cytosolic fraction                                                                      3       1.03
+                                                                                                           4       1.30
+Homo sapiens MCF-7 nuclear fraction                                                                        3       3.61
+                                                                                                           4       2.51
+Homo sapiens NCI-H460 cytosolic fraction                                                                   1       0.38
+                                                                                                           2       0.33
+Homo sapiens NCI-H460 nuclear fraction                                                                     1       0.38
+                                                                                                           2       0.35
+Homo sapiens OCI-LY7                                                                                       1       0.65
+                                                                                                           2       0.67
+Homo sapiens Peyer's patch tissue female adult (53 years)                                                  1       0.29
+Homo sapiens Peyer's patch tissue male adult (54 years)                                                    1       0.25
+Homo sapiens SK-MEL-5 cytosolic fraction                                                                   1       1.70
+                                                                                                           2       1.16
+Homo sapiens SK-MEL-5 nuclear fraction                                                                     1       1.18
+                                                                                                           2       0.94
+Homo sapiens SK-N-DZ cytosolic fraction                                                                    1       0.33
+                                                                                                           2       0.75
+Homo sapiens SK-N-DZ nuclear fraction                                                                      1       0.39
+                                                                                                           2       0.54
+Homo sapiens SK-N-SH                                                                                       3       6.04
+                                                                                                           4       3.21
+Homo sapiens SK-N-SH cytosolic fraction                                                                    3       3.49
+                                                                                                           4       5.39
+Homo sapiens SK-N-SH nuclear fraction                                                                      3       4.31
+                                                                                                           4       5.45
+Homo sapiens SK-N-SH treated with 6 μM all-trans-retinoic acid for 48 hours                                1      73.77
+                                                                                                           2      64.35
+Homo sapiens adrenal gland tissue female adult (51 years)                                                  1       0.95
+Homo sapiens adrenal gland tissue female adult (53 years)                                                  1       0.93
+Homo sapiens articular chondrocyte of knee joint female adult (56 years) and male adult (64 years)         1       2.30
+                                                                                                           2       2.58
+Homo sapiens bipolar neuron originated from GM23338 treated with 0.5 μg/mL doxycycline hyclate for 4 days  1       0.89
+                                                                                                           2       0.61
+Homo sapiens body of pancreas tissue female adult (51 years)                                               1       0.79
+Homo sapiens body of pancreas tissue female adult (53 years)                                               1       0.76
+Homo sapiens cerebellum tissue female embryo (19 weeks) and female embryo (37 weeks)                       1       3.36
+                                                                                                           2       2.04
+Homo sapiens diencephalon tissue female embryo (20 weeks) and male embryo (22 weeks)                       1       3.78
+                                                                                                           2       2.18
+Homo sapiens endothelial cell of umbilical vein nuclear fraction newborn                                   3      13.82
+                                                                                                           4       3.48
+Homo sapiens esophagus muscularis mucosa tissue female adult (51 years)                                    1       1.43
+Homo sapiens esophagus muscularis mucosa tissue female adult (53 years)                                    1       1.07
+Homo sapiens esophagus muscularis mucosa tissue male adult (37 years)                                      1       1.03
+Homo sapiens esophagus squamous epithelium tissue female adult (51 years)                                  1       0.62
+Homo sapiens esophagus squamous epithelium tissue female adult (53 years)                                  1       0.86
+Homo sapiens esophagus squamous epithelium tissue male adult (37 years)                                    1       0.53
+Homo sapiens esophagus squamous epithelium tissue male adult (54 years)                                    1       0.63
+Homo sapiens fibroblast of dermis female adult (44 years) and female adult (55 years)                      1       3.16
+                                                                                                           2       3.62
+Homo sapiens fibroblast of the aortic adventitia female adult (24 years) and male adult (47 years)         1       2.77
+                                                                                                           2       3.38
+Homo sapiens fibroblast of villous mesenchyme female newborn and male newborn                              1       2.34
+                                                                                                           2       3.43
+Homo sapiens frontal cortex tissue female embryo (20 weeks) and male embryo (22 weeks)                     1       4.35
+                                                                                                           2       3.24
+Homo sapiens gastroesophageal sphincter tissue female adult (51 years)                                     1       2.80
+Homo sapiens gastroesophageal sphincter tissue female adult (53 years)                                     1       2.02
+Homo sapiens gastroesophageal sphincter tissue male adult (37 years)                                       1       1.85
+Homo sapiens gastroesophageal sphincter tissue male adult (54 years)                                       1       2.04
+Homo sapiens hair follicle dermal papilla cell female adult (47 years) and female adult (70 years)         1       2.21
+                                                                                                           2       2.59
+Homo sapiens heart tissue female embryo (19 weeks) and female embryo (28 weeks)                            1       3.91
+                                                                                                           2       1.61
+Homo sapiens hematopoietic multipotent progenitor cell                                                     1       3.44
+Homo sapiens hepatocyte originated from H9                                                                 1       0.41
+                                                                                                           2       0.62
+Homo sapiens keratinocyte cytosolic fraction female                                                        3      17.07
+                                                                                                           4       7.78
+Homo sapiens keratinocyte female                                                                           1       5.60
+                                                                                                           2       8.95
+Homo sapiens keratinocyte nuclear fraction female                                                          3       3.47
+                                                                                                           4       2.59
+Homo sapiens liver tissue female embryo (20 weeks)                                                         1       1.66
+Homo sapiens lung tissue female embryo (20 weeks) and female embryo (24 weeks)                             1       3.05
+                                                                                                           2       0.85
+Homo sapiens mammary epithelial cell female adult (23 years)                                               1       2.23
+Homo sapiens melanocyte of skin female adult (52 years) and male adult (55 years)                          1       2.17
+                                                                                                           2       2.34
+Homo sapiens melanocyte of skin male child (1 year) and male child (3 years)                               1       2.47
+                                                                                                           2       1.76
+Homo sapiens mesenchymal stem cell of Wharton's jelly female newborn and male newborn                      1       2.09
+                                                                                                           2       2.14
+Homo sapiens mesenchymal stem cell of adipose female adult (37 years) and female adult (42 years)          1       2.16
+                                                                                                           2       1.53
+Homo sapiens mesenchymal stem cell of the bone marrow female adult (60 years) and male adult (57 years)    1       2.44
+                                                                                                           2       2.62
+Homo sapiens mesenchymal stem cell originated from H1                                                      1       0.25
+                                                                                                           2       0.27
+Homo sapiens mesendoderm originated from H1                                                                1       0.19
+                                                                                                           2       0.21
+Homo sapiens metanephros tissue female embryo (20 weeks) and female embryo (24 weeks)                      1       2.83
+                                                                                                           2       1.42
+Homo sapiens neural cell originated from H1                                                                1       2.79
+                                                                                                           2       2.78
+Homo sapiens neural progenitor cell originated from H9                                                     1       0.31
+                                                                                                           2       0.18
+Homo sapiens neuronal stem cell originated from H1                                                         1       0.28
+                                                                                                           2       0.34
+Homo sapiens occipital lobe tissue female embryo (20 weeks) and male embryo (22 weeks)                     1       4.00
+                                                                                                           2       3.65
+Homo sapiens omental fat pad tissue male adult (37 years)                                                  1       0.54
+Homo sapiens osteoblast female adult (56 years) and male adult (62 years)                                  1       3.71
+                                                                                                           2       2.97
+Homo sapiens ovary tissue female adult (51 years)                                                          1       1.68
+Homo sapiens parietal lobe tissue female embryo (24 weeks) and male embryo (22 weeks)                      1       3.36
+                                                                                                           2       2.06
+Homo sapiens placental epithelial cell female newborn and male newborn                                     1       1.73
+                                                                                                           2       1.77
+Homo sapiens placental pericyte female newborn and male newborn                                            1       2.09
+                                                                                                           2       1.44
+Homo sapiens prostate gland tissue male adult (37 years)                                                   1       0.52
+Homo sapiens prostate gland tissue male adult (54 years)                                                   1       0.79
+Homo sapiens right lobe of liver tissue female adult (53 years)                                            1       0.25
+Homo sapiens sigmoid colon tissue female adult (51 years)                                                  1       2.19
+Homo sapiens sigmoid colon tissue female adult (53 years)                                                  1       1.02
+Homo sapiens sigmoid colon tissue male adult (37 years)                                                    1       0.38
+Homo sapiens sigmoid colon tissue male adult (54 years)                                                    1       1.31
+Homo sapiens skeletal muscle satellite cell female adult (64 years) and male adult (21 years)              1       1.57
+                                                                                                           2       2.27
+Homo sapiens skeletal muscle tissue tissue female embryo (19 weeks) and male embryo (22 weeks)             1       2.71
+                                                                                                           2       3.81
+Homo sapiens skin of body tissue female embryo (24 weeks) and male embryo (22 weeks)                       1       3.37
+                                                                                                           2       2.72
+Homo sapiens smooth muscle cell originated from H9                                                         1       0.36
+                                                                                                           2       0.56
+Homo sapiens spinal cord tissue female embryo (24 weeks) and male embryo (22 weeks)                        1       2.25
+                                                                                                           2       1.79
+Homo sapiens spleen tissue female adult (51 years)                                                         1       0.40
+Homo sapiens spleen tissue female adult (53 years)                                                         1       0.18
+Homo sapiens spleen tissue male adult (37 years)                                                           1       0.04
+Homo sapiens spleen tissue male adult (54 years)                                                           1       0.06
+Homo sapiens stomach tissue female adult (51 years)                                                        1       0.94
+Homo sapiens stomach tissue female adult (53 years)                                                        1       0.70
+Homo sapiens stomach tissue male adult (37 years)                                                          1       0.22
+Homo sapiens stomach tissue male adult (54 years)                                                          1       0.73
+Homo sapiens subcutaneous adipose tissue tissue female adult (53 years)                                    1       2.17
+Homo sapiens subcutaneous preadipocyte female adult (62 years) and male adult (65 years)                   1       1.53
+                                                                                                           2       2.52
+Homo sapiens temporal lobe tissue female embryo (20 weeks) and female embryo (24 weeks)                    1       4.13
+                                                                                                           2       2.96
+Homo sapiens testis tissue male adult (37 years)                                                           1       0.38
+Homo sapiens testis tissue male adult (54 years)                                                           1       0.45
+Homo sapiens thoracic aorta endothelial cell female adult (22 years) and male adult (55 years)             1       1.45
+                                                                                                           2       1.90
+Homo sapiens thyroid gland tissue female adult (53 years)                                                  1       0.63
+Homo sapiens thyroid gland tissue female embryo (37 weeks) and female embryo (40 weeks)                    1       2.61
+                                                                                                           2       2.10
+Homo sapiens tibial nerve tissue male adult (37 years)                                                     1       1.23
+Homo sapiens tongue tissue female embryo (20 weeks) and female embryo (24 weeks)                           1       4.76
+                                                                                                           2       2.13
+Homo sapiens transverse colon tissue female adult (51 years)                                               1       0.97
+Homo sapiens transverse colon tissue female adult (53 years)                                               1       0.79
+Homo sapiens transverse colon tissue male adult (37 years)                                                 1       0.27
+Homo sapiens transverse colon tissue male adult (54 years)                                                 1       0.48
+Homo sapiens trophoblast cell originated from H1                                                           1       0.25
+                                                                                                           2       0.22
+Homo sapiens upper lobe of left lung tissue female adult (51 years)                                        1       0.40
+Homo sapiens upper lobe of left lung tissue female adult (53 years)                                        1       0.62
+Homo sapiens upper lobe of left lung tissue male adult (37 years)                                          1       0.44
+Homo sapiens upper lobe of left lung tissue male adult (54 years)                                          1       0.34
+Homo sapiens urinary bladder tissue female embryo (20 weeks)                                               1       5.47
+Homo sapiens uterus tissue female adult (51 years)                                                         1       1.82
+Homo sapiens uterus tissue female embryo (24 weeks) and female embryo (28 weeks)                           1       1.42
+                                                                                                           2       2.34
+Homo sapiens vagina tissue female adult (53 years)                                                         1       0.55
+Homo sapiens vein endothelial cell male adult (48 years) and male adult (52 years)                         1       3.15
+                                                                                                           2       1.37
+
+RNU5A-1 : RNU5B-1 ratio - median 4.74, range 0.00-40.05
