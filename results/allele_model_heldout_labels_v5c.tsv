@@ -1,0 +1,17 @@
+model	unit	ctx	auroc	n_pos	n
+v2 (frozen)	RNU4-2	dominant	0.785144204607292	37	335
+v2 (frozen)	RNU4-2	recessive	0.5073035925779708	34	332
+v2 (frozen)	RNU2-2P	dominant	0.807377049180328	24	85
+v2 (frozen)	RNU2-2P	recessive	0.6002588438308887	95	156
+v2 (frozen)	RNU5B-1	dominant	0.735512129380054	7	219
+v2 (frozen)	RNU6	dominant	0.9124119718309859	4	572
+v2 (frozen)	RNU4ATAC	recessive	0.7560975609756098	41	55
+v2 (frozen)	RNU12	recessive	0.65625	7	23
+v2 + allele features	RNU4-2	dominant	0.7683203337565755	37	335
+v2 + allele features	RNU4-2	recessive	0.5192953020134229	34	332
+v2 + allele features	RNU2-2P	dominant	0.715846994535519	24	85
+v2 + allele features	RNU2-2P	recessive	0.5742881794650561	95	156
+v2 + allele features	RNU5B-1	dominant	0.7459568733153639	7	219
+v2 + allele features	RNU6	dominant	0.9084507042253521	4	572
+v2 + allele features	RNU4ATAC	recessive	0.7299651567944251	41	55
+v2 + allele features	RNU12	recessive	0.7321428571428572	7	23
