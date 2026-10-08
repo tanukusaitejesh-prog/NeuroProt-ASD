@@ -88,7 +88,7 @@ established length dependence of replication slippage and serves as an internal 
 
 | tract length | relative insertion frequency | tracts |
 |---|---|---|
-| 2 | 0.09–0.12 | 23,497 |
+| 2 | 0.09–0.11 | 149,527 |
 | 3 | 0.11–0.13 | 64,305 |
 | **4** | **0.21–0.26** | **21,831** |
 | 5 | 0.48–0.60 | 8,722 |
