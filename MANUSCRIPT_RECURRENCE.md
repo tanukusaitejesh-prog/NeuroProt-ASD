@@ -24,12 +24,15 @@ or in population cohorts. Because n.64_65insT is a thymine inserted into a four-
 the single-base insertion frequency at homopolymer tracts empirically from gnomAD v4.1, across 10 genomic
 windows containing 10,992 T₄ tracts. Insertion frequency rises log-linearly with tract length
 (1.90-fold per added base, R² = 0.90, ρ = 0.99), reproducing the expected signature of replication slippage and
-validating the measurement. At tract length four, however, single-base insertions occur at only 0.26 times the
-frequency of substitutions (95% Poisson CI 0.22–0.30): such sites are mutationally *disfavoured*.
+validating the measurement. At tract length four, however, single-base insertions occur at only 0.40 times the
+frequency of substitutions: such sites are mutationally *disfavoured*. Because short-read sequencing is known to
+under-detect homopolymer insertions, this rate was measured in both gnomAD (short read, 0.23) and the HPRC
+pangenome derived from long-read haplotype assemblies (0.40); we adopt the long-read figure throughout, which is
+the conservative choice.
 
 In patients, single-base insertions in the critical region are 7.9-fold more frequent per allele than pathogenic
-single-nucleotide variants in the same region. Set against a mutational expectation of 0.26, this is a
-34-fold discrepancy; for n.64_65insT alone the figure is 153-fold. Mutation rate therefore does not explain the
+single-nucleotide variants in the same region. Set against a mutational expectation of 0.40, this is a
+**20-fold** discrepancy; for n.64_65insT alone the figure is 89-fold. Mutation rate therefore does not explain the
 dominance of this allele, and the discrepancy is the quantity that any selection-based explanation must account
 for. We discuss why ascertainment is unlikely to be sufficient and what measurement would settle the question.
 
@@ -98,10 +101,17 @@ established length dependence of replication slippage and serves as an internal 
 
 ### A T₄ tract is mutationally disfavoured, not favoured
 
-At tract length four — the context of n.64_65insT — single-base insertions occurred at 0.257 times the
-substitution frequency for T₄ (163 insertions across 10,992 tracts; 95% Poisson CI 0.22–0.30) and 0.208 for A₄
-(130 across 10,839; CI 0.17–0.24). Insertions at such sites are roughly four-fold *less* likely than
-substitutions.
+At tract length four — the context of n.64_65insT — short-read data gave 0.257 times the substitution frequency
+for T₄ (163 insertions across 10,992 tracts; 95% Poisson CI 0.22–0.30) and 0.208 for A₄ (130 across 10,839;
+CI 0.17–0.24).
+
+Because short-read pipelines are known to under-call insertions in homopolymers, we repeated the identical
+measurement in the same windows against the HPRC pangenome, whose variants derive from long-read haplotype
+assemblies [50]. Long-read data gave 0.543 for T₄ and 0.262 for A₄, a mean of 0.403 — 1.73-fold above the
+short-read estimate. The ratio of long-read to short-read rate grew with tract length (1.3–2.1-fold at lengths
+2–4, rising to 6–7-fold at lengths 10–12), the expected signature of short-read homopolymer failure, and is
+modest in the length range that matters here. We therefore adopt 0.40 as the expected relative insertion
+frequency at a T₄ tract. Insertions at such sites remain roughly 2.5-fold *less* likely than substitutions.
 
 ### The residual
 
@@ -121,7 +131,7 @@ first, and is therefore substantially more robust to ascertainment.
 The dominance of n.64_65insT in ReNU syndrome is not a consequence of an elevated mutation rate. The critical
 region is less mutable than its surroundings; mutation rate does not predict which variants are seen; and the
 specific sequence context of the recurrent allele is one in which insertions are disfavoured relative to
-substitutions by roughly four-fold. One of the three explanations named in the primary literature can therefore
+substitutions by roughly 2.5-fold. One of the three explanations named in the primary literature can therefore
 be set aside.
 
 Of the remaining two, ascertainment is the more mundane and must be addressed. n.64_65insT was the allele
@@ -134,8 +144,8 @@ detect than a single-base insertion in a homopolymer, which is the harder call f
 technical bias runs against the observed direction.
 
 That leaves positive selection in the germline, which the primary literature proposes but does not quantify. Our
-estimate puts a number on what it would have to achieve: a 34-fold enrichment of insertion alleles over
-substitution alleles beyond mutational expectation, or 153-fold for the single recurrent allele. For comparison,
+estimate puts a number on what it would have to achieve: a 20-fold enrichment of insertion alleles over
+substitution alleles beyond mutational expectation, or 89-fold for the single recurrent allele. For comparison,
 the best-characterised selfish spermatogonial variants are estimated to be enriched by one to two orders of
 magnitude, so the magnitude required here is not implausible — but every established example of that mechanism
 is paternal, whereas all 54 informative ReNU cases arose on the maternal allele. A maternal mechanism of
@@ -149,9 +159,11 @@ the resolution required; this analysis is the strongest statement that can be ma
 ### Limitations
 
 Observed allele counts in population data reflect mutation rate, genetic drift and selection together, so our
-measurement is of relative mutability, not a per-generation rate. gnomAD detects insertions less sensitively
-than substitutions, which biases our estimate of 0.26 downward and therefore makes the reported residual
-conservative; a two-fold sensitivity correction would still leave a ~75-fold discrepancy at the class level.
+measurement is of relative mutability, not a per-generation rate. Short-read sequencing detects insertions in homopolymers less sensitively than
+substitutions; we measured that bias directly rather than assuming it, finding a 1.73-fold under-detection at
+length four, and adopted the long-read-corrected rate. The HPRC estimate rests on 232 assemblies, so its counts
+are sparse, and graph-based calls in repetitive sequence carry their own uncertainty; the true rate most likely
+lies between the two estimates, and we have taken the one that minimises our reported effect.
 Sampling was restricted to chromosome 12, and genome-wide sampling would tighten the estimate. Patient carrier
 counts were transcribed from a published table and inherit its ascertainment. Finally, we test only the
 mutation-rate hypothesis; we do not establish what the alternative is.
