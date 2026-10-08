@@ -1,0 +1,23 @@
+pdb_id	subunits	state	ligands	resolution_A	notes
+9OOS	GluN1a-2B	non-active	Gly,Glu,pregnenolone sulfate	3.03	negative modulator bound
+9OOT	GluN1a-2B	pre-active	Gly,Glu,pregnenolone sulfate	3.13	
+9OOQ	GluN1a-2B	closed	Gly,Glu,24S-HC	3.20	
+9OOR	GluN1a-2B	open	Gly,Glu,24S-HC	3.15	activated, pore open
+9IYP	GluN1-2B	Mg-bound	Mg,Gly,7RC	3.27	channel block by Mg2+
+9IYQ	GluN1-2B	Mg-free	Gly,7RC	3.18	
+7EU8	GluN1-2B	ketamine-blocked	S-ketamine,Gly,Glu	4.07	open-channel blocker
+9D37	GluN1a-2B-2D	non-active	Gly,Glu	3.34	triheteromer
+9D3A	GluN1a-2B-2D	non-active	Gly,Glu	3.78	triheteromer, low-res
+9D38	GluN1a-2B-2D	open	Gly,Glu,EU1622-240	3.95	triheteromer, positive modulator
+9D39	GluN1a-2B-2D	antagonist-bound	Gly,PPDA	3.65	competitive antagonist
+9D3B	GluN1a-2B-2D	NAM-bound	Gly,Glu,S-DQP-997-74	3.71	negative allosteric modulator
+9D3C	GluN1a-2B-2D	ketamine-blocked	Gly,Glu,S-ketamine	3.96	
+7EOS	GluN1-2A	agonist-bound	Gly,Glu	3.90	
+7EOQ	GluN1-2A	antagonist-bound	Gly,CPP	4.10	competitive antagonist
+7EOT	GluN1-2A	CGP-78608-bound	Glu,CGP-78608	3.80	GluN1 antagonist
+7EOR	GluN1-2A	PAM-bound	Gly,Glu,GNE-6901	4.00	positive allosteric modulator
+7EOU	GluN1-2A	PAM+blocker	Gly,Glu,GNE-6901,9-AA	4.30	
+7EU7	GluN1-2A	ketamine-blocked	S-ketamine,Gly,Glu	3.50	
+6IRA	GluN1-2A	agonist pH7	Gly,Glu	4.50	pH 7.0
+6IRF	GluN1-2A	agonist pH6	Gly,Glu	5.10	pH 6.3, proton inhibition
+8E99	GluN1a-2A-2C	triheteromer	Nb-4	4.24	

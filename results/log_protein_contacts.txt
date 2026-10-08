@@ -1,0 +1,17 @@
+  3JCR: 9200 protein residues mapped to UniProt
+  5O9Z: 12684 protein residues mapped to UniProt
+  5XJC: 14184 protein residues mapped to UniProt
+  5Z56: 16663 protein residues mapped to UniProt
+  6FF7: 16769 protein residues mapped to UniProt
+  6QDV: 14611 protein residues mapped to UniProt
+  6QW6: 10350 protein residues mapped to UniProt
+  6QX9: 14783 protein residues mapped to UniProt
+Traceback (most recent call last):
+  File "<string>", line 8, in <module>
+  File "C:\Users\saite\NeuroProt-ASD\snrna_vep\protein_contacts.py", line 121, in load_all
+    frames.append(residue_contacts(p, rna_references, pdb_id, SPLICEOSOME_STATES.get(pdb_id, "other")))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saite\NeuroProt-ASD\snrna_vep\protein_contacts.py", line 63, in residue_contacts
+    st = gemmi.read_structure(str(cif_path))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 0] Failed to read: data\raw\pdb\6Y5Q.cif.gz: The operation completed successfully.
