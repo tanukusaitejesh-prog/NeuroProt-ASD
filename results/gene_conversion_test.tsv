@@ -1,0 +1,12 @@
+hgvs	vtype	n_pos	ndd_carriers	rnu4_2	rnu4_1	conversion_explicable
+n.64_65insT	ins	65	89	-	-	False
+n.76C>T	snv	76	7	C	C	False
+n.77_78insT	ins	78	6	-	-	False
+n.67A>G	snv	67	3	A	A	False
+n.64_65insG	ins	65	2	-	-	False
+n.65A>G	snv	65	2	A	A	False
+n.68_69insA	ins	69	1	-	-	False
+n.65_66insT	ins	66	1	-	-	False
+n.78A>C	snv	78	1	A	A	False
+n.69C>T	snv	69	1	C	C	False
+n.63T>G	snv	63	1	T	T	False

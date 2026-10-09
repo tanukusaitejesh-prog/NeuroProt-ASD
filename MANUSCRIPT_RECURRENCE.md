@@ -1,7 +1,7 @@
-# The dominance of a single insertion allele in ReNU syndrome is not explained by mutation rate
+# The recurrent ReNU syndrome allele is mutationally disfavoured and exclusively maternal in origin
 
-*Draft, 9 October 2026. Every number traces to a committed script, named in brackets. Not pre-registered;
-this is a separate study from the snRNA-VEP variant-effect work and is reported as such.*
+*Draft 2, 9 October 2026. Every number traces to a committed script, named in brackets. Not pre-registered;
+this is a separate study from the MuST-VEP variant-effect work and is reported as such.*
 
 **Suggested venue.** Short report / research letter: *Genetics in Medicine*, *European Journal of Human
 Genetics*, or *Human Molecular Genetics*. The result directly addresses a question posed in a 2026 *Nature*
@@ -12,29 +12,38 @@ paper, so a Matters Arising there is also defensible.
 ## Abstract
 
 De novo variants in *RNU4-2* cause ReNU syndrome, among the most frequent single-gene causes of
-neurodevelopmental disorder yet described. Strikingly, a single-base insertion, n.64_65insT, accounts for
-70–77% of all reported cases. The reason is unresolved: saturation genome editing has shown the variant is not
-unusually damaging, and the candidate explanations named in the literature are an elevated local mutation rate,
-positive selection in the female germline, and ascertainment bias.
+neurodevelopmental disorder yet described. A single-base insertion, n.64_65insT, accounts for 70–77% of all
+reported cases. The reason is unresolved: saturation genome editing has shown the variant is not unusually
+damaging, and the explanations named in the primary literature are an elevated local mutation rate, positive
+selection in the female germline, and ascertainment bias.
 
-We tested the mutation-rate explanation using public data. Base-pair-resolution germline mutation rates
-(Roulette) show the 18-nucleotide critical region is *less* mutable than the remainder of *RNU4-2* (mean
+We quantified the mutational supply of this allele from public data. Base-pair-resolution germline mutation
+rates (Roulette) show the 18-nucleotide critical region is *less* mutable than the remainder of *RNU4-2* (mean
 relative rate 0.063 versus 0.088), and do not predict which critical-region variants are observed in patients
 or in population cohorts. Because n.64_65insT is a thymine inserted into a four-thymine homopolymer, we measured
 the single-base insertion frequency at homopolymer tracts empirically from gnomAD v4.1, across 10 genomic
-windows containing 10,992 T₄ tracts. Insertion frequency rises log-linearly with tract length
-(1.90-fold per added base, R² = 0.90, ρ = 0.99), reproducing the expected signature of replication slippage and
-validating the measurement. At tract length four, however, single-base insertions occur at only 0.40 times the
-frequency of substitutions: such sites are mutationally *disfavoured*. Because short-read sequencing is known to
-under-detect homopolymer insertions, this rate was measured in both gnomAD (short read, 0.23) and the HPRC
-pangenome derived from long-read haplotype assemblies (0.40); we adopt the long-read figure throughout, which is
-the conservative choice.
+windows containing 10,992 T₄ tracts. Insertion frequency rises log-linearly with tract length (1.90-fold per
+added base, R² = 0.90, ρ = 0.99), reproducing the expected signature of replication slippage and validating the
+measurement. At tract length four, however, single-base insertions occur at only 0.40 times the frequency of
+substitutions — measured in both short-read gnomAD (0.23) and the long-read HPRC pangenome (0.40), of which we
+adopt the conservative long-read figure. Such sites are mutationally *disfavoured*.
 
 In patients, single-base insertions in the critical region are 7.9-fold more frequent per allele than pathogenic
 single-nucleotide variants in the same region. Set against a mutational expectation of 0.40, this is a
-**20-fold** discrepancy; for n.64_65insT alone the figure is 89-fold. Mutation rate therefore does not explain the
-dominance of this allele, and the discrepancy is the quantity that any selection-based explanation must account
-for. We discuss why ascertainment is unlikely to be sufficient and what measurement would settle the question.
+**20-fold** discrepancy; for n.64_65insT alone it is 89-fold. We further exclude interlocus gene conversion,
+the standard explanation for a recurrent allele whose mutation rate is too low: the tandem paralogue *RNU4-1*
+lies 1.2 kb away and is 97.2% identical, but carries the *identical* T₄ tract and differs from *RNU4-2* at no
+position inside the critical region, so conversion cannot generate n.64_65insT or any of the other ten observed
+patient alleles.
+
+What remains is a germline excess of roughly 20-fold that is, in every informative case reported, **maternal**.
+This is the salient difficulty. The only documented mechanism capable of producing an allele-specific germline
+excess of this magnitude — selfish spermatogonial selection — is paternal and depends on clonal expansion of
+mitotically dividing spermatogonial stem cells. Oogenesis has no such compartment: oocyte production ceases
+before birth and no further genome replication occurs. The maternal age effect that does exist is attributed to
+DNA damage accumulating during meiotic arrest, which raises mutation rate broadly rather than amplifying one
+allele. The dominance of n.64_65insT therefore requires a mechanism that is not currently described, and we set
+out the measurements that would identify it.
 
 ---
 
@@ -54,7 +63,9 @@ concluded that high recurrence is unlikely to result from a particularly damagin
 ascertainment, and that positive selection in the female germline or an increased local mutation rate are the
 more likely explanations — while stating that which of these applies is at present unknown.
 
-Here we test the mutation-rate explanation, because it is the one that can be settled with public data.
+Here we quantify the mutational supply of the allele, because that is the term that can be settled with public
+data, and show that once it is measured the remaining discrepancy has a property that constrains its
+explanation severely.
 
 ---
 
@@ -113,7 +124,24 @@ short-read estimate. The ratio of long-read to short-read rate grew with tract l
 modest in the length range that matters here. We therefore adopt 0.40 as the expected relative insertion
 frequency at a T₄ tract. Insertions at such sites remain roughly 2.5-fold *less* likely than substitutions.
 
-### The residual
+### Interlocus gene conversion from the tandem paralogue is excluded
+
+When a recurrent allele cannot be explained by mutation rate, the standard alternative is non-allelic gene
+conversion: a near-identical donor elsewhere in the genome repeatedly overwrites the acceptor, so the "mutation"
+is a copying event and its frequency is set by recombination rather than by polymerase error. This mechanism
+accounts for recurrent pathogenic alleles in *CYP21A2* (from *CYP21A1P*), *PMS2* (from *PMS2CL*), *SMN1* (from
+*SMN2*) and *GBA* (from *GBAP1*).
+
+*RNU4-2* has precisely the configuration that makes this plausible. Its paralogue *RNU4-1* lies 1,194 bp away
+on the same strand of chromosome 12, is the same length (141 nt), and is 97.2% identical (137/141).
+
+The hypothesis is nonetheless decisively excluded, because conversion can only transfer sequence the donor
+actually carries [56]. *RNU4-1* differs from *RNU4-2* at exactly four positions — n.37, n.88, n.99 and n.113 —
+and **none lies inside the critical region**. In particular *RNU4-1* carries the *identical* four-thymine tract,
+so conversion reproduces T₄ rather than extending it to T₅ and cannot generate n.64_65insT. Applying the same
+test to every observed patient allele, **0 of 11 alleles and 0 of 114 patient carriers are conversion-explicable**.
+
+### The excess is exclusively maternal
 
 Using the per-variant carrier counts reported in the discovery cohort, single-base insertions in the critical
 region have 19.8 patient carriers per allele (5 alleles, 99 carriers) against 2.5 for pathogenic
@@ -124,6 +152,15 @@ expectation of 0.40, the discrepancy is **20-fold**. Considering n.64_65insT alo
 We report the class-level comparison as primary because it does not single out the allele that was discovered
 first, and is therefore substantially more robust to ascertainment.
 
+The parental origin of this excess is reported in the primary literature and is, so far as we are aware,
+without precedent in its consistency. In the discovery cohort, parental origin was resolved for 54 individuals —
+46 carrying n.64_65insT, three other insertions, five substitutions — and **all 54 variants lay on the maternal
+allele**. In the independent French genome-sequencing cohort, origin was determined in 50 trios and one
+mother–patient duo: 47 maternal and four paternal, and **none of the four paternal variants was n.64_65insT**
+(they were n.62T>C, n.68A>C, n.76del and n.92C>G). The 20-fold excess we quantify above is therefore not merely
+associated with maternal transmission; within the resolution of the published data it occurs *only* on the
+maternal allele.
+
 ---
 
 ## Discussion
@@ -131,42 +168,106 @@ first, and is therefore substantially more robust to ascertainment.
 The dominance of n.64_65insT in ReNU syndrome is not a consequence of an elevated mutation rate. The critical
 region is less mutable than its surroundings; mutation rate does not predict which variants are seen; and the
 specific sequence context of the recurrent allele is one in which insertions are disfavoured relative to
-substitutions by roughly 2.5-fold. One of the three explanations named in the primary literature can therefore
-be set aside.
+substitutions by roughly 2.5-fold. Nor is it a consequence of interlocus gene conversion, the usual explanation
+for a recurrent allele with insufficient mutational supply: the only plausible donor carries the same tract. Two
+of the candidate explanations can therefore be set aside.
 
-Of the remaining two, ascertainment is the more mundane and must be addressed. n.64_65insT was the allele
-through which the disorder was discovered, and subsequent studies searched for it directly, which inflates its
-apparent share. Three observations argue that this is insufficient. First, its share is similar in an
-independent cohort ascertained separately (72.6% versus 77.4%). Second, the comparison we report as primary is
-between *classes* of variant — insertions versus substitutions — in the same region of the same gene, and both
-classes were sought in the same screens. Third, substitutions in the critical region are if anything easier to
-detect than a single-base insertion in a homopolymer, which is the harder call for short-read pipelines; the
-technical bias runs against the observed direction.
+**Ascertainment** is the more mundane of those remaining and must be addressed directly. n.64_65insT was the
+allele through which the disorder was discovered, and subsequent studies searched for it specifically, which
+inflates its apparent share. Three observations argue that this is insufficient. First, its share is similar in
+an independently ascertained cohort (72.6% versus 77.4%), and the per-allele insertion-to-substitution ratio —
+the primary statistic here — replicates across the two separately ascertained arms of the discovery data
+(11.2 in the GEL arm, 7.5 in the non-GEL arm, against 7.9 combined). Second, the
+comparison we report as primary is between *classes* of variant — insertions versus substitutions — in the same
+region of the same gene, and both classes were sought in the same screens. Third, a single-base insertion in a
+homopolymer is the harder call for short-read pipelines, not the easier one; the technical bias runs against
+the observed direction.
 
-That leaves positive selection in the germline, which the primary literature proposes but does not quantify. Our
-estimate puts a number on what it would have to achieve: a 20-fold enrichment of insertion alleles over
-substitution alleles beyond mutational expectation, or 89-fold for the single recurrent allele. For comparison,
-the best-characterised selfish spermatogonial variants are estimated to be enriched by one to two orders of
-magnitude, so the magnitude required here is not implausible — but every established example of that mechanism
-is paternal, whereas all 54 informative ReNU cases arose on the maternal allele. A maternal mechanism of
-comparable strength is not currently described.
+**That leaves germline selection, and this is where the maternal exclusivity becomes the central problem.**
 
-This points to the measurement that would settle it. Phased de novo variant data, in which the parental origin
-and the local mutation spectrum can be assessed together, would distinguish a female-germline selective process
-from a mutational one we have not modelled. Such data exist in trio cohorts but are not publicly available at
-the resolution required; this analysis is the strongest statement that can be made without them.
+The primary literature proposes positive selection in the female germline but does not quantify it. Our estimate
+puts a number on what it would have to achieve: a 20-fold enrichment of insertion alleles over substitution
+alleles beyond mutational expectation, or 89-fold for the single recurrent allele. That magnitude is not
+unprecedented in itself. Selfish spermatogonial selection — the process underlying the classical paternal
+age-effect disorders, driven by activating variants in *FGFR2* (Apert), *FGFR3* (achondroplasia), *RET* (MEN2)
+and other RAS–MAPK genes — produces enrichments of one to three orders of magnitude in offspring.
+
+But that mechanism is specifically a consequence of male germline architecture. Spermatogonial stem cells divide
+continuously throughout adult life, so a variant conferring even a slight proliferative advantage is amplified
+clonally across decades; this is why the mutant cells form discrete patches in aged testis, and why the effect
+scales with paternal age. **Oogenesis has no equivalent compartment.** Oocyte production ceases before birth and
+the genome is not replicated again, so there is no mitotic population in which a favoured allele could expand.
+The maternal age effect that does exist is an order of magnitude weaker than the paternal one and is attributed
+to DNA damage accumulating in arrested oocytes and to double-strand-break-associated mutation clusters —
+processes that raise mutation rate broadly, and that we have in any case bounded directly: at this locus the
+measured insertion supply is below the substitution supply.
+
+One alternative deserves explicit treatment. The authors of the French cohort suggest the maternal bias may
+reflect negative selection against severely splicing-disruptive variants in the male germline. That would
+explain why ReNU variants are maternal; it does not explain why *one* maternal allele is 20-fold more frequent
+than other maternal alleles in the same 18 nucleotides, which would be purged equally. Directional selection
+against paternal transmission changes the parent of origin, not the allelic spectrum within a parent.
+
+We therefore state the problem rather than resolve it: ReNU syndrome exhibits an allele-specific, maternal-only
+germline excess of roughly 20-fold at a site whose mutational supply we have measured and found to be low, and
+no described mechanism of germline mutation or selection produces that pattern.
+
+Three measurements would discriminate among the possibilities. **(1) Maternal age.** If the excess arises from
+damage during meiotic arrest, the n.64_65insT fraction among ReNU cases should rise with maternal age; if it
+arises from a replication-independent process fixed before birth, it should not. Trio cohorts already hold the
+data. **(2) Direct assay of the female germline.** Deep targeted sequencing of *RNU4-2* in ovarian tissue or
+oocytes, as was done for *FGFR2* and *FGFR3* in testis, would show whether the allele is present above
+expectation before fertilisation — distinguishing a germline process from a post-zygotic or transmission one.
+**(3) Transmission distortion.** If the allele is favoured at fertilisation or in early embryogenesis rather
+than generated more often, that is detectable in preimplantation or early-loss material, and would place the
+mechanism outside mutation entirely.
 
 ### Limitations
 
 Observed allele counts in population data reflect mutation rate, genetic drift and selection together, so our
-measurement is of relative mutability, not a per-generation rate. Short-read sequencing detects insertions in homopolymers less sensitively than
-substitutions; we measured that bias directly rather than assuming it, finding a 1.73-fold under-detection at
-length four, and adopted the long-read-corrected rate. The HPRC estimate rests on 232 assemblies, so its counts
-are sparse, and graph-based calls in repetitive sequence carry their own uncertainty; the true rate most likely
-lies between the two estimates, and we have taken the one that minimises our reported effect.
-Sampling was restricted to chromosome 12, and genome-wide sampling would tighten the estimate. Patient carrier
-counts were transcribed from a published table and inherit its ascertainment. Finally, we test only the
-mutation-rate hypothesis; we do not establish what the alternative is.
+measurement is of relative mutability, not a per-generation rate. Short-read sequencing detects insertions in
+homopolymers less sensitively than substitutions; we measured that bias directly rather than assuming it,
+finding a 1.73-fold under-detection at length four, and adopted the long-read-corrected rate. The HPRC estimate
+rests on 232 assemblies, so its counts are sparse, and graph-based calls in repetitive sequence carry their own
+uncertainty; the true rate most likely lies between the two estimates, and we have taken the one that minimises
+our reported effect. Sampling was restricted to chromosome 12, and genome-wide sampling would tighten the
+estimate. Patient carrier counts were transcribed from a published table and inherit its ascertainment.
+
+The parental-origin data are not ours: they are reported in the two cohort papers and we have combined them
+with our own measurement rather than re-deriving them. Origin was inferred indirectly from nearby informative
+variants, and was resolvable in only a subset of cases, so the claim is that no informative counter-example has
+been reported — not that none exists. The gene-conversion test excludes the proximal tandem donor; more distant
+U4 pseudogenes were not examined, though homology and proximity both make them far less plausible donors.
+Finally, we exclude mechanisms; we do not establish what the operative one is.
+
+---
+
+## Figures
+
+**Figure 1.** Mutation rate across *RNU4-2*. (a) Roulette relative rate per nucleotide with the 18-nt critical
+region shaded; patient variants overlaid. (b) Rate inside versus outside the critical region. (c) Rate versus
+patient carriers and versus population carriers, both flat.
+
+**Figure 2.** Homopolymer insertion frequency. (a) Relative insertion frequency against tract length, log scale,
+with the fitted slope; T₄ marked. (b) The same split by base. (c) Short-read versus long-read estimate at each
+tract length, showing the measured under-detection.
+
+**Figure 3.** The residual and its parental origin. (a) Patient carriers per allele for insertions versus
+pathogenic substitutions in the critical region, alongside the mutational expectation from long-read data, with
+the 20-fold discrepancy annotated. (b) The *RNU4-2* / *RNU4-1* alignment over the critical region, showing the
+identical T₄ tract and the four paralogue differences all lying outside it. (c) Parental origin of informative
+ReNU cases in both published cohorts.
+
+## Data files
+
+| file | contents |
+|---|---|
+| `results/renu_recurrence_rates.tsv` | per-variant Roulette rates and observed carrier counts |
+| `results/homopolymer_insertion_rate.tsv` | insertion frequency by tract base and length (short read) |
+| `results/homopolymer_rate_lr_vs_sr.tsv` | long-read versus short-read rate at each tract length |
+| `results/gene_conversion_test.tsv` | conversion-explicability of every observed patient allele |
+| `data/processed/roulette_rnu4_2.tsv` | all 423 Roulette records for *RNU4-2* |
+| `data/curation/renu_variant_counts.tsv` | transcribed per-variant carrier counts |
 
 ---
 
@@ -184,7 +285,16 @@ substitutions (single-base reference and alternate) or single-base insertions (a
 reference-prefixed), and each insertion was assigned to the homopolymer tract it extends, if any. Relative
 frequency is the number of tracts of a given base and length carrying an observed insertion, divided by the
 number of such tracts, expressed as a multiple of the number of observed substitutions divided by three times
-the number of callable bases [49].
+the number of callable bases [49]. The identical procedure, with the same seed and the same windows, was applied
+to the HPRC Release 2 (v2.1) Minigraph-Cactus pangenome [50].
+
+**Gene conversion test.** Mature transcribed-strand sequences for *RNU4-2* and *RNU4-1* were taken from the
+GRCh38 reference, flanks trimmed and minus-strand genes reverse-complemented, then compared position by
+position. An observed patient substitution is conversion-explicable only if the donor carries the alternate
+base at the aligned position; an insertion is conversion-explicable only if the donor carries a longer
+homopolymer run at that site [56].
+
+**Parental origin** was taken from the published cohort reports and is not re-derived here.
 
 **Patient carrier counts** were transcribed from the published Extended Data table of the discovery cohort and
 are provided in `data/curation/renu_variant_counts.tsv`.
@@ -193,28 +303,3 @@ are provided in `data/curation/renu_variant_counts.tsv`.
 tract length; exact Poisson intervals on insertion counts.
 
 **Code and data availability.** All analyses are scripted and committed; each result names its script.
-
----
-
-## Figures
-
-**Figure 1.** Mutation rate across *RNU4-2*. (a) Roulette relative rate per nucleotide with the 18-nt critical
-region shaded; patient variants overlaid. (b) Rate inside versus outside the critical region. (c) Rate versus
-patient carriers and versus population carriers, both flat.
-
-**Figure 2.** Homopolymer insertion frequency. (a) Relative insertion frequency against tract length, log scale,
-with the fitted slope; T₄ marked. (b) The same split by base. (c) Poisson intervals at length four.
-
-**Figure 3.** The residual. Patient carriers per allele for insertions versus pathogenic substitutions in the
-critical region, alongside the mutational expectation from long-read data, with the resulting 20-fold
-discrepancy annotated. Inset: the short-read versus long-read rate estimate at each tract length, showing the
-measured under-detection.
-
-## Data files
-
-| file | contents |
-|---|---|
-| `results/renu_recurrence_rates.tsv` | per-variant Roulette rates and observed carrier counts |
-| `results/homopolymer_insertion_rate.tsv` | insertion frequency by tract base and length |
-| `data/processed/roulette_rnu4_2.tsv` | all 423 Roulette records for *RNU4-2* |
-| `data/curation/renu_variant_counts.tsv` | transcribed per-variant carrier counts |
