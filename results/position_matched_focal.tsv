@@ -1,0 +1,2 @@
+position	allele	carriers	other_carriers	snv_carriers	expected_rel	observed_ratio	residual	binom_p
+120291839	n.64_65insT	89	4	2	0.403	44.5	110.42183622828783	1.2765683011145063e-45

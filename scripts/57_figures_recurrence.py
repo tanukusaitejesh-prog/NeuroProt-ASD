@@ -147,25 +147,27 @@ fig = plt.figure(figsize=(7.2, 2.7))
 gs = fig.add_gridspec(1, 3, width_ratios=[1.0, 1.45, 0.8], wspace=0.46,
                       left=0.085, right=0.985, top=0.83, bottom=0.21)
 
+# panel a: the position-matched comparison. All four variants sit at one nucleotide, so assay coverage, calling
+# behaviour and ascertainment are held constant; the two other insertions are the calling-bias control.
 ax = fig.add_subplot(gs[0])
-d = C[C.ndd > 0]
-ins, snv = d[d.vtype == "ins"], d[d.vtype == "snv"]
-pa_i, pa_s = ins.ndd.sum() / len(ins), snv.ndd.sum() / len(snv)
 exp = 0.403
-ax.bar([0, 1], [pa_i, pa_s], color=[ORANGE, GREY], edgecolor=INK2, lw=0.6, width=0.6, zorder=3)
-for i, (v, n, a) in enumerate([(pa_i, ins.ndd.sum(), len(ins)), (pa_s, snv.ndd.sum(), len(snv))]):
-    ax.text(i, v + 0.7, f"{v:.1f}\n({n}/{a})", ha="center", fontsize=6.8, color=INK)
-ax.set_xticks([0, 1]); ax.set_xticklabels(["insertions", "substitutions"], fontsize=7.2)
-ax.set_ylabel("patient carriers per allele", fontsize=7.6)
-ax.set_ylim(0, pa_i * 1.52)
-ax.annotate("", xy=(0.28, pa_i * 0.40), xytext=(0.72, pa_i * 0.40),
-            arrowprops=dict(arrowstyle="<->", lw=0.9, color=INK))
-ax.text(0.5, pa_i * 0.44, f"{pa_i / pa_s:.1f}× observed", ha="center", fontsize=7.2, color=INK, weight="bold")
-ax.text(1.0, pa_i * 1.02, f"expected {exp:.2f}×\nfrom mutation rate", ha="center", va="center",
-        fontsize=6.7, color=ORANGE)
-ax.text(1.0, pa_i * 0.72, f"→ {(pa_i / pa_s) / exp:.0f}× residual", ha="center", va="center",
-        fontsize=7.4, color=ORANGE, weight="bold")
-ax.set_title("The residual", fontsize=8.2, color=INK, loc="left", pad=4)
+FOCAL = 120291839
+f = C[C.gpos == FOCAL].sort_values("ndd", ascending=False)
+labs = ["insT", "insG", "A>G", "insC"]
+vals = [int(f[f.hgvs == h].ndd.iloc[0]) for h in ["n.64_65insT", "n.64_65insG", "n.65A>G", "n.64_65insC"]]
+cols = [ORANGE, GREY, GREY, GREY]
+ax.bar(range(4), vals, color=cols, edgecolor=INK2, lw=0.6, width=0.62, zorder=3)
+for i, v in enumerate(vals):
+    ax.text(i, v + 2.2, str(v), ha="center", fontsize=7.4, color=INK, weight="bold" if i == 0 else "normal")
+ax.set_xticks(range(4)); ax.set_xticklabels(labs, fontsize=7.0)
+ax.set_xlabel("variant at n.64_65 / n.65", fontsize=7.0)
+ax.set_ylabel("patient carriers", fontsize=7.6)
+ax.set_ylim(0, max(vals) * 1.34)
+ax.text(0.68, 0.76, "all four variants at\nchr12:120,291,839", transform=ax.transAxes, ha="center", va="center",
+        fontsize=6.6, color=INK2)
+ax.text(0.68, 0.48, "vs the substitution\nat this base:\n89/91 obs, 28.7% exp\np = 1.3×10$^{-45}$",
+        transform=ax.transAxes, ha="center", va="center", fontsize=6.4, color=ORANGE, weight="bold")
+ax.set_title("Position-matched", fontsize=8.2, color=INK, loc="left", pad=4)
 ax.text(-0.28, 1.19, "a", transform=ax.transAxes, fontsize=11, weight="bold", color=INK, va="top")
 
 ax = fig.add_subplot(gs[1]); ax.axis("off")
@@ -217,5 +219,5 @@ ax.text(0.02, 0.96, "maternal", transform=ax.transAxes, fontsize=7, color=PINK, 
 ax.set_title("Parental origin", fontsize=8.2, color=INK, loc="center", pad=4)
 ax.text(-0.34, 1.19, "c", transform=ax.transAxes, fontsize=11, weight="bold", color=INK, va="top")
 fig.savefig(F / "recur_fig3_residual.png", dpi=400); fig.savefig(F / "recur_fig3_residual.pdf")
-print(f"fig3: {pa_i:.1f} vs {pa_s:.1f} per allele = {pa_i / pa_s:.1f}x; residual {(pa_i / pa_s) / exp:.0f}x")
+print(f"fig3: position-matched {vals[0]}/{sum(vals)} at chr12:{FOCAL:,}; others {vals[1:]}")
 print(f"wrote recur_fig1_rate, recur_fig2_homopolymer, recur_fig3_residual (.png and .pdf) to {F}")

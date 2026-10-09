@@ -28,22 +28,27 @@ measurement. At tract length four, however, single-base insertions occur at only
 substitutions — measured in both short-read gnomAD (0.23) and the long-read HPRC pangenome (0.40), of which we
 adopt the conservative long-read figure. Such sites are mutationally *disfavoured*.
 
-In patients, single-base insertions in the critical region are 7.9-fold more frequent per allele than pathogenic
-single-nucleotide variants in the same region. Set against a mutational expectation of 0.40, this is a
-**20-fold** discrepancy; for n.64_65insT alone it is 89-fold. We further exclude interlocus gene conversion,
-the standard explanation for a recurrent allele whose mutation rate is too low: the tandem paralogue *RNU4-1*
-lies 1.2 kb away and is 97.2% identical, but carries the *identical* T₄ tract and differs from *RNU4-2* at no
-position inside the critical region, so conversion cannot generate n.64_65insT or any of the other ten observed
+The excess proves to be specific to a single allele rather than to insertions as a class: excluding
+n.64_65insT, the per-allele insertion-to-substitution ratio across the critical region is exactly 1.00. That
+permits a position-matched test, which holds assay coverage, calling behaviour and ascertainment constant by
+construction. Four variants are observed at chr12:120,291,839, and n.64_65insT accounts for **89 of the 93
+patient carriers** there. Tested against the substitution at the same nucleotide — the comparison to which the
+measured mutational supply applies — the recurrent allele takes 89 of 91 carriers (97.8%, 95% CI 92.3–99.7%)
+where 28.7% is expected: exact binomial p = 1.3 × 10⁻⁴⁵, a **110-fold** position-matched residual. The two other insertions at
+that same nucleotide, which are the same class of variant call in the same homopolymer, carry two patients
+between them, excluding insertion-calling bias as the explanation. We further exclude interlocus gene
+conversion, the standard account of a recurrent allele with insufficient mutational supply: the tandem paralogue
+*RNU4-1* lies 1.2 kb away and is 97.2% identical, but carries the *identical* T₄ tract and differs from
+*RNU4-2* at no position inside the critical region, so conversion can generate none of the eleven observed
 patient alleles.
 
-What remains is a germline excess of roughly 20-fold that is, in every informative case reported, **maternal**.
-This is the salient difficulty. The only documented mechanism capable of producing an allele-specific germline
-excess of this magnitude — selfish spermatogonial selection — is paternal and depends on clonal expansion of
-mitotically dividing spermatogonial stem cells. Oogenesis has no such compartment: oocyte production ceases
-before birth and no further genome replication occurs. The maternal age effect that does exist is attributed to
-DNA damage accumulating during meiotic arrest, which raises mutation rate broadly rather than amplifying one
-allele. The dominance of n.64_65insT therefore requires a mechanism that is not currently described, and we set
-out the measurements that would identify it.
+What remains is an allele-specific germline excess that is, in every informative case reported, **maternal**.
+The only documented mechanism capable of producing a germline excess of this magnitude — selfish spermatogonial
+selection — is paternal and depends on clonal expansion across hundreds of spermatogonial divisions accumulated
+over decades. Oogonial proliferation is confined to fetal development and to roughly thirty divisions, after
+which the oocyte pool arrests, so an equivalent process would have to act far faster, within a bounded prenatal
+window, and reproducibly across unrelated women. No documented example of germline selection operates this way.
+We set out the three measurements that would identify the one that does.
 
 ---
 
@@ -141,23 +146,48 @@ and **none lies inside the critical region**. In particular *RNU4-1* carries the
 so conversion reproduces T₄ rather than extending it to T₅ and cannot generate n.64_65insT. Applying the same
 test to every observed patient allele, **0 of 11 alleles and 0 of 114 patient carriers are conversion-explicable**.
 
+### The excess is specific to one allele, and survives position-matched controls
+
+Across the critical region, single-base insertions have 19.8 patient carriers per allele (5 alleles, 99 carriers)
+against 2.5 for pathogenic substitutions (6 alleles, 15 carriers) — a 7.9-fold excess per allele. That
+class-level comparison is, however, entirely attributable to one allele: **excluding n.64_65insT, the per-allele
+insertion-to-substitution ratio is exactly 1.00** (2.5 versus 2.5) [58]. The excess is not a property of
+insertions. It is a property of a single allele.
+
+This permits a far stronger design than a class comparison. Because the effect is allele-specific, it can be
+controlled at the level of the **nucleotide**: variants at the same position are covered by the same assays,
+called by the same pipelines, reported in the same screens and ascertained together, so any explanation acting
+on a region, a variant class or a sequencing difficulty is held constant by construction.
+
+chr12:120,291,839 provides exactly this control set. Four variants are observed there:
+
+| variant at chr12:120,291,839 | class | patient carriers | population carriers |
+|---|---|---|---|
+| **n.64_65insT** | insertion extending the T₄ tract | **89** | 1 |
+| n.64_65insG | insertion at the same nucleotide | 2 | 0 |
+| n.64_65insC | insertion at the same nucleotide | 0 | 2 |
+| n.65A>G | substitution at the same nucleotide | 2 | 0 |
+
+n.64_65insT accounts for **89 of the 93 patient carriers at this position**. The mutational supply measured
+above — a T₄ insertion occurring at 0.40 times the frequency of a substitution — speaks directly to the contrast
+between the recurrent insertion and the substitution at the same nucleotide, and there the recurrent allele
+takes **89 of 91 carriers** (97.8%, 95% CI 92.3–99.7%) where 28.7% is expected. The departure is extreme:
+exact binomial **p = 1.3 × 10⁻⁴⁵**; by Poisson, 26.1 carriers are expected and 89 observed
+(P(X ≥ 89) = 5.2 × 10⁻²²). The **position-matched residual is 110-fold**.
+
+The two other insertions at this nucleotide are the decisive control. n.64_65insG and n.64_65insC are the same
+class of variant call, in the same homopolymer, in the same patients' data, and they carry 2 and 0 patients
+between them. Insertion-calling behaviour in this tract therefore cannot generate the observed excess; nor can
+assay coverage, since all four alleles occupy one base.
+
 ### The excess is exclusively maternal
-
-Using the per-variant carrier counts reported in the discovery cohort, single-base insertions in the critical
-region have 19.8 patient carriers per allele (5 alleles, 99 carriers) against 2.5 for pathogenic
-single-nucleotide variants (6 alleles, 15 carriers) — a 7.9-fold excess per allele. Against a mutational
-expectation of 0.40, the discrepancy is **20-fold**. Considering n.64_65insT alone (89 carriers), it is
-**89-fold**.
-
-We report the class-level comparison as primary because it does not single out the allele that was discovered
-first, and is therefore substantially more robust to ascertainment.
 
 The parental origin of this excess is reported in the primary literature and is, so far as we are aware,
 without precedent in its consistency. In the discovery cohort, parental origin was resolved for 54 individuals —
 46 carrying n.64_65insT, three other insertions, five substitutions — and **all 54 variants lay on the maternal
 allele**. In the independent French genome-sequencing cohort, origin was determined in 50 trios and one
 mother–patient duo: 47 maternal and four paternal, and **none of the four paternal variants was n.64_65insT**
-(they were n.62T>C, n.68A>C, n.76del and n.92C>G). The 20-fold excess we quantify above is therefore not merely
+(they were n.62T>C, n.68A>C, n.76del and n.92C>G). The excess quantified above is therefore not merely
 associated with maternal transmission; within the resolution of the published data it occurs *only* on the
 maternal allele.
 
@@ -172,45 +202,55 @@ substitutions by roughly 2.5-fold. Nor is it a consequence of interlocus gene co
 for a recurrent allele with insufficient mutational supply: the only plausible donor carries the same tract. Two
 of the candidate explanations can therefore be set aside.
 
-**Ascertainment** is the more mundane of those remaining and must be addressed directly. n.64_65insT was the
-allele through which the disorder was discovered, and subsequent studies searched for it specifically, which
-inflates its apparent share. Three observations argue that this is insufficient. First, its share is similar in
-an independently ascertained cohort (72.6% versus 77.4%), and the per-allele insertion-to-substitution ratio —
-the primary statistic here — replicates across the two separately ascertained arms of the discovery data
-(11.2 in the GEL arm, 7.5 in the non-GEL arm, against 7.9 combined). Second, the
-comparison we report as primary is between *classes* of variant — insertions versus substitutions — in the same
-region of the same gene, and both classes were sought in the same screens. Third, a single-base insertion in a
-homopolymer is the harder call for short-read pipelines, not the easier one; the technical bias runs against
-the observed direction.
+**Ascertainment** is the more mundane of those remaining and is the reason the analysis is position-matched.
+n.64_65insT was the allele through which the disorder was discovered and subsequent studies searched for it
+specifically, which inflates its apparent share; a comparison across the gene, or across variant classes, cannot
+separate that from a real excess. Restricting the comparison to a single nucleotide does. The three other
+variants at chr12:120,291,839 are reported in the same screens, called from the same reads by the same
+pipelines, and covered by any assay that covers the recurrent allele, yet carry four patients between them
+against 89. An ascertainment account must therefore explain why the bias acts on one allele while sparing two
+other insertions at the same base in the same homopolymer — including n.64_65insG, which differs only in the
+identity of the inserted nucleotide. Two further observations point the same way: the allele's share is similar
+in an independently ascertained cohort (72.6% versus 77.4%), and a single-base insertion in a homopolymer is the
+harder call for short-read pipelines, not the easier one, so the technical bias runs against the observed
+direction.
 
 **That leaves germline selection, and this is where the maternal exclusivity becomes the central problem.**
 
 The primary literature proposes positive selection in the female germline but does not quantify it. Our estimate
-puts a number on what it would have to achieve: a 20-fold enrichment of insertion alleles over substitution
-alleles beyond mutational expectation, or 89-fold for the single recurrent allele. That magnitude is not
+puts a number on what it would have to achieve: a 110-fold enrichment of this allele over the other variants at
+the same nucleotide, beyond the mutational supply we measured. That magnitude is not
 unprecedented in itself. Selfish spermatogonial selection — the process underlying the classical paternal
 age-effect disorders, driven by activating variants in *FGFR2* (Apert), *FGFR3* (achondroplasia), *RET* (MEN2)
 and other RAS–MAPK genes — produces enrichments of one to three orders of magnitude in offspring.
 
-But that mechanism is specifically a consequence of male germline architecture. Spermatogonial stem cells divide
-continuously throughout adult life, so a variant conferring even a slight proliferative advantage is amplified
-clonally across decades; this is why the mutant cells form discrete patches in aged testis, and why the effect
-scales with paternal age. **Oogenesis has no equivalent compartment.** Oocyte production ceases before birth and
-the genome is not replicated again, so there is no mitotic population in which a favoured allele could expand.
-The maternal age effect that does exist is an order of magnitude weaker than the paternal one and is attributed
-to DNA damage accumulating in arrested oocytes and to double-strand-break-associated mutation clusters —
-processes that raise mutation rate broadly, and that we have in any case bounded directly: at this locus the
-measured insertion supply is below the substitution supply.
+But that mechanism is a consequence of male germline architecture, and the female germline does not share it.
+Spermatogonial stem cells divide continuously throughout adult life — several hundred divisions by middle age —
+so a variant conferring even a slight proliferative advantage is amplified clonally across decades; this is why
+mutant cells form discrete patches in aged testis and why the effect scales with paternal age. Oogenesis offers
+a far smaller target. Oogonia do proliferate mitotically, so a proliferative compartment is not absent
+altogether, but that proliferation is confined to roughly the first half of fetal development and comprises on
+the order of thirty divisions, after which the oocyte pool enters meiotic arrest and the genome is not
+replicated again. A selective process would therefore have to achieve, within a bounded prenatal window, an
+enrichment that the male germline accumulates over hundreds of divisions and several decades — and would have
+to do so reproducibly across unrelated women. No documented example of germline selection operates this way.
+
+The maternal age effect that does exist does not fill the gap. It is substantially weaker than the paternal one
+and is attributed to DNA damage accumulating in arrested oocytes and to double-strand-break-associated mutation
+clusters — processes that raise mutation rate broadly rather than amplifying one allele over its immediate
+neighbours. The position-matched comparison above bounds that directly: three other variants at the same
+nucleotide, subject to any such process equally, carry four patients between them.
 
 One alternative deserves explicit treatment. The authors of the French cohort suggest the maternal bias may
 reflect negative selection against severely splicing-disruptive variants in the male germline. That would
-explain why ReNU variants are maternal; it does not explain why *one* maternal allele is 20-fold more frequent
-than other maternal alleles in the same 18 nucleotides, which would be purged equally. Directional selection
+explain why ReNU variants are maternal; it does not explain why *one* maternal allele is 44-fold more frequent
+than the other maternal alleles at the same nucleotide, which would be purged equally. Directional selection
 against paternal transmission changes the parent of origin, not the allelic spectrum within a parent.
 
-We therefore state the problem rather than resolve it: ReNU syndrome exhibits an allele-specific, maternal-only
-germline excess of roughly 20-fold at a site whose mutational supply we have measured and found to be low, and
-no described mechanism of germline mutation or selection produces that pattern.
+We therefore state the problem rather than resolve it: ReNU syndrome exhibits a maternal-only germline excess of
+roughly 110-fold that is specific to a single allele, at a site whose mutational supply we have measured and
+found to be below that of a substitution, and that survives controls at the resolution of the individual
+nucleotide. No described mechanism of germline mutation or selection produces that pattern.
 
 Three measurements would discriminate among the possibilities. **(1) Maternal age.** If the excess arises from
 damage during meiotic arrest, the n.64_65insT fraction among ReNU cases should rise with maternal age; if it
@@ -252,9 +292,9 @@ patient carriers and versus population carriers, both flat.
 with the fitted slope; T₄ marked. (b) The same split by base. (c) Short-read versus long-read estimate at each
 tract length, showing the measured under-detection.
 
-**Figure 3.** The residual and its parental origin. (a) Patient carriers per allele for insertions versus
-pathogenic substitutions in the critical region, alongside the mutational expectation from long-read data, with
-the 20-fold discrepancy annotated. (b) The *RNU4-2* / *RNU4-1* alignment over the critical region, showing the
+**Figure 3.** The position-matched residual and its parental origin. (a) All four variants observed at
+chr12:120,291,839, with the binomial test of the recurrent insertion against the substitution at the same
+nucleotide; the two other insertions at that base are the calling-bias control. (b) The *RNU4-2* / *RNU4-1* alignment over the critical region, showing the
 identical T₄ tract and the four paralogue differences all lying outside it. (c) Parental origin of informative
 ReNU cases in both published cohorts.
 
