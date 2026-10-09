@@ -1,0 +1,3 @@
+gene	disease	tract	ins_alleles	ins_AC	snv_alleles	snv_AC	ins_per_snv_alleles
+RNU4-2	True	chr12:120,291,836-120,291,839	0	0	1	1	0.0
+RNU4-1	False	chr12:120,293,170-120,293,173	1	5	2	2	0.5

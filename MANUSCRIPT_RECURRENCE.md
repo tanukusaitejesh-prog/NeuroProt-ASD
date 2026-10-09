@@ -40,7 +40,10 @@ between them, excluding insertion-calling bias as the explanation. We further ex
 conversion, the standard account of a recurrent allele with insufficient mutational supply: the tandem paralogue
 *RNU4-1* lies 1.2 kb away and is 97.2% identical, but carries the *identical* T₄ tract and differs from
 *RNU4-2* at no position inside the critical region, so conversion can generate none of the eleven observed
-patient alleles.
+patient alleles. *RNU4-1* also supplies a locus-specific calibration unavailable at most loci: it is callable,
+is not a disease gene, and at its homologous tract carries the exact equivalent insertion alongside two
+substitutions — one insertion per two substitutions, consistent with the genome-wide 0.40 used here, and
+evidence that the allele is readily generated at this context.
 
 What remains is an allele-specific germline excess that is, in every informative case reported, **maternal**.
 The only documented mechanism capable of producing a germline excess of this magnitude — selfish spermatogonial
@@ -48,7 +51,10 @@ selection — is paternal and depends on clonal expansion across hundreds of spe
 over decades. Oogonial proliferation is confined to fetal development and to roughly thirty divisions, after
 which the oocyte pool arrests, so an equivalent process would have to act far faster, within a bounded prenatal
 window, and reproducibly across unrelated women. No documented example of germline selection operates this way.
-We set out the three measurements that would identify the one that does.
+Made quantitative, a selective account would require a per-division advantage of 17% across the
+roughly thirty prenatal oogonial divisions, against about 1.1% per division for the strongest documented
+selfish spermatogonial variants — fifteen times larger, in a window that closes before birth. We set out the
+three measurements that would identify the mechanism.
 
 ---
 
@@ -100,7 +106,7 @@ relative to the frequency of an observed substitution per possible substitution 
 cohort, the same filters, the same ascertainment.
 
 Insertion frequency rose monotonically and log-linearly with tract length (ρ = 0.99, p = 2.6 × 10⁻¹⁸;
-1.90-fold per added base, R² = 0.90), from 0.09 at length two to 24.5 at length twelve. This reproduces the
+1.90-fold per added base, R² = 0.90), from 0.10 at length two (A 0.094, T 0.113) to 24.5 at length twelve. This reproduces the
 established length dependence of replication slippage and serves as an internal validation of the measurement.
 
 **Table 1.** Single-base insertion frequency at A/T homopolymer tracts, relative to the per-substitution frequency.
@@ -124,8 +130,8 @@ CI 0.17–0.24).
 Because short-read pipelines are known to under-call insertions in homopolymers, we repeated the identical
 measurement in the same windows against the HPRC pangenome, whose variants derive from long-read haplotype
 assemblies [50]. Long-read data gave 0.543 for T₄ and 0.262 for A₄, a mean of 0.403 — 1.73-fold above the
-short-read estimate. The ratio of long-read to short-read rate grew with tract length (1.3–2.1-fold at lengths
-2–4, rising to 6–7-fold at lengths 10–12), the expected signature of short-read homopolymer failure, and is
+short-read estimate. The ratio of long-read to short-read rate grew with tract length (1.3–2.2-fold at lengths
+2–4, rising to 5.9–7.4-fold at lengths 10–12), the expected signature of short-read homopolymer failure, and is
 modest in the length range that matters here. We therefore adopt 0.40 as the expected relative insertion
 frequency at a T₄ tract. Insertions at such sites remain roughly 2.5-fold *less* likely than substitutions.
 
@@ -145,6 +151,32 @@ actually carries [56]. *RNU4-1* differs from *RNU4-2* at exactly four positions 
 and **none lies inside the critical region**. In particular *RNU4-1* carries the *identical* four-thymine tract,
 so conversion reproduces T₄ rather than extending it to T₅ and cannot generate n.64_65insT. Applying the same
 test to every observed patient allele, **0 of 11 alleles and 0 of 114 patient carriers are conversion-explicable**.
+
+### The mutational supply is confirmed at a sequence-identical paralogous locus
+
+A genome-wide average over 21,831 tracts need not apply to any one site: single-base insertion rates vary with
+flanking sequence, replication timing and chromatin. *RNU4-2* permits an unusually direct check on this.
+*RNU4-1* is sequence-identical across the critical region, lies 1.2 kb away, is callable in short-read data
+(2,545 gnomAD PASS records across 141 nt, unlike the *RNU1* family), and is not a disease gene — so its
+population variation is not depleted by selection against a phenotype. It therefore reports the mutational
+supply at the same sequence context, at the same locus, free of disease ascertainment.
+
+At the homologous T₄ tract (chr12:120,293,170–120,293,173), gnomAD contains **the exact equivalent single-base
+insertion** (chr12:120,293,173 T>TA, AC 5) together with two substitutions (both at chr12:120,293,170, AC 1
+each) [60]. Counting distinct observed alleles — the unit used by the homopolymer analysis above, and the one
+least distorted by drift and allele age — the tract gives one insertion against two substitutions, a ratio of
+**0.50 against the genome-wide estimate of 0.40** applied here.
+
+Two things follow. First, the insertion is demonstrably generated at this exact sequence context, so its absence
+from gnomAD at *RNU4-2* (AC 0; one UK Biobank carrier) reflects selection against the phenotype rather than an
+inability to arise. Second, the objection that this particular tract might be unusually insertion-prone is not
+supported by measurement at the one locus able to test it.
+
+The caveat belongs alongside the result. By allele *count* rather than distinct alleles the tract gives 5
+insertion alleles against 2 substitution alleles, because one insertion lineage has drifted upward while the
+substitutions are singletons. Allele count reflects drift and allele age as much as mutation rate, which is why
+distinct-allele counting is primary here, but a reader should see both numbers. Across the whole gene body the
+two paralogues agree closely: 0.091 insertions per substitution at *RNU4-2* and 0.064 at *RNU4-1*.
 
 ### The excess is specific to one allele, and survives position-matched controls
 
@@ -247,6 +279,16 @@ explain why ReNU variants are maternal; it does not explain why *one* maternal a
 than the other maternal alleles at the same nucleotide, which would be purged equally. Directional selection
 against paternal transmission changes the parent of origin, not the allelic spectrum within a parent.
 
+That asymmetry can be made quantitative rather than rhetorical [60]. To produce a 110-fold enrichment across the
+roughly thirty mitotic divisions separating a primordial germ cell from the arrested oocyte pool, a selective
+process would need a per-division advantage of **17%** (26% over twenty divisions, 13% over forty, 8% over
+sixty). The best-documented selfish spermatogonial variants reach up to a thousand-fold enrichment, but they do
+so across approximately 610 spermatogonial divisions by paternal age forty — a per-division advantage of about
+**1.1%**. The female germline would therefore have to sustain an advantage roughly **fifteen times larger per
+division** than the strongest documented male example, and to do so entirely within a window that closes before
+birth. This is the specific quantity that any selective account must supply, and it is why we regard the
+explanation as open rather than merely unquantified.
+
 We therefore state the problem rather than resolve it: ReNU syndrome exhibits a maternal-only germline excess of
 roughly 110-fold that is specific to a single allele, at a site whose mutational supply we have measured and
 found to be below that of a substitution, and that survives controls at the resolution of the individual
@@ -306,6 +348,9 @@ ReNU cases in both published cohorts.
 | `results/homopolymer_insertion_rate.tsv` | insertion frequency by tract base and length (short read) |
 | `results/homopolymer_rate_lr_vs_sr.tsv` | long-read versus short-read rate at each tract length |
 | `results/gene_conversion_test.tsv` | conversion-explicability of every observed patient allele |
+| `results/position_matched.tsv` | within-position contrasts across the critical region |
+| `results/paralogue_control.tsv` | mutational supply at the homologous *RNU4-1* tract |
+| `results/selection_requirement.tsv` | per-division advantage a selective account would need |
 | `data/processed/roulette_rnu4_2.tsv` | all 423 Roulette records for *RNU4-2* |
 | `data/curation/renu_variant_counts.tsv` | transcribed per-variant carrier counts |
 
@@ -333,6 +378,16 @@ GRCh38 reference, flanks trimmed and minus-strand genes reverse-complemented, th
 position. An observed patient substitution is conversion-explicable only if the donor carries the alternate
 base at the aligned position; an insertion is conversion-explicable only if the donor carries a longer
 homopolymer run at that site [56].
+
+**Paralogue control.** gnomAD v4.1 PASS records were taken for both *RNU4-2* and *RNU4-1* over their gene
+bodies and over the homologous T₄ tract, whose coordinates follow from the shared minus-strand numbering
+(genomic = gene end − n + 1). Insertions were restricted to single-base events. Distinct observed alleles are
+the primary unit, matching the homopolymer analysis; allele counts are reported alongside because they are
+additionally shaped by drift and allele age [60].
+
+**Selection requirement.** The per-division advantage implied by an *R*-fold enrichment over *n* divisions is
+*R*^(1/*n*); reported for *n* = 20, 30, 40 and 60 oogonial divisions, and compared with the same quantity for a
+thousand-fold spermatogonial enrichment over approximately 610 divisions by paternal age forty [60].
 
 **Parental origin** was taken from the published cohort reports and is not re-derived here.
 
