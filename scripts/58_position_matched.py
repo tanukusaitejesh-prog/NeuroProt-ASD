@@ -111,3 +111,32 @@ pd.DataFrame([dict(position=FOCAL, allele="n.64_65insT", carriers=ins_t, other_c
                    residual=(ins_t / max(snv_here, 1)) / REL_INS_T4, binom_p=bt.pvalue)]
              ).to_csv(config.RESULTS / "position_matched_focal.tsv", sep="\t", index=False)
 print(f"\nwrote position_matched.tsv and position_matched_focal.tsv")
+
+
+# ---------------------------------------------------------------- 4. sensitivity to the comparator set
+# The primary test uses the single substitution at the focal nucleotide (2 carriers). A reviewer will ask what
+# happens as the comparator widens, and the answer should be in the paper rather than in a rebuttal letter.
+print("\n=== sensitivity: how the residual depends on which substitutions are used as the comparator ===")
+SETS = [("same nucleotide (primary)", FOCAL, FOCAL),
+        ("the T4 tract", 120291836, 120291839),
+        ("tract +/- 3 nt", 120291833, 120291842),
+        ("whole critical region", 120291825, 120291842)]
+sens = []
+for lab, lo, hi in SETS:
+    s = C[(C.vtype == "snv") & C.gpos.between(lo, hi)]
+    n = int(s.ndd.sum())
+    b = binomtest(ins_t, ins_t + n, p=REL_INS_T4 / (1 + REL_INS_T4))
+    res = (ins_t / max(n, 1)) / REL_INS_T4
+    adv = 100 * (res ** (1 / 30) - 1)
+    sens.append(dict(comparator=lab, snv_carriers=n, obs_share=ins_t / (ins_t + n),
+                     ratio=ins_t / max(n, 1), residual=res, p=b.pvalue, per_division_pct=adv))
+    print(f"  {lab:28s} snv {n:3d}  share {ins_t / (ins_t + n):.3f}  ratio {ins_t / max(n, 1):6.1f}x  "
+          f"residual {res:6.0f}x  p {b.pvalue:.1e}   -> {adv:4.1f}% per division")
+S = pd.DataFrame(sens)
+S.to_csv(config.RESULTS / "position_matched_sensitivity.tsv", sep="\t", index=False)
+print(f"""
+  The residual spans {S.residual.min():.0f}-{S.residual.max():.0f}-fold across these choices, so the narrowest
+  comparator gives the largest number and should not be quoted alone. Significance is overwhelming throughout
+  (p {S.p.max():.0e} at worst), and the mechanism requirement holds across the whole range:
+  {S.per_division_pct.min():.1f}-{S.per_division_pct.max():.1f}% per division against ~1.1% documented.
+  The manuscript therefore leads with the conservative {S.residual.min():.0f}-fold and reports the range.""")

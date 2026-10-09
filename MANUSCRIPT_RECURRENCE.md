@@ -34,7 +34,10 @@ permits a position-matched test, which holds assay coverage, calling behaviour a
 construction. Four variants are observed at chr12:120,291,839, and n.64_65insT accounts for **89 of the 93
 patient carriers** there. Tested against the substitution at the same nucleotide — the comparison to which the
 measured mutational supply applies — the recurrent allele takes 89 of 91 carriers (97.8%, 95% CI 92.3–99.7%)
-where 28.7% is expected: exact binomial p = 1.3 × 10⁻⁴⁵, a **110-fold** position-matched residual. The two other insertions at
+where 28.7% is expected: exact binomial p = 1.3 × 10⁻⁴⁵. The implied
+residual depends on how widely the substitution comparator is drawn, and we report the range rather than the
+most favourable value: **15-fold** using every substitution in the critical region, rising to 110-fold at the
+focal nucleotide alone, with p ≤ 2 × 10⁻³³ throughout. The two other insertions at
 that same nucleotide, which are the same class of variant call in the same homopolymer, carry two patients
 between them, excluding insertion-calling bias as the explanation. We further exclude interlocus gene
 conversion, the standard account of a recurrent allele with insufficient mutational supply: the tandem paralogue
@@ -205,7 +208,22 @@ above — a T₄ insertion occurring at 0.40 times the frequency of a substituti
 between the recurrent insertion and the substitution at the same nucleotide, and there the recurrent allele
 takes **89 of 91 carriers** (97.8%, 95% CI 92.3–99.7%) where 28.7% is expected. The departure is extreme:
 exact binomial **p = 1.3 × 10⁻⁴⁵**; by Poisson, 26.1 carriers are expected and 89 observed
-(P(X ≥ 89) = 5.2 × 10⁻²²). The **position-matched residual is 110-fold**.
+(P(X ≥ 89) = 5.2 × 10⁻²²).
+
+The implied residual, however, depends on how widely the substitution comparator is drawn, and that dependence
+belongs in the paper rather than in a rebuttal. Widening it from the focal nucleotide to the whole critical
+region moves the residual from 110-fold to 15-fold:
+
+| substitution comparator | substitution carriers | observed share | residual | p |
+|---|---|---|---|---|
+| same nucleotide | 2 | 0.978 | 110× | 1.3 × 10⁻⁴⁵ |
+| the T₄ tract | 5 | 0.947 | 44× | 6.3 × 10⁻⁴² |
+| tract ± 3 nt | 7 | 0.927 | 32× | 7.0 × 10⁻⁴⁰ |
+| whole critical region | 15 | 0.856 | **15×** | 1.9 × 10⁻³³ |
+
+The narrowest comparator gives the largest number and should not be quoted alone. **We therefore take the
+conservative 15-fold as the headline residual**, note that it rises to 110-fold under position matching, and
+record that significance is overwhelming at every choice [58].
 
 The two other insertions at this nucleotide are the decisive control. n.64_65insG and n.64_65insC are the same
 class of variant call, in the same homopolymer, in the same patients' data, and they carry 2 and 0 patients
@@ -250,8 +268,8 @@ direction.
 **That leaves germline selection, and this is where the maternal exclusivity becomes the central problem.**
 
 The primary literature proposes positive selection in the female germline but does not quantify it. Our estimate
-puts a number on what it would have to achieve: a 110-fold enrichment of this allele over the other variants at
-the same nucleotide, beyond the mutational supply we measured. That magnitude is not
+puts a number on what it would have to achieve: a 15- to 110-fold enrichment of this allele over the
+substitutions against which it can be compared, beyond the mutational supply we measured. That magnitude is not
 unprecedented in itself. Selfish spermatogonial selection — the process underlying the classical paternal
 age-effect disorders, driven by activating variants in *FGFR2* (Apert), *FGFR3* (achondroplasia), *RET* (MEN2)
 and other RAS–MAPK genes — produces enrichments of one to three orders of magnitude in offspring.
@@ -279,18 +297,20 @@ explain why ReNU variants are maternal; it does not explain why *one* maternal a
 than the other maternal alleles at the same nucleotide, which would be purged equally. Directional selection
 against paternal transmission changes the parent of origin, not the allelic spectrum within a parent.
 
-That asymmetry can be made quantitative rather than rhetorical [60]. To produce a 110-fold enrichment across the
-roughly thirty mitotic divisions separating a primordial germ cell from the arrested oocyte pool, a selective
-process would need a per-division advantage of **17%** (26% over twenty divisions, 13% over forty, 8% over
-sixty). The best-documented selfish spermatogonial variants reach up to a thousand-fold enrichment, but they do
-so across approximately 610 spermatogonial divisions by paternal age forty — a per-division advantage of about
-**1.1%**. The female germline would therefore have to sustain an advantage roughly **fifteen times larger per
-division** than the strongest documented male example, and to do so entirely within a window that closes before
-birth. This is the specific quantity that any selective account must supply, and it is why we regard the
-explanation as open rather than merely unquantified.
+That asymmetry can be made quantitative rather than rhetorical [58, 60], and the requirement holds across the
+whole range of residuals above. Spread over the roughly thirty mitotic divisions separating a primordial germ
+cell from the arrested oocyte pool, a 15-fold enrichment needs a per-division advantage of **9.4%** and a
+110-fold enrichment needs **17%**. The best-documented selfish spermatogonial variants reach up to a
+thousand-fold enrichment, but across approximately 610 spermatogonial divisions by paternal age forty — a
+per-division advantage of about **1.1%**. Even at our most conservative residual the female germline would have
+to sustain an advantage roughly **eight times larger per division** than the strongest documented male example,
+rising to fifteen times under position matching, and to do so entirely within a window that closes before birth.
+That the conclusion does not turn on which comparator is chosen is the point: this is the specific quantity any
+selective account must supply, and it is why we regard the explanation as open rather than merely unquantified.
 
 We therefore state the problem rather than resolve it: ReNU syndrome exhibits a maternal-only germline excess of
-roughly 110-fold that is specific to a single allele, at a site whose mutational supply we have measured and
+at least 15-fold, and up to 110-fold under position matching, specific to a single allele, at a site whose
+mutational supply we have measured and
 found to be below that of a substitution, and that survives controls at the resolution of the individual
 nucleotide. No described mechanism of germline mutation or selection produces that pattern.
 
@@ -349,6 +369,7 @@ ReNU cases in both published cohorts.
 | `results/homopolymer_rate_lr_vs_sr.tsv` | long-read versus short-read rate at each tract length |
 | `results/gene_conversion_test.tsv` | conversion-explicability of every observed patient allele |
 | `results/position_matched.tsv` | within-position contrasts across the critical region |
+| `results/position_matched_sensitivity.tsv` | residual as the substitution comparator widens |
 | `results/paralogue_control.tsv` | mutational supply at the homologous *RNU4-1* tract |
 | `results/selection_requirement.tsv` | per-division advantage a selective account would need |
 | `data/processed/roulette_rnu4_2.tsv` | all 423 Roulette records for *RNU4-2* |
