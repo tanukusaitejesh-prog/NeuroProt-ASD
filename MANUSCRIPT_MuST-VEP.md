@@ -433,6 +433,29 @@ reported, and will be evaluated as new cases accumulate.
 
 ---
 
+## Figures
+
+**Figure 1.** The MuST-VEP workflow and the case for a multi-state representation. (a) Pipeline: eleven cryo-EM
+states and 17 GENCODE snRNA genes feed contact extraction and family projection; multi-state aggregation with
+one-hop graph smoothing produces the features; a mechanism-aware L2 logistic model with nested leave-one-gene-out
+scorer selection produces position scores, allele scores where the nucleotide is paired, and a ClinGen Bayesian
+calibration. (b) Nucleotides resolved per snRNA family in each state. U4 is absent from every structure after
+activation, which is why no single state can serve *RNU4-2* and *RNU2-2* simultaneously. (c) Gate G1: mean
+held-out AUROC for dominant variants, each single state, the nested single-state selection, and the
+degree-preserving shuffled-contact null (200 replicates). The full ensemble reaches 0.815 and exceeds every
+replicate.
+
+**Figure 2.** Population constraint and molecular function diverge. (a) The same comparison under two readouts,
+as paired differences rather than on a shared axis, because AUROC and Spearman are not commensurable: on
+clinical labels MuST-VEP − constraint is +0.044 [−0.123, +0.112] and covers zero; on measured function it is
++0.199 [+0.057, +0.341] and does not. (b) Zero-shot Spearman correlation with saturation-editing damage for
+every score, with position-block 95% intervals; structural features in blue, population-derived in orange.
+(c) Partial correlations, showing the information is not shared: graph-smoothed contacts retain 0.394
+controlling for constraint, while constraint retains 0.025 controlling for contacts. (d) The underlying scatter
+for MuST-VEP and CADD on the same 485 variants, with the U4 family withheld from training.
+
+---
+
 ## Key points
 
 - Spliceosomal snRNA variants are a frequent cause of neurodevelopmental disorder, but current guidance states that
