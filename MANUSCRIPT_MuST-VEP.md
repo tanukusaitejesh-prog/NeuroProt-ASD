@@ -75,6 +75,13 @@ so a result cannot be produced by the amount of contact alone.
 
 ---
 
+**Figures.** Figure 1 — the MuST-VEP workflow, the state × family coverage matrix, and gate G1 against the
+degree-preserving null (`figures/fig1_workflow.png`, `scripts/54`). Figure 2 — the dissociation between clinical
+labels and measured function (`figures/fig2_dissociation.png`, `scripts/55`). Supplementary figures: held-out
+AUROC per gene, the *RNU4-2* contact profile, and the per-protein mechanism analysis.
+
+---
+
 ## Materials and methods
 
 ### Pre-registration
@@ -180,11 +187,11 @@ mean held-out AUROC of 0.815 for dominant variants, against 0.631 for the best s
 nested leave-one-unit-out over the training genes only (position-block ΔAUROC +0.184, 95% CI 0.126–0.292; better in
 3 of 4 genes).
 
-No single state suffices because the genes need different ones. *RNU4-2* requires a pre-activation structure, since
-every Bact/C*/P structure lacks U4 entirely, whereas *RNU2-2* and *RNU5B-1* are best resolved by activated and
+No single state suffices because the genes need different ones (Figure 1b). *RNU4-2* requires a pre-activation
+structure, since every Bact/C*/P structure lacks U4 entirely, whereas *RNU2-2* and *RNU5B-1* are best resolved by activated and
 catalytic states. Only the multi-state model exceeds 0.73 on all four dominant genes.
 
-Against the degree-preserving null the observed 0.815 exceeded every one of 200 replicates (null mean 0.557, 95th
+Against the degree-preserving null the observed 0.815 exceeded every one of 200 replicates (Figure 1c) (null mean 0.557, 95th
 percentile 0.689; empirical p = 0.005) [22]. All three pre-specified criteria for this gate were met. Removing the
 minor-spliceosome genes from training left the dominant result unchanged (0.810 → 0.813), excluding a
 family-projection artefact [24].
@@ -298,7 +305,7 @@ only on other genes, the system ranked the 41 variants that subsequently became 
 
 ### Population constraint and molecular function diverge
 
-This is the study's principal finding, and it began as a failed gate.
+This is the study's principal finding, it began as a failed gate, and it is summarised in Figure 2.
 
 **Table 4. Zero-shot Spearman correlation with measured function (*RNU4-2* saturation genome editing, 485 variants).**
 
@@ -314,8 +321,10 @@ This is the study's principal finding, and it began as a failed gate.
 | phyloP (447-way) | 485 | −0.004 | [−0.129, 0.128] |
 
 Paired differences, all excluding zero: structure − constraint +0.231 (0.093–0.363, p = 0.002); structure − CADD
-+0.334 (0.144–0.525); structure − phyloP +0.440 (0.271–0.604). Partial correlations are asymmetric: **structure
-retains ρ 0.394 controlling for constraint, whereas constraint retains 0.025 controlling for structure.** Among the
++0.334 (0.144–0.525); structure − phyloP +0.440 (0.271–0.604). Partial correlations are asymmetric in both
+directions tested (Figure 2c): **graph-smoothed contacts retain ρ 0.394 controlling for constraint, whereas
+constraint retains 0.025 controlling for contacts**; for the combined MuST-VEP score the pair is 0.358 against
+0.038. Among the
 121 most functionally damaging variants by assay, the structural score places 59% in its own top quartile, against
 45% for density, 40% for constraint, 21% for CADD and 11% for phyloP. Within the dominant critical region
 MuST-VEP reaches 0.575 (0.310–0.732).

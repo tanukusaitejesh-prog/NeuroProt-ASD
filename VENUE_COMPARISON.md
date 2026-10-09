@@ -38,8 +38,8 @@ Engineering College, Hyderabad), both unfunded, both ~6 months from submission t
 These are the format requirements, and they are the reason both papers are published:
 
 1. **A named method with an acronym.** Done — MuST-VEP.
-2. **An architecture/workflow figure as Figure 1.** *Outstanding.* Both papers lead with one and it carries real
-   weight with reviewers. This is the single largest remaining gap.
+2. **An architecture/workflow figure as Figure 1.** Done — `figures/fig1_workflow.png`, and unlike both
+   comparators two of its three panels are data rather than schematic.
 3. **Tables of numbers where the method's row is bold and biggest in most columns.** Done — Tables 1–4.
 4. **A "Key points" box.** Done.
 5. **Methods before results.** Done.
